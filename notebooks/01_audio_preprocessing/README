@@ -1,0 +1,6 @@
+Requisitos del sistema:
+- Python 3.x
+- ffmpeg (necesario para procesar audios .m4a)
+
+Instalación en Mac:
+brew install ffmpeg
