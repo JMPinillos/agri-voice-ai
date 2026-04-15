@@ -1,0 +1,394 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Menlo-Bold;\f2\fnil\fcharset0 Menlo-Italic;
+\f3\fnil\fcharset0 AppleColorEmoji;}
+{\colortbl;\red255\green255\blue255;\red193\green193\blue193;\red0\green0\blue0;\red71\green138\blue206;
+\red86\green130\blue225;}
+{\*\expandedcolortbl;;\cssrgb\c80176\c80176\c79976;\cssrgb\c0\c0\c0;\cssrgb\c34145\c61677\c84338;
+\cssrgb\c40892\c59404\c90674;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww28600\viewh16380\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \cb3 \expnd0\expndtw0\kerning0
+Perfecto, ahora s\'ed est\'e1 en un nivel muy s\'f3lido. Te lo dejo afinado: 
+\f1\b \cf4 **claro, medible y profesional**
+\f0\b0 \cf2 , sin sobrecargar.\
+\
+---\
+\
+
+\f1\b \cf4 # **Plan de optimizaci\'f3n de se\'f1al para ASR**
+\f0\b0 \cf2 \
+\
+
+\f1\b \cf4 ## **1. Se\'f1al de referencia (
+\f2\i\b0 *baseline*
+\f1\i0\b )**
+\f0\b0 \cf2 \
+\
+Audio estandarizado (
+\f2\i *wav*
+\f0\i0 , mono, 16 kHz) sin mejoras.\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf2 \uc0\u55357 \u56393 
+\f0  Referencia para todas las comparaciones.\
+\
+---\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf4 ## **2. 
+\f2\i\b0 *Trim*
+\f1\i0\b  (recorte de silencios)**
+\f0\b0 \cf2 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf2 \uc0\u55357 \u56393 
+\f0  Comparaci\'f3n:\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 *\cf2  
+\f2\i *baseline*
+\f0\i0  vs 
+\f2\i *trim*
+\f0\i0 \
+\cf5 *\cf2  duraci\'f3n \uc0\u10004 \
+\cf5 *\cf2  se\'f1al \uc0\u10004 \
+\cf5 *\cf2  escucha \uc0\u10004 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf2 \uc0\u55357 \u56393 
+\f0  M\'e9tricas:\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 *\cf2  duraci\'f3n (s)\
+\cf5 *\cf2  porcentaje de reducci\'f3n\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf2 \uc0\u55357 \u56393 
+\f0  Objetivo:\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 *\cf2  eliminar silencios extremos sin perder informaci\'f3n\
+\
+---\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf4 ## **3. 
+\f2\i\b0 *Trim + padding*
+\f1\i0\b **
+\f0\b0 \cf2 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf2 \uc0\u55357 \u56393 
+\f0  Comparaci\'f3n:\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 *\cf2  
+\f2\i *baseline*
+\f0\i0  vs 
+\f2\i *trim*
+\f0\i0  vs 
+\f2\i *trim + padding*
+\f0\i0 \
+\cf5 *\cf2  duraci\'f3n \uc0\u10004 \
+\cf5 *\cf2  se\'f1al \uc0\u10004 \
+\cf5 *\cf2  escucha \uc0\u10004 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf2 \uc0\u55357 \u56393 
+\f0  M\'e9tricas:\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 *\cf2  duraci\'f3n\
+\cf5 *\cf2  diferencia respecto a 
+\f2\i *trim*
+\f0\i0 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf2 \uc0\u55357 \u56393 
+\f0  Objetivo:\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 *\cf2  mejorar estabilidad en inicio/fin del audio\
+\
+---\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf4 ## **4. Optimizaci\'f3n de filtrado**
+\f0\b0 \cf2 \
+\
+---\
+\
+
+\f1\b \cf4 ### **4.1 
+\f2\i\b0 *Denoise*
+\f1\i0\b **
+\f0\b0 \cf2 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf2 \uc0\u55357 \u56393 
+\f0  Comparaci\'f3n:\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 *\cf2  
+\f2\i *baseline*
+\f0\i0  vs distintos niveles de 
+\f2\i *denoise*
+\f0\i0 \
+\cf5 *\cf2  RMS \uc0\u10004 \
+\cf5 *\cf2  se\'f1al \uc0\u10004 \
+\cf5 *\cf2  escucha \uc0\u10004 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf2 \uc0\u55357 \u56393 
+\f0  M\'e9tricas:\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 *\cf2  RMS\
+\cf5 *\cf2  diferencia de RMS (%)\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf2 \uc0\u55357 \u56393 
+\f0  Objetivo:\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 *\cf2  reducir ruido sin degradar la voz\
+\
+---\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf4 ### **4.2 
+\f2\i\b0 *High-pass*
+\f1\i0\b **
+\f0\b0 \cf2 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf2 \uc0\u55357 \u56393 
+\f0  Comparaci\'f3n:\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 *\cf2  
+\f2\i *baseline*
+\f0\i0  vs distintos cortes\
+\cf5 *\cf2  RMS \uc0\u10004 \
+\cf5 *\cf2  se\'f1al \uc0\u10004 \
+\cf5 *\cf2  escucha \uc0\u10004 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf2 \uc0\u55357 \u56393 
+\f0  M\'e9tricas:\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 *\cf2  RMS\
+\cf5 *\cf2  variaci\'f3n de energ\'eda\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf2 \uc0\u55357 \u56393 
+\f0  Objetivo:\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 *\cf2  eliminar ruido de baja frecuencia\
+\
+---\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf4 ### **4.3 Comparaci\'f3n de t\'e9cnicas**
+\f0\b0 \cf2 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf2 \uc0\u55357 \u56393 
+\f0  Comparaci\'f3n:\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 *\cf2  
+\f2\i *denoise*
+\f0\i0  vs 
+\f2\i *high-pass*
+\f0\i0  vs combinaci\'f3n\
+\cf5 *\cf2  se\'f1al \uc0\u10004 \
+\cf5 *\cf2  RMS \uc0\u10004 \
+\cf5 *\cf2  escucha \uc0\u10004 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf2 \uc0\u55357 \u56393 
+\f0  M\'e9tricas:\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 *\cf2  RMS\
+\cf5 *\cf2  estabilidad de la se\'f1al\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf2 \uc0\u55357 \u56393 
+\f0  Objetivo:\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 *\cf2  seleccionar la mejor estrategia\
+\
+---\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf4 ### **4.4 Conclusiones de filtrado**
+\f0\b0 \cf2 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf2 \uc0\u55357 \u56393 
+\f0  Selecci\'f3n final basada en:\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 *\cf2  m\'e9tricas\
+\cf5 *\cf2  inspecci\'f3n visual\
+\cf5 *\cf2  evaluaci\'f3n auditiva\
+\
+---\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf4 ## **5. Normalizaci\'f3n (
+\f2\i\b0 *RMS*
+\f1\i0\b )**
+\f0\b0 \cf2 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf2 \uc0\u55357 \u56393 
+\f0  Aplicada sobre la mejor se\'f1al obtenida\
+\
+
+\f3 \uc0\u55357 \u56393 
+\f0  Comparaci\'f3n:\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 *\cf2  antes vs despu\'e9s\
+\cf5 *\cf2  RMS \uc0\u10004 \
+\cf5 *\cf2  se\'f1al \uc0\u10004 \
+\cf5 *\cf2  escucha \uc0\u10004 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf2 \uc0\u55357 \u56393 
+\f0  M\'e9tricas:\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 *\cf2  RMS objetivo vs real\
+\cf5 *\cf2  desviaci\'f3n\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf2 \uc0\u55357 \u56393 
+\f0  Objetivo:\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 *\cf2  homogenizar volumen\
+\
+---\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf4 ## **6. VAD (condicional)**
+\f0\b0 \cf2 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf2 \uc0\u55357 \u56393 
+\f0  Solo si duraci\'f3n > X\
+\
+
+\f3 \uc0\u55357 \u56393 
+\f0  Comparaci\'f3n:\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 *\cf2  sin 
+\f2\i *VAD*
+\f0\i0  vs 
+\f2\i *VAD*
+\f0\i0 \
+\cf5 *\cf2  duraci\'f3n \uc0\u10004 \
+\cf5 *\cf2  se\'f1al \uc0\u10004 \
+\cf5 *\cf2  escucha \uc0\u10004 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf2 \uc0\u55357 \u56393 
+\f0  M\'e9tricas:\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 *\cf2  duraci\'f3n final\
+\cf5 *\cf2  porcentaje eliminado\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf2 \uc0\u55357 \u56393 
+\f0  Configuraci\'f3n:\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 *\cf2  conservadora (preservar pausas)\
+\
+---\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf4 ## **7. Conclusiones finales**
+\f0\b0 \cf2 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf2 \uc0\u55357 \u56393 
+\f0  Se define el 
+\f2\i *pipeline*
+\f0\i0  final en base a:\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 *\cf2  m\'e9tricas cuantitativas\
+\cf5 *\cf2  an\'e1lisis visual\
+\cf5 *\cf2  evaluaci\'f3n auditiva\
+\
+---\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf4 ## 
+\f3\b0 \uc0\u55357 \u56613 
+\f1\b  Valor a\'f1adido (clave)
+\f0\b0 \cf2 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf2 \uc0\u55357 \u56393 
+\f0  Est\'e1s usando:\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 *\cf2  m\'e9tricas \uc0\u10004 \
+\cf5 *\cf2  visualizaci\'f3n \uc0\u10004 \
+\cf5 *\cf2  escucha \uc0\u10004 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf2 \uc0\u55357 \u56393 
+\f0  Esto es exactamente lo que convierte tu TFM en 
+\f1\b \cf4 **riguroso y profesional**
+\f0\b0 \cf2 .\
+\
+}
