@@ -1,0 +1,88 @@
+######################################
+# Sistema operativo
+######################################
+
+# macOS
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+######################################
+# Entornos virtuales y Python
+######################################
+
+# Entornos virtuales
+venv/
+.env/
+.venv/
+ENV/
+env/
+env.bak/
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+######################################
+# Jupyter / Notebooks
+######################################
+
+# Checkpoints automáticos
+.ipynb_checkpoints/
+
+# Widgets
+.jupyter/
+.ipython/
+
+######################################
+# Logs y archivos temporales
+######################################
+
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+
+######################################
+# Datos intermedios y artefactos
+######################################
+
+# Dumps temporales
+cache/
+tmp/
+temp/
+
+######################################
+# IDEs y editores
+######################################
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+######################################
+# Git
+######################################
+
+# Archivos de merge
+*.orig
