@@ -1,0 +1,34 @@
+# =========================
+# PROCESAMIENTO DE AUDIO (Notebook 1)
+# =========================
+librosa            # carga y procesamiento de audio
+pydub              # manipulación de formatos de audio
+soundfile          # lectura/escritura de archivos de audio
+numpy              # operaciones numéricas
+matplotlib         # visualización de señales
+scipy              # funciones de procesamiento de señal
+noisereduce        # reducción de ruido
+silero-vad         # modelo de VAD preentrenado
+torch              # PyTorch para modelos de audio
+
+# =========================
+# ASR (Notebook 2)
+# =========================
+faster-whisper     # modelo ASR optimizado (Whisper)
+jiwer              # métricas de evaluación (WER, CER)
+tqdm               # barra de progreso
+
+# =========================
+# NLP (Notebook 3)
+# =========================
+spacy              # procesamiento de lenguaje natural
+transformers       # modelos preentrenados (BERT, etc.)
+sentence-transformers  # embeddings semánticos
+scikit-learn       # modelos y utilidades ML
+datasets           # gestión de datasets
+evaluate           # evaluación de modelos NLP
+
+# =========================
+# UTILIDADES GENERALES
+# =========================
+pandas             # manejo de datos tabulares
