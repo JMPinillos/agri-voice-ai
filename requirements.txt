@@ -17,6 +17,7 @@ torch              # PyTorch para modelos de audio
 faster-whisper     # modelo ASR optimizado (Whisper)
 jiwer              # métricas de evaluación (WER, CER)
 tqdm               # barra de progreso
+num2words          # conversión de números a palabras
 
 # =========================
 # NLP (Notebook 3)
