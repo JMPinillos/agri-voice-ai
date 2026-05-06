@@ -1,6 +1,4 @@
-Directo y sin relleno:
 
-⸻
 
 Título del Notebook 1
 
@@ -64,7 +62,7 @@ Estructura real del Notebook 1
     * Verificación de coherencia entre flags y transformaciones
     * Comparación señal original vs procesada
     * Control de cambios y trazabilidad
-⸻
+    ⸻
 
 Qué hace exactamente el pipeline
 
