@@ -1,0 +1,112 @@
+{
+  "cultivo": {
+    "cafe": [
+      "café", "cafe", "cafeto", "grano", "cereza",
+      "tinto", "oro verde", "mata"
+    ],
+    "cacao": [
+      "cacao", "cocoa", "almendra de cacao", "mazorca",
+      "pepa", "pepa de oro", "cacaotero"
+    ]
+  },
+  "plaga_enfermedad": {
+    "roya": [
+      "roya", "hongo naranja", "polvillo", "mancha de la hoja"
+    ],
+    "broca": [
+      "broca", "gorgojo", "barrenador", "picado", "grano vano"
+    ],
+    "monilia": [
+      "monilia", "moniliasis", "pasmo", "cacao cenizo", "cacao podrido", "mancha blanca"
+    ],
+    "escoba_bruja": [
+      "escoba de bruja", "escoba", "rama seca", "nido de pajaro"
+    ],
+    "ojo_gallo": [
+      "ojo de gallo", "gotera", "quemado de la hoja"
+    ]
+  },
+  "producto_fitosanitario": {
+    "fungicida": [
+      "fungicida", "remedio", "medicina", "cura", "veneno para el hongo"
+    ],
+    "herbicida": [
+      "herbicida", "mata monte", "quema monte", "liquido para el pasto"
+    ],
+    "fertilizante": [
+      "fertilizante", "abono", "nutriente", "comida de la mata", "urea", "triple 15"
+    ]
+  },
+  "evento_agricola": {
+    "siembra": [
+      "siembra", "sembrar"
+    ],
+    "cosecha": [
+      "cosecha", "recoleccion", "recolección", "pica", "pepena", "corte", "recojo"
+    ],
+    "riego": [
+      "riego", "regar"
+    ],
+    "fumigacion": [
+      "fumigacion", "fumigar"
+    ],
+    "poda": [
+      "poda", "podar", "zoca", "recepa", "deschuponado"
+    ],
+    "deshierbe": [
+      "deshierbe", "desyerbe", "chapear", "machetear", "hacer la limpia"
+    ]
+  },
+  "estado_cultivo": {
+    "floracion": [
+      "floracion", "floración", "viene la flor", "abrio el boton", "el cafetal esta blanco"
+    ],
+    "llenado": [
+      "llenado", "llenado de grano", "cuaje", "esta amarrando", "formando la pepa"
+    ],
+    "maduracion": [
+      "maduracion", "maduración", "esta rojo", "esta sazon", "ya esta de corte", "esta pinto"
+    ]
+  },
+  "unidad_parcela": {
+    "finca": [
+      "finca", "hacienda", "rancho", "quinta", "chacra"
+    ],
+    "lote": [
+      "lote", "parcela", "cuadro", "tablon", "melga"
+    ]
+  },
+  "condicion_climatica": {
+    "lluvia": [
+      "lluvia", "llover", "aguacero", "temporal", "palo de agua", "tormenta"
+    ],
+    "sequia": [
+      "sequia", "sequía", "canicula", "calorazo"
+    ],
+    "humedad": [
+      "humedad"
+    ]
+  },
+  "unidad_medida": {
+    "peso": [
+      "kilo", "kilos", "kg", "libra", "arroba", "quintal", "tonelada"
+    ],
+    "superficie": [
+      "hectarea", "hectárea", "ha", "manzana", "cuadra"
+    ],
+    "volumen": [
+      "litro", "litros", "galon", "tanque"
+    ]
+  },
+  "expresiones_numericas": {
+    "cantidad_aproximada": [
+      "un poquito", "mas o menos", "casi nada"
+    ],
+    "frecuencia": [
+      "cada mes", "cada quince dias", "dos veces al año", "por cosecha"
+    ],
+    "proporcion": [
+      "la mitad", "una cuarta parte"
+    ]
+  }
+}
