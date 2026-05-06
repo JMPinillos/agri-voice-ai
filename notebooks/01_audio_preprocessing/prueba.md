@@ -1,3 +1,126 @@
+### Figura 1 — Arquitectura interna del pipeline de audio
+
+**Ubicación:** 4.1.1 Organización general del notebook
+
+Prompt:
+
+```text
+Crea un diagrama profesional y minimalista en estilo académico mostrando la arquitectura de un pipeline de procesamiento de audio para sistemas ASR. Diseño horizontal con cajas rectangulares conectadas mediante flechas. Fondo blanco, líneas limpias, colores suaves y modernos (azules y grises), tipografía profesional sans-serif.
+
+El flujo debe contener los siguientes bloques en este orden:
+
+Raw Audio
+↓
+Exploración inicial
+↓
+Estandarización
+↓
+Cálculo de métricas acústicas
+↓
+Generación de flags
+↓
+Procesamiento adaptativo
+
+Dentro del bloque “Procesamiento adaptativo”, incluir subbloques:
+- High-pass
+- Denoise
+- RMS normalization
+- Trim + Padding
+- VAD
+
+Después:
+↓
+Reconstrucción final
+↓
+Processed Audio
+
+Aspecto técnico, limpio y propio de una publicación científica o TFM de inteligencia artificial. Relación horizontal panorámica.
+```
+
+---
+
+### Figura 2 — Comparación señal original vs señal procesada
+
+**Ubicación:** 4.1.5 Evaluación de técnicas de preprocesamiento
+
+Prompt:
+
+```text
+Crea una figura académica comparativa de procesamiento de audio para un TFM de inteligencia artificial. Mostrar dos waveforms alineados verticalmente sobre fondo blanco.
+
+Parte superior:
+Título pequeño: “Audio original”
+Waveform irregular con silencios prolongados y amplitud variable.
+
+Parte inferior:
+Título pequeño: “Audio procesado”
+Waveform más limpia y compacta, con silencios reducidos y señal más uniforme.
+
+Mantener misma escala temporal en ambas señales. Estilo técnico y minimalista, similar a figuras de artículos científicos de procesamiento de señal. Colores suaves (azul oscuro y gris). Sin elementos decorativos.
+```
+
+---
+
+### Figura 3 — Funcionamiento del VAD
+
+**Ubicación:** 4.1.7 Implementación del VAD
+
+Prompt:
+
+```text
+Genera una figura técnica y profesional para explicar el funcionamiento de un sistema Voice Activity Detection (VAD) en un pipeline ASR.
+
+Mostrar una waveform horizontal sobre fondo blanco con segmentos de voz resaltados en azul y regiones de silencio en gris claro.
+
+Añadir pequeñas etiquetas discretas:
+- Voice segment
+- Silence removed
+
+Incluir debajo una segunda waveform reconstruida tras el VAD, más compacta y continua.
+
+Estilo académico y minimalista, similar a publicaciones científicas de procesamiento de audio y machine learning. Diseño limpio, profesional y fácil de interpretar.
+```
+
+---
+
+### Figura 4 — Lógica adaptativa del pipeline
+
+**Ubicación:** 4.1.6 Diseño del pipeline adaptativo
+
+Prompt:
+
+```text
+Crea un diagrama de flujo profesional y minimalista que represente la lógica adaptativa de un pipeline de procesamiento de audio para ASR.
+
+Fondo blanco, estilo académico, cajas rectangulares limpias y flechas simples.
+
+Flujo lógico:
+
+Inicio
+↓
+Cálculo de métricas acústicas
+↓
+¿High silence?
+→ Sí → Aplicar VAD
+→ No → Continuar
+
+¿Low energy?
+→ Sí → RMS normalization
+
+¿High ZCR?
+→ Sí → Denoise
+
+¿High silence edges?
+→ Sí → Trim + Padding
+
+¿High energy variance?
+→ Sí → Skip processing
+
+↓
+Guardar audio procesado
+
+Diseño elegante, moderno y técnico, propio de un TFM o artículo científico de inteligencia artificial y procesamiento de señal.
+```
 
 
 Título del Notebook 1
