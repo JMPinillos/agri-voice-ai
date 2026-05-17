@@ -4,12 +4,10 @@
 librosa            # carga y procesamiento de audio
 pydub              # manipulación de formatos de audio
 soundfile          # lectura/escritura de archivos de audio
-numpy              # operaciones numéricas
 matplotlib         # visualización de señales
 scipy              # funciones de procesamiento de señal
 noisereduce        # reducción de ruido
 silero-vad         # modelo de VAD preentrenado
-torch              # PyTorch para modelos de audio
 
 # =========================
 # ASR (Notebook 2)
@@ -28,8 +26,13 @@ sentence-transformers  # embeddings semánticos
 scikit-learn       # modelos y utilidades ML
 datasets           # gestión de datasets
 evaluate           # evaluación de modelos NLP
+unidecode          # normalización controlada (acentos, ruido)
+rapidfuzz          # matching difuso (plagas, productos, variantes)
+joblib             # persistencia de modelos sklearn
 
 # =========================
-# UTILIDADES GENERALES
+# DEPENDENCIAS CORE (ML / DL)
 # =========================
+torch              # backend para modelos de deep learning (ASR y NLP)
+numpy              # operaciones numéricas
 pandas             # manejo de datos tabulares
