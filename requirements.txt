@@ -4,7 +4,6 @@
 librosa            # carga y procesamiento de audio
 pydub              # manipulación de formatos de audio
 soundfile          # lectura/escritura de archivos de audio
-matplotlib         # visualización de señales
 scipy              # funciones de procesamiento de señal
 noisereduce        # reducción de ruido
 silero-vad         # modelo de VAD preentrenado
@@ -36,3 +35,9 @@ joblib             # persistencia de modelos sklearn
 torch              # backend para modelos de deep learning (ASR y NLP)
 numpy              # operaciones numéricas
 pandas             # manejo de datos tabulares
+
+# =========================
+# VISUALIZACIÓN
+# =========================
+matplotlib         # visualización base
+seaborn            # visualización avanzada
