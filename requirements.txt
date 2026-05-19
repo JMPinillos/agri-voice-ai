@@ -28,6 +28,7 @@ evaluate           # evaluación de modelos NLP
 unidecode          # normalización controlada (acentos, ruido)
 rapidfuzz          # matching difuso (plagas, productos, variantes)
 joblib             # persistencia de modelos sklearn
+accelerate         # backend necesario para Trainer de transformers
 
 # =========================
 # DEPENDENCIAS CORE (ML / DL)
