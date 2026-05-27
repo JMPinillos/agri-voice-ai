@@ -1,0 +1,47 @@
+[
+  {
+    "text": "Ayer fumigué el café porque vi roya",
+    "entities": [
+      {"start": 0, "end": 4, "label": "fecha_evento"},
+      {"start": 5, "end": 12, "label": "accion"},
+      {"start": 16, "end": 20, "label": "cultivo"},
+      {"start": 36, "end": 40, "label": "problema"}
+    ]
+  },
+  {
+    "text": "Hoy apliqué insecticida en el cacao",
+    "entities": [
+      {"start": 0, "end": 3, "label": "fecha_evento"},
+      {"start": 4, "end": 11, "label": "accion"},
+      {"start": 12, "end": 23, "label": "producto"},
+      {"start": 30, "end": 35, "label": "cultivo"}
+    ]
+  },
+  {
+    "text": "La semana pasada encontré broca en el cafeto",
+    "entities": [
+      {"start": 3, "end": 20, "label": "fecha_evento"},
+      {"start": 21, "end": 30, "label": "accion"},
+      {"start": 31, "end": 36, "label": "problema"},
+      {"start": 43, "end": 49, "label": "cultivo"}
+    ]
+  },
+  {
+    "text": "Regué dos hectáreas de cacao el lunes",
+    "entities": [
+      {"start": 0, "end": 5, "label": "accion"},
+      {"start": 6, "end": 19, "label": "cantidad"},
+      {"start": 23, "end": 28, "label": "cultivo"},
+      {"start": 32, "end": 37, "label": "fecha_evento"}
+    ]
+  },
+  {
+    "text": "Apliqué fertilizante en el lote 3 del café",
+    "entities": [
+      {"start": 0, "end": 7, "label": "accion"},
+      {"start": 8, "end": 21, "label": "producto"},
+      {"start": 25, "end": 31, "label": "ubicacion"},
+      {"start": 36, "end": 40, "label": "cultivo"}
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "entities": [
+    "cultivo",
+    "problema",
+    "accion",
+    "producto",
+    "cantidad",
+    "fecha_evento"
+  ]
+}

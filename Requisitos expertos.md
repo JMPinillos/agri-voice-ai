@@ -131,13 +131,15 @@ Se solicita identificar términos relevantes del dominio, especialmente:
 
 ### Formato recomendado para anotación
 
-```csv
-texto,entidad,valor
-"Ayer fumigué el café en el lote 3 porque vi roya",FECHA,Ayer
-"Ayer fumigué el café en el lote 3 porque vi roya",EVENTO,fumigué
-"Ayer fumigué el café en el lote 3 porque vi roya",CULTIVO,café
-"Ayer fumigué el café en el lote 3 porque vi roya",LUGAR,lote 3
-"Ayer fumigué el café en el lote 3 porque vi roya",PLAGA,roya
+```json
+{
+  "text": "Ayer fumigué el café",
+  "entities": [
+    {"start": 0, "end": 4, "label": "fecha_evento"},
+    {"start": 5, "end": 12, "label": "accion"},
+    {"start": 16, "end": 20, "label": "cultivo"}
+  ]
+}
 ```
 
 <div style="page-break-after: always; break-after: page;"></div>
