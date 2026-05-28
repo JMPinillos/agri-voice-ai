@@ -20,7 +20,7 @@
   {
     "text": "La semana pasada encontré broca en el cafeto",
     "entities": [
-      {"start": 3, "end": 20, "label": "fecha_evento"},
+      {"start": 3, "end": 16, "label": "fecha_evento"},
       {"start": 21, "end": 30, "label": "accion"},
       {"start": 31, "end": 36, "label": "problema"},
       {"start": 43, "end": 49, "label": "cultivo"}
