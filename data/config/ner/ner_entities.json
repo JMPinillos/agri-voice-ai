@@ -1,10 +1,20 @@
 {
   "entities": [
     "cultivo",
-    "problema",
-    "accion",
-    "producto",
+    "plaga_enfermedad",
+    "evento_agricola",
+    "producto_fitosanitario",
     "cantidad",
-    "fecha_evento"
+    "volumen",
+    "superficie",
+    "masa",
+    "duracion",
+    "fecha_evento",
+    "espacio_agricola",
+    "estado_cultivo",
+    "condicion_climatica",
+    "parte_planta",
+    "tipo_suelo",
+    "herramienta_equipo"
   ]
 }

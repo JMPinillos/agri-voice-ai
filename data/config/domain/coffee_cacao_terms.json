@@ -1,79 +1,135 @@
 {
   "cultivo": {
     "cafe": [
-      "café", "cafe", "cafeto", "grano", "cereza",
-      "tinto", "oro verde", "mata"
+      "café", "cafe", "cafeto", "cafetal", "grano", "cereza",
+      "tinto", "oro verde", "mata", "plantacion de cafe", "plantación de café"
     ],
     "cacao": [
-      "cacao", "cocoa", "almendra de cacao", "mazorca",
-      "pepa", "pepa de oro", "cacaotero"
+      "cacao", "cocoa", "cacaotero", "cacaotal", "almendra de cacao",
+      "mazorca", "pepa", "pepa de oro", "plantacion de cacao", "plantación de cacao"
     ]
   },
   "plaga_enfermedad": {
     "roya": [
-      "roya", "hongo naranja", "polvillo", "mancha de la hoja"
+      "roya", "hongo naranja", "polvillo", "mancha de la hoja",
+      "roya del cafe", "roya del café"
     ],
     "broca": [
-      "broca", "gorgojo", "barrenador", "picado", "grano vano"
+      "broca", "gorgojo", "barrenador", "picado", "grano vano",
+      "broca del cafe", "broca del café"
     ],
     "monilia": [
-      "monilia", "moniliasis", "pasmo", "cacao cenizo", "cacao podrido", "mancha blanca"
+      "monilia", "moniliasis", "pasmo", "cacao cenizo",
+      "cacao podrido", "mancha blanca", "mazorca podrida"
     ],
     "escoba_bruja": [
-      "escoba de bruja", "escoba", "rama seca", "nido de pajaro"
+      "escoba de bruja", "escoba", "rama seca", "nido de pajaro", "nido de pájaro"
     ],
     "ojo_gallo": [
       "ojo de gallo", "gotera", "quemado de la hoja"
+    ],
+    "antracnosis": [
+      "antracnosis", "mancha negra", "pudricion negra", "pudrición negra"
+    ],
+    "phytophthora": [
+      "phytophthora", "fitóftora", "fitoptora", "mazorca negra",
+      "pudricion de mazorca", "pudrición de mazorca"
     ]
   },
   "producto_fitosanitario": {
     "fungicida": [
       "fungicida", "remedio", "medicina", "cura", "veneno para el hongo"
     ],
+    "insecticida": [
+      "insecticida", "veneno para insecto", "veneno para la broca", "producto para la broca"
+    ],
     "herbicida": [
-      "herbicida", "mata monte", "quema monte", "liquido para el pasto"
+      "herbicida", "mata monte", "quema monte", "liquido para el pasto",
+      "líquido para el pasto", "matamaleza"
     ],
     "fertilizante": [
-      "fertilizante", "abono", "nutriente", "comida de la mata", "urea", "triple 15"
+      "fertilizante", "abono", "nutriente", "comida de la mata",
+      "urea", "triple 15", "npk", "compost", "gallinaza"
     ]
   },
   "evento_agricola": {
     "siembra": [
-      "siembra", "sembrar"
+      "siembra", "sembrar", "sembré", "sembramos"
     ],
     "cosecha": [
-      "cosecha", "recoleccion", "recolección", "pica", "pepena", "corte", "recojo"
+      "cosecha", "recoleccion", "recolección", "pica", "pepena",
+      "corte", "recojo", "recogida"
     ],
     "riego": [
-      "riego", "regar"
+      "riego", "regar", "regué", "regamos"
     ],
     "fumigacion": [
-      "fumigacion", "fumigar"
+      "fumigacion", "fumigación", "fumigar", "fumigué",
+      "fumigamos", "aplicacion", "aplicación", "apliqué"
     ],
     "poda": [
-      "poda", "podar", "zoca", "recepa", "deschuponado"
+      "poda", "podar", "zoca", "recepa", "deschuponado",
+      "descope", "renovacion", "renovación"
     ],
     "deshierbe": [
-      "deshierbe", "desyerbe", "chapear", "machetear", "hacer la limpia"
+      "deshierbe", "desyerbe", "chapear", "machetear",
+      "hacer la limpia", "limpia", "limpieza"
+    ],
+    "abonado": [
+      "abonado", "abonar", "aboné", "fertilizacion", "fertilización",
+      "echar abono"
+    ],
+    "control_plaga": [
+      "control de plaga", "controlar la plaga", "tratamiento", "control sanitario"
     ]
   },
   "estado_cultivo": {
     "floracion": [
-      "floracion", "floración", "viene la flor", "abrio el boton", "el cafetal esta blanco"
+      "floracion", "floración", "viene la flor", "abrio el boton",
+      "abrió el botón", "el cafetal esta blanco", "el cafetal está blanco"
     ],
     "llenado": [
-      "llenado", "llenado de grano", "cuaje", "esta amarrando", "formando la pepa"
+      "llenado", "llenado de grano", "cuaje", "esta amarrando",
+      "está amarrando", "formando la pepa"
     ],
     "maduracion": [
-      "maduracion", "maduración", "esta rojo", "esta sazon", "ya esta de corte", "esta pinto"
+      "maduracion", "maduración", "esta rojo", "está rojo",
+      "esta sazon", "está sazón", "ya esta de corte",
+      "ya está de corte", "esta pinto", "está pinto"
+    ],
+    "marchitez": [
+      "marchitez", "marchito", "seco", "planta seca", "mata seca"
+    ],
+    "amarillamiento": [
+      "amarillamiento", "hojas amarillas", "se puso amarillo", "clorosis"
     ]
   },
-  "unidad_parcela": {
+  "parte_planta": {
+    "hoja": [
+      "hoja", "hojas", "follaje"
+    ],
+    "raiz": [
+      "raiz", "raíz", "raices", "raíces"
+    ],
+    "tallo": [
+      "tallo", "tronco", "rama", "ramas"
+    ],
+    "flor": [
+      "flor", "flores", "boton", "botón"
+    ],
+    "fruto": [
+      "fruto", "frutos", "grano", "granos", "cereza", "mazorca", "pepa"
+    ]
+  },
+  "espacio_agricola": {
     "finca": [
       "finca", "hacienda", "rancho", "quinta", "chacra"
     ],
     "lote": [
-      "lote", "parcela", "cuadro", "tablon", "melga"
+      "lote", "parcela", "cuadro", "tablon", "tablón", "melga", "sector", "zona"
+    ],
+    "vivero": [
+      "vivero", "almacigo", "almácigo", "semillero"
     ]
   },
   "condicion_climatica": {
@@ -81,32 +137,42 @@
       "lluvia", "llover", "aguacero", "temporal", "palo de agua", "tormenta"
     ],
     "sequia": [
-      "sequia", "sequía", "canicula", "calorazo"
+      "sequia", "sequía", "canicula", "canícula", "calorazo", "verano fuerte"
     ],
     "humedad": [
-      "humedad"
+      "humedad", "humedo", "húmedo", "muy mojado"
+    ],
+    "viento": [
+      "viento", "ventarron", "ventarrón", "brisa fuerte"
     ]
   },
-  "unidad_medida": {
-    "peso": [
-      "kilo", "kilos", "kg", "libra", "arroba", "quintal", "tonelada"
+  "tipo_suelo": {
+    "arcilloso": [
+      "arcilloso", "barro", "tierra pesada"
     ],
-    "superficie": [
-      "hectarea", "hectárea", "ha", "manzana", "cuadra"
+    "arenoso": [
+      "arenoso", "tierra suelta", "arena"
     ],
-    "volumen": [
-      "litro", "litros", "galon", "tanque"
+    "franco": [
+      "franco", "tierra buena"
+    ],
+    "pedregoso": [
+      "pedregoso", "piedra", "terreno con piedra"
     ]
   },
-  "expresiones_numericas": {
-    "cantidad_aproximada": [
-      "un poquito", "mas o menos", "casi nada"
+  "herramienta_equipo": {
+    "bomba_fumigacion": [
+      "bomba", "bomba de espalda", "fumigadora", "aspersora",
+      "mochila", "bomba de fumigar"
     ],
-    "frecuencia": [
-      "cada mes", "cada quince dias", "dos veces al año", "por cosecha"
+    "machete": [
+      "machete", "macheta"
     ],
-    "proporcion": [
-      "la mitad", "una cuarta parte"
+    "podadora": [
+      "podadora", "tijera de poda", "tijera"
+    ],
+    "guadana": [
+      "guadana", "guadaña", "desbrozadora"
     ]
   }
 }
