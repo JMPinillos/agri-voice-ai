@@ -13,7 +13,6 @@ silero-vad         # modelo de VAD preentrenado
 # =========================
 faster-whisper     # modelo ASR optimizado (Whisper)
 jiwer              # métricas de evaluación (WER, CER)
-tqdm               # barra de progreso
 num2words          # conversión de números a palabras
 
 # =========================
@@ -42,3 +41,9 @@ pandas             # manejo de datos tabulares
 # =========================
 matplotlib         # visualización base
 seaborn            # visualización avanzada
+
+# =========================
+# ENTORNO JUPYTER / UTILIDADES
+# =========================
+ipywidgets         # soporte de widgets interactivos en Jupyter (tqdm, controles)
+tqdm               # barra de progreso
