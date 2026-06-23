@@ -192,114 +192,114 @@
   {
     "text": "Me llamo Juan Camilo Usme, soy productor cacaotero en Honduras y manejo alrededor de 5 hectáreas en producción con variedades comerciales.",
     "entities": [
-      {"start": 42, "end": 51, "label": "cultivo"},
-      {"start": 55, "end": 63, "label": "pais"},
-      {"start": 86, "end": 97, "label": "superficie"},
-      {"start": 127, "end": 139, "label": "variedad"}
+      {"start": 41, "end": 50, "label": "cultivo"},
+      {"start": 54, "end": 62, "label": "pais"},
+      {"start": 85, "end": 96, "label": "superficie"},
+      {"start": 126, "end": 137, "label": "variedad"}
     ]
   },
   {
     "text": "estamos haciendo control manual de hierbas con machete y guadaña para no usar químicos",
     "entities": [
-      {"start": 16, "end": 58, "label": "tratamiento"},
-      {"start": 76, "end": 85, "label": "tratamiento"}
+      {"start": 17, "end": 64, "label": "tratamiento"},
+      {"start": 78, "end": 86, "label": "tratamiento"}
     ]
   },
   {
     "text": "Ayer revisamos el lote y encontramos presencia de moniliasis en varias plantas y eso hay que manejarlo rápido",
     "entities": [
       {"start": 0, "end": 4, "label": "fecha_evento"},
-      {"start": 47, "end": 57, "label": "problema"}
+      {"start": 50, "end": 60, "label": "problema"}
     ]
   },
   {
     "text": "Hola, soy Andrés Pérez, cultivo café en una parcela de 3 hectáreas con variedad geisha buscando calidad en taza.",
     "entities": [
       {"start": 32, "end": 36, "label": "cultivo"},
-      {"start": 54, "end": 65, "label": "superficie"},
-      {"start": 79, "end": 85, "label": "variedad"}
+      {"start": 55, "end": 66, "label": "superficie"},
+      {"start": 80, "end": 86, "label": "variedad"}
     ]
   },
   {
     "text": "estamos preparando el terreno para nueva siembra limpiando y organizando surcos",
     "entities": [
-      {"start": 34, "end": 47, "label": "tratamiento"},
-      {"start": 48, "end": 77, "label": "tratamiento"}
+      {"start": 35, "end": 48, "label": "tratamiento"},
+      {"start": 49, "end": 79, "label": "tratamiento"}
     ]
   },
   {
     "text": "Hoy se hizo lavado del café después de la fermentación con agua limpia de la finca",
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
-      {"start": 13, "end": 19, "label": "tratamiento"},
-      {"start": 24, "end": 28, "label": "cultivo"},
+      {"start": 12, "end": 18, "label": "tratamiento"},
+      {"start": 23, "end": 27, "label": "cultivo"},
       {"start": 42, "end": 54, "label": "tratamiento"}
     ]
   },
   {
     "text": "Mi nombre es Rosa Martínez, soy productora de cacao y tengo unas 8 hectáreas con variedad criollo bajo sombra de plátano y árboles nativos.",
     "entities": [
-      {"start": 45, "end": 50, "label": "cultivo"},
-      {"start": 64, "end": 75, "label": "superficie"},
-      {"start": 89, "end": 96, "label": "variedad"},
-      {"start": 114, "end": 121, "label": "especie_sombra"},
-      {"start": 124, "end": 139, "label": "especie_sombra"}
+      {"start": 46, "end": 51, "label": "cultivo"},
+      {"start": 65, "end": 76, "label": "superficie"},
+      {"start": 90, "end": 97, "label": "variedad"},
+      {"start": 113, "end": 120, "label": "especie_sombra"},
+      {"start": 123, "end": 138, "label": "especie_sombra"}
     ]
   },
   {
     "text": "estamos aplicando enmiendas calizas porque el suelo salió ácido en el análisis reciente",
     "entities": [
       {"start": 18, "end": 35, "label": "tratamiento"},
-      {"start": 59, "end": 64, "label": "problema"}
+      {"start": 58, "end": 63, "label": "problema"}
     ]
   },
   {
     "text": "Bueno hoy fue día tranquilo solo revisión general del cultivo sin mayores novedades",
     "entities": [
       {"start": 6, "end": 9, "label": "fecha_evento"},
-      {"start": 31, "end": 47, "label": "tratamiento"}
+      {"start": 33, "end": 49, "label": "tratamiento"}
     ]
   },
   {
     "text": "En estos momentos estamos en plena cosecha de café recogiendo lo más maduro para asegurar buena calidad en el producto final",
     "entities": [
       {"start": 0, "end": 17, "label": "fecha_evento"},
-      {"start": 35, "end": 52, "label": "tratamiento"},
+      {"start": 35, "end": 42, "label": "tratamiento"},
       {"start": 46, "end": 50, "label": "cultivo"}
     ]
   },
   {
     "text": "Mi nombre es Hernando López, soy productor de cacao en Panamá, manejo unas 6 hectáreas en sistema agroforestal con sombra de frutales y árboles forestales.",
     "entities": [
-      {"start": 45, "end": 50, "label": "cultivo"},
-      {"start": 54, "end": 60, "label": "pais"},
+      {"start": 46, "end": 51, "label": "cultivo"},
+      {"start": 55, "end": 61, "label": "pais"},
       {"start": 75, "end": 86, "label": "superficie"},
-      {"start": 90, "end": 109, "label": "sistema_produccion"},
-      {"start": 126, "end": 135, "label": "especie_sombra"},
-      {"start": 138, "end": 156, "label": "especie_sombra"}
+      {"start": 90, "end": 110, "label": "sistema_produccion"},
+      {"start": 125, "end": 133, "label": "especie_sombra"},
+      {"start": 136, "end": 154, "label": "especie_sombra"}
     ]
   },
   {
     "text": "estamos viendo que el suelo está muy compacto entonces vamos a hacer labores de aireación para mejorar",
     "entities": [
       {"start": 33, "end": 45, "label": "problema"},
-      {"start": 72, "end": 91, "label": "tratamiento"}
+      {"start": 69, "end": 89, "label": "tratamiento"}
     ]
   },
   {
     "text": "Hoy se hizo aplicación foliar con biofertilizante preparado en la finca con insumos orgánicos",
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
-      {"start": 13, "end": 52, "label": "tratamiento"}
+      {"start": 12, "end": 49, "label": "tratamiento"}
     ]
   },
   {
     "text": "Bueno, me llamo Daniela Torres, cultivo café en una parcela pequeña de 2 hectáreas con variedad bourbon y manejo tradicional.",
     "entities": [
       {"start": 40, "end": 44, "label": "cultivo"},
-      {"start": 70, "end": 81, "label": "superficie"},
-      {"start": 95, "end": 102, "label": "variedad"},
-      {"start": 111, "end": 128, "label": "sistema_produccion"}
+      {"start": 71, "end": 82, "label": "superficie"},
+      {"start": 96, "end": 103, "label": "variedad"},
+      {"start": 106, "end": 124, "label": "sistema_produccion"}
     ]
   },
   {
@@ -311,16 +311,16 @@
   {
     "text": "entonces estamos organizando la jornada para hacer poda sanitaria y limpieza",
     "entities": [
-      {"start": 46, "end": 60, "label": "tratamiento"},
-      {"start": 63, "end": 71, "label": "tratamiento"}
+      {"start": 51, "end": 65, "label": "tratamiento"},
+      {"start": 68, "end": 76, "label": "tratamiento"}
     ]
   },
   {
     "text": "Hola, soy Miguel Ángel Ríos, productor cacaotero, tengo aproximadamente 4 hectáreas en producción bajo manejo convencional.",
     "entities": [
       {"start": 39, "end": 48, "label": "cultivo"},
-      {"start": 73, "end": 84, "label": "superficie"},
-      {"start": 105, "end": 123, "label": "sistema_produccion"}
+      {"start": 72, "end": 83, "label": "superficie"},
+      {"start": 103, "end": 122, "label": "sistema_produccion"}
     ]
   },
   {
@@ -329,84 +329,84 @@
       {"start": 0, "end": 3, "label": "fecha_evento"},
       {"start": 20, "end": 26, "label": "tratamiento"},
       {"start": 31, "end": 35, "label": "cultivo"},
-      {"start": 96, "end": 103, "label": "factor_climatico"}
+      {"start": 99, "end": 106, "label": "factor_climatico"}
     ]
   },
   {
     "text": "Mi nombre es José Castaya. Justamente estamos ubicados en la comunidad San Pablo de provincia Caranabí del departamento de La Paz. Somos una familia que se dedica en la producción del cultivo de café. Tenemos un lote de 10 hectáreas. Dentro de esas 10 hectáreas tenemos 5 hectáreas de cultivo de café. Y comentarles manejamos dos tipos de lotes de diferentes años. La densidad de siembra en esta finca lo que se maneja es 4500 plantas por hectárea. Tenemos dos diferentes edades, hay un lote de cuatro años en plena producción y el otro que estamos implementando de tres hectáreas de un año y dos meses. Tenemos, manejamos dos tipos de sistema que son sistema tradicional con quema, con tala de árboles y el otro que es sistema agroforestal.",
     "entities": [
-      {"start": 72, "end": 81, "label": "localidad"},
-      {"start": 95, "end": 103, "label": "region"},
-      {"start": 126, "end": 132, "label": "region"},
-      {"start": 196, "end": 200, "label": "cultivo"},
-      {"start": 225, "end": 237, "label": "superficie"},
-      {"start": 256, "end": 268, "label": "superficie"},
-      {"start": 277, "end": 288, "label": "superficie"},
-      {"start": 302, "end": 306, "label": "cultivo"},
-      {"start": 428, "end": 453, "label": "cantidad"},
-      {"start": 615, "end": 628, "label": "superficie"},
-      {"start": 707, "end": 726, "label": "sistema_produccion"},
-      {"start": 769, "end": 788, "label": "sistema_produccion"}
+      {"start": 71, "end": 80, "label": "localidad"},
+      {"start": 94, "end": 102, "label": "region"},
+      {"start": 123, "end": 129, "label": "region"},
+      {"start": 195, "end": 199, "label": "cultivo"},
+      {"start": 220, "end": 232, "label": "superficie"},
+      {"start": 249, "end": 261, "label": "superficie"},
+      {"start": 270, "end": 281, "label": "superficie"},
+      {"start": 296, "end": 300, "label": "cultivo"},
+      {"start": 422, "end": 447, "label": "cantidad"},
+      {"start": 566, "end": 580, "label": "superficie"},
+      {"start": 652, "end": 671, "label": "sistema_produccion"},
+      {"start": 720, "end": 740, "label": "sistema_produccion"}
     ]
   },
   {
     "text": "Bueno eh hoy arrancamos temprano porque tocaba hacer control de maleza en el lote uno entonces estuvimos con machete limpiando porque ya estaba muy enmontado y eso no deja crecer bien el café.",
     "entities": [
       {"start": 9, "end": 12, "label": "fecha_evento"},
-      {"start": 49, "end": 67, "label": "tratamiento"},
-      {"start": 106, "end": 113, "label": "tratamiento"},
-      {"start": 144, "end": 154, "label": "problema"},
-      {"start": 188, "end": 192, "label": "cultivo"}
+      {"start": 53, "end": 70, "label": "tratamiento"},
+      {"start": 109, "end": 116, "label": "tratamiento"},
+      {"start": 148, "end": 157, "label": "problema"},
+      {"start": 187, "end": 191, "label": "cultivo"}
     ]
   },
   {
     "text": "Mi nombre es Jorge Luis Pineda, soy productor de café en la vereda San José, municipio de Pitalito, departamento del Huila, Colombia. Actualmente manejo una finca de aproximadamente 6 hectáreas sembradas con variedades castillo y caturra bajo un sistema agroforestal con sombra de guamos y árboles nativos, enfocado en producción sostenible.",
     "entities": [
-      {"start": 50, "end": 54, "label": "cultivo"},
-      {"start": 69, "end": 77, "label": "localidad"},
-      {"start": 92, "end": 100, "label": "localidad"},
-      {"start": 119, "end": 124, "label": "region"},
-      {"start": 126, "end": 134, "label": "pais"},
-      {"start": 187, "end": 198, "label": "superficie"},
-      {"start": 221, "end": 229, "label": "variedad"},
-      {"start": 232, "end": 239, "label": "variedad"},
-      {"start": 252, "end": 271, "label": "sistema_produccion"},
-      {"start": 287, "end": 293, "label": "especie_sombra"},
-      {"start": 296, "end": 311, "label": "especie_sombra"}
+      {"start": 49, "end": 53, "label": "cultivo"},
+      {"start": 67, "end": 75, "label": "localidad"},
+      {"start": 90, "end": 98, "label": "localidad"},
+      {"start": 117, "end": 122, "label": "region"},
+      {"start": 124, "end": 132, "label": "pais"},
+      {"start": 182, "end": 193, "label": "superficie"},
+      {"start": 219, "end": 227, "label": "variedad"},
+      {"start": 230, "end": 237, "label": "variedad"},
+      {"start": 246, "end": 266, "label": "sistema_produccion"},
+      {"start": 281, "end": 287, "label": "especie_sombra"},
+      {"start": 290, "end": 305, "label": "especie_sombra"}
     ]
   },
   {
     "text": "Entonces lo que hicimos fue aplicar abono orgánico alrededor de la planta como a unos treinta centímetros para que no queme la raíz.",
     "entities": [
-      {"start": 35, "end": 49, "label": "tratamiento"},
-      {"start": 87, "end": 105, "label": "distancia"}
+      {"start": 36, "end": 50, "label": "tratamiento"},
+      {"start": 86, "end": 105, "label": "distancia"}
     ]
   },
   {
     "text": "Ayer eh estuvimos revisando el cultivo y encontramos bastante presencia de broca entonces toca hacer control urgente.",
     "entities": [
       {"start": 0, "end": 4, "label": "fecha_evento"},
-      {"start": 30, "end": 37, "label": "cultivo"},
-      {"start": 73, "end": 78, "label": "problema"},
-      {"start": 98, "end": 113, "label": "tratamiento"}
+      {"start": 31, "end": 38, "label": "cultivo"},
+      {"start": 75, "end": 80, "label": "problema"},
+      {"start": 101, "end": 116, "label": "tratamiento"}
     ]
   },
   {
     "text": "Buenas mi nombre es Diego Fernando Ríos soy productor de cacao en el departamento de Santander manejo unas 4 hectáreas con variedad trinitario bajo sombra de plátano y árboles forestales.",
     "entities": [
       {"start": 57, "end": 62, "label": "cultivo"},
-      {"start": 87, "end": 96, "label": "region"},
-      {"start": 109, "end": 120, "label": "superficie"},
-      {"start": 135, "end": 145, "label": "variedad"},
-      {"start": 163, "end": 170, "label": "especie_sombra"},
-      {"start": 173, "end": 191, "label": "especie_sombra"}
+      {"start": 85, "end": 94, "label": "region"},
+      {"start": 107, "end": 118, "label": "superficie"},
+      {"start": 132, "end": 142, "label": "variedad"},
+      {"start": 158, "end": 165, "label": "especie_sombra"},
+      {"start": 168, "end": 186, "label": "especie_sombra"}
     ]
   },
   {
     "text": "La verdad el clima no está ayudando mucho porque llueve fuerte y luego hace calor entonces eso afecta bastante la producción.",
     "entities": [
-      {"start": 48, "end": 61, "label": "factor_climatico"},
-      {"start": 75, "end": 80, "label": "factor_climatico"}
+      {"start": 49, "end": 62, "label": "factor_climatico"},
+      {"start": 76, "end": 81, "label": "factor_climatico"}
     ]
   },
   {
@@ -414,8 +414,8 @@
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
       {"start": 15, "end": 29, "label": "tratamiento"},
-      {"start": 62, "end": 77, "label": "problema"},
-      {"start": 82, "end": 89, "label": "cultivo"}
+      {"start": 53, "end": 68, "label": "problema"},
+      {"start": 73, "end": 80, "label": "cultivo"}
     ]
   },
   {
@@ -424,60 +424,58 @@
       {"start": 49, "end": 53, "label": "cultivo"},
       {"start": 57, "end": 65, "label": "pais"},
       {"start": 77, "end": 88, "label": "superficie"},
-      {"start": 117, "end": 124, "label": "variedad"},
-      {"start": 138, "end": 152, "label": "especie_sombra"}
+      {"start": 116, "end": 123, "label": "variedad"},
+      {"start": 129, "end": 143, "label": "especie_sombra"}
     ]
   },
   {
     "text": "Estamos en plena cosecha entonces se está recogiendo solo grano maduro para no afectar la calidad.",
     "entities": [
-      {"start": 0, "end": 24, "label": "fecha_evento"},
-      {"start": 42, "end": 58, "label": "tratamiento"}
+      {"start": 42, "end": 52, "label": "tratamiento"}
     ]
   },
   {
     "text": "Hoy casi no se avanzó mucho porque el terreno estaba muy mojado por la lluvia.",
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
-      {"start": 52, "end": 62, "label": "problema"},
-      {"start": 70, "end": 76, "label": "factor_climatico"}
+      {"start": 53, "end": 63, "label": "problema"},
+      {"start": 71, "end": 77, "label": "factor_climatico"}
     ]
   },
   {
     "text": "En estos días estamos haciendo fermentación del café ya lleva como dieciocho horas en tanque antes del lavado.",
     "entities": [
       {"start": 0, "end": 13, "label": "fecha_evento"},
-      {"start": 29, "end": 41, "label": "tratamiento"},
-      {"start": 46, "end": 50, "label": "cultivo"},
-      {"start": 65, "end": 81, "label": "cantidad"},
-      {"start": 100, "end": 106, "label": "tratamiento"}
+      {"start": 31, "end": 43, "label": "tratamiento"},
+      {"start": 48, "end": 52, "label": "cultivo"},
+      {"start": 67, "end": 82, "label": "cantidad"},
+      {"start": 103, "end": 109, "label": "tratamiento"}
     ]
   },
   {
     "text": "Mi nombre es Andrés Felipe Muñoz soy productor de cacao en la región de Ucayali Perú tengo aproximadamente 7 hectáreas sembradas con variedades criollo y trinitario bajo sistema agroforestal.",
     "entities": [
-      {"start": 49, "end": 54, "label": "cultivo"},
-      {"start": 71, "end": 78, "label": "region"},
-      {"start": 79, "end": 83, "label": "pais"},
-      {"start": 109, "end": 120, "label": "superficie"},
-      {"start": 148, "end": 155, "label": "variedad"},
-      {"start": 158, "end": 168, "label": "variedad"},
-      {"start": 174, "end": 193, "label": "sistema_produccion"}
+      {"start": 50, "end": 55, "label": "cultivo"},
+      {"start": 72, "end": 79, "label": "region"},
+      {"start": 80, "end": 84, "label": "pais"},
+      {"start": 107, "end": 118, "label": "superficie"},
+      {"start": 144, "end": 151, "label": "variedad"},
+      {"start": 154, "end": 164, "label": "variedad"},
+      {"start": 170, "end": 190, "label": "sistema_produccion"}
     ]
   },
   {
     "text": "Entonces organizando el trabajo del día hicimos deshierbe y limpieza general del lote.",
     "entities": [
-      {"start": 31, "end": 37, "label": "fecha_evento"},
-      {"start": 46, "end": 55, "label": "tratamiento"},
-      {"start": 58, "end": 75, "label": "tratamiento"}
+      {"start": 48, "end": 57, "label": "tratamiento"},
+      {"start": 60, "end": 68, "label": "tratamiento"}
     ]
   },
   {
     "text": "Se observó presencia de hongos en algunas plantas por exceso de humedad en el lote.",
     "entities": [
-      {"start": 23, "end": 29, "label": "problema"},
-      {"start": 57, "end": 64, "label": "factor_climatico"}
+      {"start": 24, "end": 30, "label": "problema"},
+      {"start": 64, "end": 71, "label": "factor_climatico"}
     ]
   },
   {
@@ -485,15 +483,15 @@
     "entities": [
       {"start": 36, "end": 40, "label": "cultivo"},
       {"start": 44, "end": 52, "label": "pais"},
-      {"start": 68, "end": 79, "label": "superficie"},
-      {"start": 93, "end": 99, "label": "variedad"}
+      {"start": 69, "end": 80, "label": "superficie"},
+      {"start": 94, "end": 100, "label": "variedad"}
     ]
   },
   {
     "text": "Hoy se hizo aplicación de biofertilizante preparado en la finca con insumos orgánicos.",
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
-      {"start": 13, "end": 51, "label": "tratamiento"}
+      {"start": 12, "end": 41, "label": "tratamiento"}
     ]
   },
   {
@@ -506,17 +504,17 @@
   {
     "text": "Mi nombre es José Ramírez soy productor de cacao manejo unas 8 hectáreas bajo sombra de árboles forestales y plátano en sistema mixto.",
     "entities": [
-      {"start": 42, "end": 47, "label": "cultivo"},
-      {"start": 60, "end": 71, "label": "superficie"},
-      {"start": 89, "end": 107, "label": "especie_sombra"},
-      {"start": 110, "end": 117, "label": "especie_sombra"},
-      {"start": 121, "end": 134, "label": "sistema_produccion"}
+      {"start": 43, "end": 48, "label": "cultivo"},
+      {"start": 61, "end": 72, "label": "superficie"},
+      {"start": 88, "end": 106, "label": "especie_sombra"},
+      {"start": 109, "end": 116, "label": "especie_sombra"},
+      {"start": 120, "end": 133, "label": "sistema_produccion"}
     ]
   },
   {
     "text": "Entonces eh estamos haciendo cosecha selectiva solo cogiendo los frutos que ya están maduros.",
     "entities": [
-      {"start": 28, "end": 45, "label": "tratamiento"}
+      {"start": 29, "end": 46, "label": "tratamiento"}
     ]
   },
   {
@@ -525,23 +523,23 @@
       {"start": 0, "end": 3, "label": "fecha_evento"},
       {"start": 20, "end": 26, "label": "tratamiento"},
       {"start": 31, "end": 35, "label": "cultivo"},
-      {"start": 83, "end": 90, "label": "factor_climatico"}
+      {"start": 84, "end": 91, "label": "factor_climatico"}
     ]
   },
   {
     "text": "Bueno en la finca estamos aplicando fertilización con compost para recuperar el cultivo después de cosecha.",
     "entities": [
-      {"start": 32, "end": 58, "label": "tratamiento"},
-      {"start": 81, "end": 88, "label": "cultivo"},
-      {"start": 100, "end": 107, "label": "fecha_evento"}
+      {"start": 36, "end": 61, "label": "tratamiento"},
+      {"start": 80, "end": 87, "label": "cultivo"},
+      {"start": 99, "end": 106, "label": "fecha_evento"}
     ]
   },
   {
     "text": "Me llamo Juan Carlos Pérez soy productor de café en Honduras tengo unas 6 hectáreas en producción con variedades tradicionales.",
     "entities": [
-      {"start": 43, "end": 47, "label": "cultivo"},
-      {"start": 51, "end": 59, "label": "pais"},
-      {"start": 71, "end": 82, "label": "superficie"},
+      {"start": 44, "end": 48, "label": "cultivo"},
+      {"start": 52, "end": 60, "label": "pais"},
+      {"start": 72, "end": 83, "label": "superficie"},
       {"start": 113, "end": 126, "label": "variedad"}
     ]
   },
@@ -549,105 +547,105 @@
     "text": "Ayer revisamos el lote y encontramos moniliasis en varias plantas entonces toca hacer control.",
     "entities": [
       {"start": 0, "end": 4, "label": "fecha_evento"},
-      {"start": 36, "end": 46, "label": "problema"},
-      {"start": 79, "end": 86, "label": "tratamiento"}
+      {"start": 37, "end": 47, "label": "problema"},
+      {"start": 86, "end": 93, "label": "tratamiento"}
     ]
   },
   {
     "text": "Estamos preparando el terreno para nueva siembra limpiando y marcando surcos.",
     "entities": [
-      {"start": 34, "end": 46, "label": "tratamiento"},
-      {"start": 47, "end": 75, "label": "tratamiento"}
+      {"start": 35, "end": 48, "label": "tratamiento"},
+      {"start": 49, "end": 76, "label": "tratamiento"}
     ]
   },
   {
     "text": "Mi nombre es Ricardo Gómez soy productor de cacao en Panamá tengo unas 5 hectáreas bajo manejo agroforestal con sombra de frutales.",
     "entities": [
-      {"start": 42, "end": 47, "label": "cultivo"},
-      {"start": 51, "end": 57, "label": "pais"},
-      {"start": 69, "end": 80, "label": "superficie"},
-      {"start": 93, "end": 111, "label": "sistema_produccion"},
-      {"start": 128, "end": 137, "label": "especie_sombra"}
+      {"start": 44, "end": 49, "label": "cultivo"},
+      {"start": 53, "end": 59, "label": "pais"},
+      {"start": 71, "end": 82, "label": "superficie"},
+      {"start": 88, "end": 107, "label": "sistema_produccion"},
+      {"start": 122, "end": 130, "label": "especie_sombra"}
     ]
   },
   {
     "text": "Hoy se hizo el despulpado del café y quedó en fermentación para seguir el proceso mañana.",
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
-      {"start": 16, "end": 26, "label": "tratamiento"},
-      {"start": 31, "end": 35, "label": "cultivo"},
-      {"start": 48, "end": 60, "label": "tratamiento"},
-      {"start": 84, "end": 90, "label": "fecha_evento"}
+      {"start": 15, "end": 25, "label": "tratamiento"},
+      {"start": 30, "end": 34, "label": "cultivo"},
+      {"start": 46, "end": 58, "label": "tratamiento"},
+      {"start": 82, "end": 88, "label": "fecha_evento"}
     ]
   },
   {
     "text": "Entonces estamos aplicando abono compuesto con nitrógeno fósforo y potasio alrededor de la planta.",
     "entities": [
-      {"start": 27, "end": 79, "label": "tratamiento"}
+      {"start": 27, "end": 74, "label": "tratamiento"}
     ]
   },
   {
     "text": "Hola soy Diana Marcela López cultivo café en Colombia tengo unas 4 hectáreas con variedad castillo y manejo técnico.",
     "entities": [
-      {"start": 38, "end": 42, "label": "cultivo"},
-      {"start": 46, "end": 54, "label": "pais"},
-      {"start": 66, "end": 77, "label": "superficie"},
-      {"start": 91, "end": 99, "label": "variedad"}
+      {"start": 37, "end": 41, "label": "cultivo"},
+      {"start": 45, "end": 53, "label": "pais"},
+      {"start": 65, "end": 76, "label": "superficie"},
+      {"start": 90, "end": 98, "label": "variedad"}
     ]
   },
   {
     "text": "La broca sigue afectando bastante entonces estamos haciendo recolección de granos del suelo.",
     "entities": [
       {"start": 3, "end": 8, "label": "problema"},
-      {"start": 54, "end": 81, "label": "tratamiento"}
+      {"start": 60, "end": 91, "label": "tratamiento"}
     ]
   },
   {
     "text": "Hoy se hizo limpieza del lote quitando maleza con machete y guadaña.",
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
-      {"start": 13, "end": 68, "label": "tratamiento"}
+      {"start": 12, "end": 67, "label": "tratamiento"}
     ]
   },
   {
     "text": "Mi nombre es Fernando Castillo soy productor de cacao manejo unas 9 hectáreas en sistema agroforestal con variedades comerciales.",
     "entities": [
-      {"start": 44, "end": 49, "label": "cultivo"},
-      {"start": 62, "end": 73, "label": "superficie"},
-      {"start": 77, "end": 96, "label": "sistema_produccion"},
-      {"start": 113, "end": 125, "label": "variedad"}
+      {"start": 48, "end": 53, "label": "cultivo"},
+      {"start": 66, "end": 77, "label": "superficie"},
+      {"start": 81, "end": 101, "label": "sistema_produccion"},
+      {"start": 117, "end": 128, "label": "variedad"}
     ]
   },
   {
     "text": "Entonces eh estamos viendo que las plantas están un poco débiles entonces toca reforzar con fertilización.",
     "entities": [
-      {"start": 54, "end": 61, "label": "problema"},
-      {"start": 91, "end": 104, "label": "tratamiento"}
+      {"start": 57, "end": 64, "label": "problema"},
+      {"start": 92, "end": 105, "label": "tratamiento"}
     ]
   },
   {
     "text": "Hoy se hizo lavado del café con agua limpia después de la fermentación.",
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
-      {"start": 13, "end": 19, "label": "tratamiento"},
-      {"start": 24, "end": 28, "label": "cultivo"},
+      {"start": 12, "end": 18, "label": "tratamiento"},
+      {"start": 23, "end": 27, "label": "cultivo"},
       {"start": 58, "end": 70, "label": "tratamiento"}
     ]
   },
   {
     "text": "Buenas soy Laura Fernández productora de café tengo unas 3 hectáreas en producción con variedad caturra.",
     "entities": [
-      {"start": 40, "end": 44, "label": "cultivo"},
-      {"start": 56, "end": 67, "label": "superficie"},
-      {"start": 95, "end": 102, "label": "variedad"}
+      {"start": 41, "end": 45, "label": "cultivo"},
+      {"start": 57, "end": 68, "label": "superficie"},
+      {"start": 96, "end": 103, "label": "variedad"}
     ]
   },
   {
     "text": "Se está haciendo control de sombra porque el lote estaba muy cerrado y salieron enfermedades.",
     "entities": [
       {"start": 17, "end": 34, "label": "tratamiento"},
-      {"start": 62, "end": 69, "label": "problema"},
-      {"start": 81, "end": 93, "label": "problema"}
+      {"start": 61, "end": 68, "label": "problema"},
+      {"start": 80, "end": 92, "label": "problema"}
     ]
   },
   {
@@ -655,24 +653,24 @@
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
       {"start": 31, "end": 47, "label": "tratamiento"},
-      {"start": 51, "end": 58, "label": "cultivo"}
+      {"start": 52, "end": 59, "label": "cultivo"}
     ]
   },
   {
     "text": "Mi nombre es Carlos Andrés Ríos soy productor de cacao en Colombia manejo unas 6 hectáreas con sistema agroforestal bajo sombra de árboles nativos.",
     "entities": [
-      {"start": 48, "end": 53, "label": "cultivo"},
-      {"start": 57, "end": 65, "label": "pais"},
-      {"start": 78, "end": 89, "label": "superficie"},
-      {"start": 94, "end": 113, "label": "sistema_produccion"},
-      {"start": 130, "end": 145, "label": "especie_sombra"}
+      {"start": 49, "end": 54, "label": "cultivo"},
+      {"start": 58, "end": 66, "label": "pais"},
+      {"start": 79, "end": 90, "label": "superficie"},
+      {"start": 95, "end": 115, "label": "sistema_produccion"},
+      {"start": 131, "end": 146, "label": "especie_sombra"}
     ]
   },
   {
     "text": "Entonces estamos organizando la jornada para hacer poda de renovación en cafetales viejos.",
     "entities": [
-      {"start": 46, "end": 64, "label": "tratamiento"},
-      {"start": 68, "end": 77, "label": "cultivo"}
+      {"start": 51, "end": 69, "label": "tratamiento"},
+      {"start": 73, "end": 82, "label": "cultivo"}
     ]
   },
   {
@@ -680,78 +678,78 @@
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
       {"start": 14, "end": 34, "label": "tratamiento"},
-      {"start": 49, "end": 55, "label": "problema"}
+      {"start": 50, "end": 56, "label": "problema"}
     ]
   },
   {
     "text": "Mi nombre es Jorge Iván Morales soy productor de café en Perú trabajo en una finca de aproximadamente 8 hectáreas con variedades arábica bajo sistema agroforestal con sombra de guava y árboles forestales buscando mejorar la calidad del cultivo y mantener sostenibilidad en la producción.",
     "entities": [
-      {"start": 47, "end": 51, "label": "cultivo"},
-      {"start": 55, "end": 59, "label": "pais"},
-      {"start": 101, "end": 112, "label": "superficie"},
+      {"start": 49, "end": 53, "label": "cultivo"},
+      {"start": 57, "end": 61, "label": "pais"},
+      {"start": 102, "end": 113, "label": "superficie"},
       {"start": 129, "end": 136, "label": "variedad"},
-      {"start": 142, "end": 161, "label": "sistema_produccion"},
-      {"start": 178, "end": 183, "label": "especie_sombra"},
-      {"start": 186, "end": 204, "label": "especie_sombra"},
-      {"start": 239, "end": 246, "label": "cultivo"}
+      {"start": 142, "end": 162, "label": "sistema_produccion"},
+      {"start": 177, "end": 182, "label": "especie_sombra"},
+      {"start": 185, "end": 203, "label": "especie_sombra"},
+      {"start": 236, "end": 243, "label": "cultivo"}
     ]
   },
   {
     "text": "Bueno eh hoy estuvimos desde temprano haciendo deshierbe porque la maleza ya estaba muy alta y eso no deja que el café crezca bien entonces tocó meter machete casi todo el día.",
     "entities": [
       {"start": 9, "end": 12, "label": "fecha_evento"},
-      {"start": 43, "end": 52, "label": "tratamiento"},
-      {"start": 65, "end": 72, "label": "problema"},
-      {"start": 131, "end": 135, "label": "cultivo"},
-      {"start": 164, "end": 171, "label": "tratamiento"}
+      {"start": 47, "end": 56, "label": "tratamiento"},
+      {"start": 67, "end": 73, "label": "problema"},
+      {"start": 114, "end": 118, "label": "cultivo"},
+      {"start": 151, "end": 158, "label": "tratamiento"}
     ]
   },
   {
     "text": "Mi nombre es Albeiro de Jesús Morales, soy productor de cacao del Caserío 3 de Octubre, del Centro Poblado La Divisoria, distrito de Boquerón, provincia de Padre Abad, región de Ucayali, Perú. Actualmente manejo una finca de 9 hectáreas de las cuales 3 están en producción. El sistema que trabajamos es agroforestal con leguminosas forestales, guava y árboles maderables, sembrado con distancias de un metro por dos metros y medio con variedades trinitario e ICS 95, buscando mejorar la productividad con asistencia técnica.",
     "entities": [
-      {"start": 55, "end": 60, "label": "cultivo"},
-      {"start": 73, "end": 85, "label": "localidad"},
-      {"start": 109, "end": 121, "label": "localidad"},
-      {"start": 135, "end": 143, "label": "localidad"},
-      {"start": 158, "end": 169, "label": "region"},
-      {"start": 181, "end": 188, "label": "region"},
-      {"start": 190, "end": 194, "label": "pais"},
-      {"start": 235, "end": 246, "label": "superficie"},
-      {"start": 308, "end": 321, "label": "sistema_produccion"},
-      {"start": 327, "end": 349, "label": "especie_sombra"},
-      {"start": 351, "end": 356, "label": "especie_sombra"},
-      {"start": 359, "end": 377, "label": "especie_sombra"},
-      {"start": 409, "end": 442, "label": "distancia"},
-      {"start": 458, "end": 468, "label": "variedad"},
-      {"start": 471, "end": 477, "label": "variedad"}
+      {"start": 56, "end": 61, "label": "cultivo"},
+      {"start": 74, "end": 86, "label": "localidad"},
+      {"start": 107, "end": 119, "label": "localidad"},
+      {"start": 133, "end": 141, "label": "localidad"},
+      {"start": 156, "end": 166, "label": "region"},
+      {"start": 178, "end": 185, "label": "region"},
+      {"start": 187, "end": 191, "label": "pais"},
+      {"start": 225, "end": 236, "label": "superficie"},
+      {"start": 303, "end": 315, "label": "sistema_produccion"},
+      {"start": 320, "end": 342, "label": "especie_sombra"},
+      {"start": 344, "end": 349, "label": "especie_sombra"},
+      {"start": 352, "end": 370, "label": "especie_sombra"},
+      {"start": 399, "end": 430, "label": "distancia"},
+      {"start": 446, "end": 456, "label": "variedad"},
+      {"start": 459, "end": 465, "label": "variedad"}
     ]
   },
   {
     "text": "Entonces lo que hicimos fue aplicar abono orgánico eh alrededor de la planta como a unos treinta centímetros para no quemar la raíz y que absorba mejor.",
     "entities": [
-      {"start": 35, "end": 49, "label": "tratamiento"},
-      {"start": 89, "end": 107, "label": "distancia"}
+      {"start": 36, "end": 50, "label": "tratamiento"},
+      {"start": 89, "end": 108, "label": "distancia"}
     ]
   },
   {
     "text": "Ayer estuvimos revisando el lote y encontramos bastante broca entonces estamos recogiendo grano del suelo para cortar el ciclo.",
     "entities": [
       {"start": 0, "end": 4, "label": "fecha_evento"},
-      {"start": 54, "end": 59, "label": "problema"},
-      {"start": 78, "end": 104, "label": "tratamiento"}
+      {"start": 56, "end": 61, "label": "problema"},
+      {"start": 79, "end": 105, "label": "tratamiento"}
     ]
   },
   {
     "text": "Buenas mi nombre es Jorge Mario Muñoz soy productor de café en el departamento del Cauca Colombia tengo unas 8 hectáreas sembradas con variedad castillo y caturra bajo sombra de guamos y árboles nativos trabajando en producción limpia.",
     "entities": [
-      {"start": 53, "end": 57, "label": "cultivo"},
-      {"start": 82, "end": 87, "label": "region"},
+      {"start": 55, "end": 59, "label": "cultivo"},
+      {"start": 83, "end": 88, "label": "region"},
       {"start": 89, "end": 97, "label": "pais"},
       {"start": 109, "end": 120, "label": "superficie"},
       {"start": 144, "end": 152, "label": "variedad"},
       {"start": 155, "end": 162, "label": "variedad"},
-      {"start": 179, "end": 185, "label": "especie_sombra"},
-      {"start": 188, "end": 203, "label": "especie_sombra"}
+      {"start": 178, "end": 184, "label": "especie_sombra"},
+      {"start": 187, "end": 202, "label": "especie_sombra"}
     ]
   },
   {
@@ -766,8 +764,8 @@
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
       {"start": 15, "end": 29, "label": "tratamiento"},
-      {"start": 52, "end": 68, "label": "problema"},
-      {"start": 92, "end": 99, "label": "cultivo"}
+      {"start": 39, "end": 59, "label": "problema"},
+      {"start": 90, "end": 97, "label": "cultivo"}
     ]
   },
   {
@@ -775,64 +773,62 @@
     "entities": [
       {"start": 49, "end": 53, "label": "cultivo"},
       {"start": 57, "end": 65, "label": "pais"},
-      {"start": 77, "end": 88, "label": "superficie"},
-      {"start": 104, "end": 117, "label": "variedad"},
-      {"start": 135, "end": 153, "label": "especie_sombra"},
-      {"start": 156, "end": 163, "label": "especie_sombra"}
+      {"start": 78, "end": 89, "label": "superficie"},
+      {"start": 105, "end": 118, "label": "variedad"},
+      {"start": 134, "end": 152, "label": "especie_sombra"},
+      {"start": 155, "end": 162, "label": "especie_sombra"}
     ]
   },
   {
     "text": "Estamos en plena cosecha entonces se está recogiendo solo el grano maduro eh para mantener calidad.",
     "entities": [
-      {"start": 0, "end": 24, "label": "fecha_evento"},
-      {"start": 42, "end": 61, "label": "tratamiento"}
+      {"start": 42, "end": 73, "label": "tratamiento"}
     ]
   },
   {
     "text": "Hoy casi no se trabajó mucho porque la lluvia no dejó entrar al lote.",
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
-      {"start": 38, "end": 44, "label": "factor_climatico"}
+      {"start": 39, "end": 45, "label": "factor_climatico"}
     ]
   },
   {
     "text": "En estos días estamos en proceso de fermentación del café ya lleva unas dieciocho horas y mañana seguimos con el lavado.",
     "entities": [
-      {"start": 0, "end": 13, "label": "fecha_evento"},
-      {"start": 37, "end": 49, "label": "tratamiento"},
-      {"start": 54, "end": 58, "label": "cultivo"},
-      {"start": 73, "end": 89, "label": "cantidad"},
-      {"start": 92, "end": 98, "label": "fecha_evento"},
-      {"start": 120, "end": 126, "label": "tratamiento"}
+      {"start": 36, "end": 48, "label": "tratamiento"},
+      {"start": 53, "end": 57, "label": "cultivo"},
+      {"start": 72, "end": 87, "label": "cantidad"},
+      {"start": 90, "end": 96, "label": "fecha_evento"},
+      {"start": 113, "end": 119, "label": "tratamiento"}
     ]
   },
   {
     "text": "Mi nombre es Carlos Andrés Ríos soy productor de cacao en Colombia tengo unas 6 hectáreas bajo sistema agroforestal con variedades criollo y trinitario con sombra de frutales y forestales.",
     "entities": [
-      {"start": 48, "end": 53, "label": "cultivo"},
-      {"start": 57, "end": 65, "label": "pais"},
-      {"start": 77, "end": 88, "label": "superficie"},
-      {"start": 94, "end": 113, "label": "sistema_produccion"},
-      {"start": 130, "end": 137, "label": "variedad"},
-      {"start": 140, "end": 150, "label": "variedad"},
-      {"start": 166, "end": 175, "label": "especie_sombra"},
-      {"start": 178, "end": 188, "label": "especie_sombra"}
+      {"start": 49, "end": 54, "label": "cultivo"},
+      {"start": 58, "end": 66, "label": "pais"},
+      {"start": 78, "end": 89, "label": "superficie"},
+      {"start": 95, "end": 115, "label": "sistema_produccion"},
+      {"start": 131, "end": 138, "label": "variedad"},
+      {"start": 141, "end": 151, "label": "variedad"},
+      {"start": 166, "end": 174, "label": "especie_sombra"},
+      {"start": 177, "end": 187, "label": "especie_sombra"}
     ]
   },
   {
     "text": "Entonces organizando el día hicimos limpieza general del cultivo quitando maleza y revisando plantas.",
     "entities": [
-      {"start": 22, "end": 28, "label": "fecha_evento"},
-      {"start": 37, "end": 54, "label": "tratamiento"},
-      {"start": 58, "end": 65, "label": "cultivo"},
-      {"start": 75, "end": 82, "label": "problema"}
+      {"start": 36, "end": 52, "label": "tratamiento"},
+      {"start": 57, "end": 64, "label": "cultivo"},
+      {"start": 74, "end": 80, "label": "problema"}
     ]
   },
   {
     "text": "Se encontró presencia de moniliasis en varias plantas entonces toca hacer manejo rápido para que no se propague.",
     "entities": [
-      {"start": 24, "end": 34, "label": "problema"},
-      {"start": 70, "end": 82, "label": "tratamiento"}
+      {"start": 25, "end": 35, "label": "problema"},
+
+      {"start": 74, "end": 87, "label": "tratamiento"}
     ]
   },
   {
@@ -847,7 +843,7 @@
     "text": "Hoy se hizo aplicación foliar con biofertilizante preparado en la misma finca con insumos orgánicos.",
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
-      {"start": 13, "end": 52, "label": "tratamiento"}
+      {"start": 12, "end": 49, "label": "tratamiento"}
     ]
   },
   {
@@ -860,17 +856,17 @@
   {
     "text": "Mi nombre es Pedro Castillo soy productor de cacao manejo unas 7 hectáreas bajo sombra de plátano y árboles forestales con sistema mixto.",
     "entities": [
-      {"start": 42, "end": 47, "label": "cultivo"},
-      {"start": 60, "end": 71, "label": "superficie"},
-      {"start": 89, "end": 96, "label": "especie_sombra"},
-      {"start": 99, "end": 117, "label": "especie_sombra"},
-      {"start": 122, "end": 135, "label": "sistema_produccion"}
+      {"start": 45, "end": 50, "label": "cultivo"},
+      {"start": 63, "end": 74, "label": "superficie"},
+      {"start": 90, "end": 97, "label": "especie_sombra"},
+      {"start": 100, "end": 118, "label": "especie_sombra"},
+      {"start": 123, "end": 136, "label": "sistema_produccion"}
     ]
   },
   {
     "text": "Entonces estamos haciendo cosecha selectiva recogiendo solo frutos maduros para no afectar la calidad final.",
     "entities": [
-      {"start": 24, "end": 41, "label": "tratamiento"}
+      {"start": 26, "end": 43, "label": "tratamiento"}
     ]
   },
   {
@@ -879,23 +875,23 @@
       {"start": 0, "end": 3, "label": "fecha_evento"},
       {"start": 20, "end": 26, "label": "tratamiento"},
       {"start": 31, "end": 35, "label": "cultivo"},
-      {"start": 95, "end": 102, "label": "factor_climatico"}
+      {"start": 99, "end": 106, "label": "factor_climatico"}
     ]
   },
   {
     "text": "Bueno en la finca estamos aplicando compost para recuperar las plantas después de la cosecha anterior porque estaban débiles.",
     "entities": [
-      {"start": 32, "end": 39, "label": "tratamiento"},
-      {"start": 107, "end": 114, "label": "problema"}
+      {"start": 36, "end": 43, "label": "tratamiento"},
+      {"start": 117, "end": 124, "label": "problema"}
     ]
   },
   {
     "text": "Me llamo Juan Camilo Usme soy productor cacaotero en Honduras manejo unas 5 hectáreas en producción con variedades comerciales bajo sombra.",
     "entities": [
-      {"start": 39, "end": 48, "label": "cultivo"},
-      {"start": 52, "end": 60, "label": "pais"},
-      {"start": 72, "end": 83, "label": "superficie"},
-      {"start": 114, "end": 126, "label": "variedad"}
+      {"start": 40, "end": 49, "label": "cultivo"},
+      {"start": 53, "end": 61, "label": "pais"},
+      {"start": 74, "end": 85, "label": "superficie"},
+      {"start": 115, "end": 126, "label": "variedad"}
     ]
   },
   {
@@ -903,106 +899,106 @@
     "entities": [
       {"start": 0, "end": 4, "label": "fecha_evento"},
       {"start": 31, "end": 41, "label": "problema"},
-      {"start": 84, "end": 91, "label": "tratamiento"}
+      {"start": 90, "end": 97, "label": "tratamiento"}
     ]
   },
   {
     "text": "Estamos preparando terreno para siembra nueva limpiando y organizando surcos para sembrar.",
     "entities": [
-      {"start": 31, "end": 43, "label": "tratamiento"},
-      {"start": 44, "end": 87, "label": "tratamiento"}
+      {"start": 32, "end": 45, "label": "tratamiento"},
+      {"start": 46, "end": 89, "label": "tratamiento"}
     ]
   },
   {
     "text": "Mi nombre es Ricardo Gómez soy productor de cacao en Panamá tengo unas 6 hectáreas bajo sistema agroforestal con sombra de árboles nativos y frutales.",
     "entities": [
-      {"start": 42, "end": 47, "label": "cultivo"},
-      {"start": 51, "end": 57, "label": "pais"},
-      {"start": 69, "end": 80, "label": "superficie"},
-      {"start": 86, "end": 105, "label": "sistema_produccion"},
-      {"start": 122, "end": 137, "label": "especie_sombra"},
-      {"start": 140, "end": 149, "label": "especie_sombra"}
+      {"start": 44, "end": 49, "label": "cultivo"},
+      {"start": 53, "end": 59, "label": "pais"},
+      {"start": 71, "end": 82, "label": "superficie"},
+      {"start": 88, "end": 108, "label": "sistema_produccion"},
+      {"start": 123, "end": 138, "label": "especie_sombra"},
+      {"start": 141, "end": 149, "label": "especie_sombra"}
     ]
   },
   {
     "text": "Hoy se hizo el despulpado del café y quedó en fermentación para continuar el proceso mañana.",
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
-      {"start": 16, "end": 26, "label": "tratamiento"},
-      {"start": 31, "end": 35, "label": "cultivo"},
-      {"start": 48, "end": 60, "label": "tratamiento"},
-      {"start": 87, "end": 93, "label": "fecha_evento"}
+      {"start": 15, "end": 25, "label": "tratamiento"},
+      {"start": 30, "end": 34, "label": "cultivo"},
+      {"start": 46, "end": 58, "label": "tratamiento"},
+      {"start": 85, "end": 91, "label": "fecha_evento"}
     ]
   },
   {
     "text": "Entonces estamos aplicando abono compuesto con nitrógeno fósforo y potasio alrededor de la planta para reforzar.",
     "entities": [
-      {"start": 27, "end": 79, "label": "tratamiento"}
+      {"start": 27, "end": 74, "label": "tratamiento"}
     ]
   },
   {
     "text": "Hola soy Diana Marcela López cultivo café en Colombia tengo unas 3 hectáreas con variedad castillo y manejo tradicional mejorado.",
     "entities": [
-      {"start": 38, "end": 42, "label": "cultivo"},
-      {"start": 46, "end": 54, "label": "pais"},
-      {"start": 66, "end": 77, "label": "superficie"},
-      {"start": 91, "end": 99, "label": "variedad"},
-      {"start": 109, "end": 137, "label": "sistema_produccion"}
+      {"start": 37, "end": 41, "label": "cultivo"},
+      {"start": 45, "end": 53, "label": "pais"},
+      {"start": 65, "end": 76, "label": "superficie"},
+      {"start": 90, "end": 98, "label": "variedad"},
+      {"start": 101, "end": 128, "label": "sistema_produccion"}
     ]
   },
   {
     "text": "La broca sigue afectando bastante entonces estamos haciendo recolección de granos caídos en el suelo.",
     "entities": [
       {"start": 3, "end": 8, "label": "problema"},
-      {"start": 54, "end": 89, "label": "tratamiento"}
+      {"start": 60, "end": 100, "label": "tratamiento"}
     ]
   },
   {
     "text": "Hoy se hizo limpieza del lote quitando maleza con machete y guadaña para mantener control.",
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
-      {"start": 13, "end": 67, "label": "tratamiento"}
+      {"start": 12, "end": 67, "label": "tratamiento"}
     ]
   },
   {
     "text": "Mi nombre es Fernando Castillo soy productor de cacao manejo unas 8 hectáreas en sistema agroforestal con variedades comerciales y sombra de árboles.",
     "entities": [
-      {"start": 44, "end": 49, "label": "cultivo"},
-      {"start": 62, "end": 73, "label": "superficie"},
-      {"start": 77, "end": 96, "label": "sistema_produccion"},
-      {"start": 113, "end": 125, "label": "variedad"},
-      {"start": 139, "end": 146, "label": "especie_sombra"}
+      {"start": 48, "end": 53, "label": "cultivo"},
+      {"start": 66, "end": 77, "label": "superficie"},
+      {"start": 81, "end": 101, "label": "sistema_produccion"},
+      {"start": 117, "end": 128, "label": "variedad"},
+      {"start": 141, "end": 148, "label": "especie_sombra"}
     ]
   },
   {
     "text": "Entonces estamos viendo que las plantas están débiles entonces toca reforzar con fertilización orgánica.",
     "entities": [
-      {"start": 44, "end": 51, "label": "problema"},
-      {"start": 81, "end": 104, "label": "tratamiento"}
+      {"start": 46, "end": 53, "label": "problema"},
+      {"start": 81, "end": 103, "label": "tratamiento"}
     ]
   },
   {
     "text": "Hoy se hizo lavado del café con agua limpia después del proceso de fermentación.",
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
-      {"start": 13, "end": 19, "label": "tratamiento"},
-      {"start": 24, "end": 28, "label": "cultivo"},
-      {"start": 62, "end": 74, "label": "tratamiento"}
+      {"start": 12, "end": 18, "label": "tratamiento"},
+      {"start": 23, "end": 27, "label": "cultivo"},
+      {"start": 67, "end": 79, "label": "tratamiento"}
     ]
   },
   {
     "text": "Buenas soy Laura Fernández productora de café tengo unas 4 hectáreas en producción con variedad caturra bajo sombra.",
     "entities": [
-      {"start": 40, "end": 44, "label": "cultivo"},
-      {"start": 56, "end": 67, "label": "superficie"},
-      {"start": 95, "end": 102, "label": "variedad"}
+      {"start": 41, "end": 45, "label": "cultivo"},
+      {"start": 57, "end": 68, "label": "superficie"},
+      {"start": 96, "end": 103, "label": "variedad"}
     ]
   },
   {
     "text": "Se está haciendo regulación de sombra porque el lote estaba muy cerrado y generó enfermedades.",
     "entities": [
       {"start": 17, "end": 37, "label": "tratamiento"},
-      {"start": 63, "end": 70, "label": "problema"},
+      {"start": 64, "end": 71, "label": "problema"},
       {"start": 81, "end": 93, "label": "problema"}
     ]
   },
@@ -1011,29 +1007,29 @@
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
       {"start": 19, "end": 35, "label": "tratamiento"},
-      {"start": 39, "end": 46, "label": "cultivo"}
+      {"start": 40, "end": 47, "label": "cultivo"}
     ]
   },
   {
     "text": "Mi nombre es Andrés Felipe Muñoz soy productor de cacao en Perú trabajo en una finca de 9 hectáreas con variedades criollo y trinitario bajo sistema agroforestal con sombra de guava y árboles forestales buscando mejorar la productividad y calidad del cultivo.",
     "entities": [
-      {"start": 49, "end": 54, "label": "cultivo"},
-      {"start": 58, "end": 62, "label": "pais"},
-      {"start": 92, "end": 103, "label": "superficie"},
-      {"start": 120, "end": 127, "label": "variedad"},
-      {"start": 130, "end": 140, "label": "variedad"},
-      {"start": 146, "end": 165, "label": "sistema_produccion"},
-      {"start": 182, "end": 187, "label": "especie_sombra"},
-      {"start": 190, "end": 208, "label": "especie_sombra"},
-      {"start": 262, "end": 269, "label": "cultivo"}
+      {"start": 50, "end": 55, "label": "cultivo"},
+      {"start": 59, "end": 63, "label": "pais"},
+      {"start": 88, "end": 99, "label": "superficie"},
+      {"start": 115, "end": 122, "label": "variedad"},
+      {"start": 125, "end": 135, "label": "variedad"},
+      {"start": 149, "end": 161, "label": "sistema_produccion"},
+      {"start": 176, "end": 181, "label": "especie_sombra"},
+      {"start": 184, "end": 202, "label": "especie_sombra"},
+      {"start": 251, "end": 258, "label": "cultivo"}
     ]
   },
   {
     "text": "Entonces estamos organizando la jornada para hacer poda de renovación en cafetales viejos que ya no producen bien.",
     "entities": [
-      {"start": 46, "end": 64, "label": "tratamiento"},
-      {"start": 68, "end": 77, "label": "cultivo"},
-      {"start": 95, "end": 115, "label": "problema"}
+      {"start": 51, "end": 69, "label": "tratamiento"},
+      {"start": 73, "end": 82, "label": "cultivo"},
+      {"start": 94, "end": 113, "label": "problema"}
     ]
   },
   {
@@ -1041,92 +1037,92 @@
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
       {"start": 14, "end": 34, "label": "tratamiento"},
-      {"start": 49, "end": 55, "label": "problema"},
+      {"start": 50, "end": 56, "label": "problema"},
       {"start": 81, "end": 88, "label": "cultivo"}
     ]
   },
   {
     "text": "Mi nombre es Hernando López soy productor de café en Panamá manejo aproximadamente 7 hectáreas con variedades arábica bajo sistema agroforestal con sombra de frutales y árboles forestales buscando mantener producción sostenible y mejorar la calidad del grano.",
     "entities": [
-      {"start": 44, "end": 48, "label": "cultivo"},
-      {"start": 52, "end": 58, "label": "pais"},
-      {"start": 81, "end": 92, "label": "superficie"},
-      {"start": 109, "end": 116, "label": "variedad"},
-      {"start": 122, "end": 141, "label": "sistema_produccion"},
-      {"start": 158, "end": 167, "label": "especie_sombra"},
-      {"start": 170, "end": 188, "label": "especie_sombra"}
+      {"start": 45, "end": 49, "label": "cultivo"},
+      {"start": 53, "end": 59, "label": "pais"},
+      {"start": 83, "end": 94, "label": "superficie"},
+      {"start": 110, "end": 117, "label": "variedad"},
+      {"start": 131, "end": 143, "label": "sistema_produccion"},
+      {"start": 158, "end": 166, "label": "especie_sombra"},
+      {"start": 169, "end": 187, "label": "especie_sombra"}
     ]
   },
   {
     "text": "Bueno eh les comento que en estos días hemos estado trabajando fuerte en la finca porque el lote se estaba cerrando mucho entonces tocó hacer regulación de sombra con los guavos porque si no después vienen los hongos y eso afecta bastante el cultivo del café y baja la producción.",
     "entities": [
-      {"start": 29, "end": 42, "label": "fecha_evento"},
-      {"start": 132, "end": 152, "label": "tratamiento"},
-      {"start": 160, "end": 166, "label": "especie_sombra"},
-      {"start": 198, "end": 204, "label": "problema"},
-      {"start": 243, "end": 250, "label": "cultivo"},
+      {"start": 25, "end": 38, "label": "fecha_evento"},
+      {"start": 142, "end": 162, "label": "tratamiento"},
+      {"start": 171, "end": 177, "label": "especie_sombra"},
+      {"start": 210, "end": 216, "label": "problema"},
+      {"start": 242, "end": 249, "label": "cultivo"},
       {"start": 254, "end": 258, "label": "cultivo"},
-      {"start": 268, "end": 286, "label": "problema"}
+      {"start": 261, "end": 279, "label": "problema"}
     ]
   },
   {
     "text": "Mi nombre es Javier de Jesús Jaramillo, soy productor de cacao del Caserío Pampa Hermosa, del Centro Poblado San Martín, distrito de Moyobamba, provincia de Moyobamba, región de San Martín, Perú. Actualmente manejo una finca de 8 hectáreas sembradas con variedades ICS 95 y criollo, bajo un sistema agroforestal con sombra de cítricos, guavos y árboles forestales, trabajando con asistencia técnica para mejorar la productividad y sostenibilidad del cultivo.",
     "entities": [
-      {"start": 56, "end": 61, "label": "cultivo"},
-      {"start": 74, "end": 87, "label": "localidad"},
-      {"start": 112, "end": 122, "label": "localidad"},
-      {"start": 136, "end": 145, "label": "localidad"},
-      {"start": 160, "end": 169, "label": "localidad"},
-      {"start": 181, "end": 191, "label": "region"},
-      {"start": 193, "end": 197, "label": "pais"},
-      {"start": 199, "end": 210, "label": "fecha_evento"},
-      {"start": 236, "end": 247, "label": "superficie"},
-      {"start": 273, "end": 279, "label": "variedad"},
-      {"start": 282, "end": 289, "label": "variedad"},
-      {"start": 301, "end": 320, "label": "sistema_produccion"},
-      {"start": 337, "end": 345, "label": "especie_sombra"},
-      {"start": 347, "end": 353, "label": "especie_sombra"},
-      {"start": 356, "end": 374, "label": "especie_sombra"},
-      {"start": 466, "end": 473, "label": "cultivo"}
+      {"start": 57, "end": 62, "label": "cultivo"},
+      {"start": 75, "end": 88, "label": "localidad"},
+      {"start": 109, "end": 119, "label": "localidad"},
+      {"start": 133, "end": 142, "label": "localidad"},
+      {"start": 157, "end": 166, "label": "localidad"},
+      {"start": 178, "end": 188, "label": "region"},
+      {"start": 190, "end": 194, "label": "pais"},
+      {"start": 196, "end": 207, "label": "fecha_evento"},
+      {"start": 228, "end": 239, "label": "superficie"},
+      {"start": 265, "end": 271, "label": "variedad"},
+      {"start": 274, "end": 281, "label": "variedad"},
+      {"start": 299, "end": 311, "label": "sistema_produccion"},
+      {"start": 326, "end": 334, "label": "especie_sombra"},
+      {"start": 336, "end": 342, "label": "especie_sombra"},
+      {"start": 345, "end": 363, "label": "especie_sombra"},
+      {"start": 450, "end": 457, "label": "cultivo"}
     ]
   },
   {
     "text": "Entonces eh lo que hicimos fue empezar con la cosecha selectiva porque ya hay bastante fruto maduro pero también hay mucho verde entonces toca escoger bien para no dañar la calidad.",
     "entities": [
-      {"start": 45, "end": 62, "label": "tratamiento"},
-      {"start": 82, "end": 94, "label": "cantidad"},
-      {"start": 115, "end": 120, "label": "problema"}
+      {"start": 46, "end": 63, "label": "tratamiento"},
+      {"start": 87, "end": 99, "label": "cantidad"},
+      {"start": 123, "end": 128, "label": "problema"}
     ]
   },
   {
     "text": "Ayer estuvimos revisando el cultivo y vimos que la broca está bastante fuerte entonces estamos haciendo recolección de granos del suelo para cortar el ciclo del insecto.",
     "entities": [
       {"start": 0, "end": 4, "label": "fecha_evento"},
-      {"start": 30, "end": 37, "label": "cultivo"},
-      {"start": 52, "end": 57, "label": "problema"},
-      {"start": 96, "end": 131, "label": "tratamiento"}
+      {"start": 28, "end": 35, "label": "cultivo"},
+      {"start": 51, "end": 56, "label": "problema"},
+      {"start": 104, "end": 135, "label": "tratamiento"}
     ]
   },
   {
     "text": "Mi nombre es William de Jesús Serna, soy productor de café en la Comunidad Alcoche, cantón de Caranavi, provincia de Caranavi, departamento de La Paz, Bolivia. Tengo una finca de 6 hectáreas con variedades typica y caturra bajo sombra de frutales y leguminosas forestales, enfocado en producción sostenible.",
     "entities": [
       {"start": 54, "end": 58, "label": "cultivo"},
-      {"start": 75, "end": 83, "label": "localidad"},
-      {"start": 95, "end": 103, "label": "localidad"},
-      {"start": 118, "end": 126, "label": "localidad"},
-      {"start": 144, "end": 150, "label": "region"},
-      {"start": 152, "end": 159, "label": "pais"},
-      {"start": 183, "end": 194, "label": "superficie"},
-      {"start": 211, "end": 217, "label": "variedad"},
-      {"start": 220, "end": 227, "label": "variedad"},
-      {"start": 244, "end": 253, "label": "especie_sombra"},
-      {"start": 256, "end": 278, "label": "especie_sombra"}
+      {"start": 75, "end": 82, "label": "localidad"},
+      {"start": 94, "end": 102, "label": "localidad"},
+      {"start": 117, "end": 125, "label": "localidad"},
+      {"start": 143, "end": 149, "label": "region"},
+      {"start": 151, "end": 158, "label": "pais"},
+      {"start": 179, "end": 190, "label": "superficie"},
+      {"start": 206, "end": 212, "label": "variedad"},
+      {"start": 215, "end": 222, "label": "variedad"},
+      {"start": 238, "end": 246, "label": "especie_sombra"},
+      {"start": 249, "end": 271, "label": "especie_sombra"}
     ]
   },
   {
     "text": "La verdad el clima está bastante complicado porque llueve muy duro en unos momentos y luego pega un calor fuerte entonces eso estresa mucho las plantas.",
     "entities": [
-      {"start": 47, "end": 62, "label": "factor_climatico"},
+      {"start": 51, "end": 66, "label": "factor_climatico"},
       {"start": 100, "end": 112, "label": "factor_climatico"}
     ]
   },
@@ -1134,36 +1130,36 @@
     "text": "Hoy estuvimos haciendo poda sanitaria quitando ramas secas y partes enfermas porque ya había bastante daño en algunas plantas.",
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
-      {"start": 22, "end": 36, "label": "tratamiento"},
-      {"start": 59, "end": 75, "label": "problema"},
-      {"start": 101, "end": 105, "label": "problema"}
+      {"start": 23, "end": 37, "label": "tratamiento"},
+      {"start": 61, "end": 76, "label": "problema"},
+      {"start": 102, "end": 106, "label": "problema"}
     ]
   },
   {
     "text": "Bueno, mi nombres es Charre Javier Eliberto, soy del caserío Margarita del Centro Poblado la Divisoria. El cultivo que yo emprendo es el café que me dedico de muchos años y el área que tengo en estos momentos es de 2 hectáreas donde lo he sembrado de planta a planta a 1 metro con calle de 2 metros y medio y la edad de la planta ya está entrando para 2 años. Mi parcela está con otros cultivos más, como es el plátano de 6x4. También tengo guavas a 10x15 y así también como yuca, o sea que cultivos de pan llevar. Y otras labores que en estos momentos me estoy dedicando es en la cosecha y la post cosecha para sacar buenos granos para el mercado. Y otro es que estoy haciendo el abonamiento para el refuerzo de las plantas que están quedando para que entren ya a la etapa de floración, ahí estoy haciendo ya unos abonamientos para este año y también viendo también otras enfermedades, como siempre, el ojo de gallo y la roya es común ahora en este tiempo en tema de café. Bueno, eso es todo. Muchas gracias.",
     "entities": [
-      {"start": 64, "end": 73, "label": "localidad"},
-      {"start": 92, "end": 104, "label": "localidad"},
-      {"start": 140, "end": 144, "label": "cultivo"},
-      {"start": 232, "end": 243, "label": "superficie"},
-      {"start": 283, "end": 315, "label": "distancia"},
+      {"start": 61, "end": 70, "label": "localidad"},
+      {"start": 90, "end": 102, "label": "localidad"},
+      {"start": 137, "end": 141, "label": "cultivo"},
+      {"start": 215, "end": 226, "label": "superficie"},
+      {"start": 269, "end": 306, "label": "distancia"},
       {"start": 411, "end": 418, "label": "especie_sombra"},
-      {"start": 449, "end": 455, "label": "especie_sombra"},
-      {"start": 477, "end": 481, "label": "cultivo"},
-      {"start": 590, "end": 597, "label": "tratamiento"},
-      {"start": 603, "end": 615, "label": "tratamiento"},
-      {"start": 759, "end": 770, "label": "tratamiento"},
-      {"start": 1002, "end": 1015, "label": "problema"},
-      {"start": 1022, "end": 1026, "label": "problema"},
-      {"start": 1063, "end": 1067, "label": "cultivo"}
+      {"start": 441, "end": 447, "label": "especie_sombra"},
+      {"start": 475, "end": 479, "label": "cultivo"},
+      {"start": 581, "end": 588, "label": "tratamiento"},
+      {"start": 594, "end": 606, "label": "tratamiento"},
+      {"start": 681, "end": 692, "label": "tratamiento"},
+      {"start": 904, "end": 916, "label": "problema"},
+      {"start": 922, "end": 926, "label": "problema"},
+      {"start": 968, "end": 972, "label": "cultivo"}
     ]
   },
   {
     "text": "Entonces organizando las actividades del día estuvimos haciendo deshierbe manual porque no usamos herbicidas químicos para no dañar el suelo.",
     "entities": [
-      {"start": 39, "end": 45, "label": "fecha_evento"},
-      {"start": 63, "end": 80, "label": "tratamiento"},
-      {"start": 103, "end": 124, "label": "tratamiento"}
+      {"start": 37, "end": 44, "label": "fecha_evento"},
+      {"start": 64, "end": 80, "label": "tratamiento"},
+      {"start": 98, "end": 117, "label": "tratamiento"}
     ]
   },
   {
@@ -1177,30 +1173,30 @@
     "text": "En estos momentos estamos en proceso de postcosecha del café ya hicimos el despulpado y ahora está en fermentación más o menos unas dieciocho horas antes del lavado.",
     "entities": [
       {"start": 0, "end": 17, "label": "fecha_evento"},
-      {"start": 41, "end": 51, "label": "tratamiento"},
+      {"start": 40, "end": 51, "label": "tratamiento"},
       {"start": 56, "end": 60, "label": "cultivo"},
-      {"start": 76, "end": 86, "label": "tratamiento"},
-      {"start": 103, "end": 115, "label": "tratamiento"},
-      {"start": 131, "end": 147, "label": "cantidad"},
-      {"start": 162, "end": 168, "label": "tratamiento"}
+      {"start": 75, "end": 85, "label": "tratamiento"},
+      {"start": 102, "end": 114, "label": "tratamiento"},
+      {"start": 132, "end": 147, "label": "cantidad"},
+      {"start": 158, "end": 164, "label": "tratamiento"}
     ]
   },
   {
     "text": "Mi nombre es Aura María Mosquera, soy productora de cacao en Perú, manejo una finca de 7 hectáreas con variedades trinitario y nacional bajo sistema agroforestal.",
     "entities": [
-      {"start": 50, "end": 55, "label": "cultivo"},
-      {"start": 59, "end": 63, "label": "pais"},
-      {"start": 88, "end": 99, "label": "superficie"},
-      {"start": 116, "end": 126, "label": "variedad"},
-      {"start": 129, "end": 137, "label": "variedad"},
-      {"start": 143, "end": 162, "label": "sistema_produccion"}
+      {"start": 52, "end": 57, "label": "cultivo"},
+      {"start": 61, "end": 65, "label": "pais"},
+      {"start": 87, "end": 98, "label": "superficie"},
+      {"start": 114, "end": 124, "label": "variedad"},
+      {"start": 127, "end": 135, "label": "variedad"},
+      {"start": 149, "end": 161, "label": "sistema_produccion"}
     ]
   },
   {
     "text": "Entonces eh estamos aplicando abono orgánico tipo bocashi porque el suelo estaba bastante pobre y necesitamos recuperar nutrientes.",
     "entities": [
       {"start": 30, "end": 57, "label": "tratamiento"},
-      {"start": 89, "end": 94, "label": "problema"},
+      {"start": 90, "end": 95, "label": "problema"},
       {"start": 120, "end": 130, "label": "problema"}
     ]
   },
@@ -1208,7 +1204,7 @@
     "text": "Se observó presencia de moniliasis en varias plantas entonces toca hacer cosecha sanitaria para evitar propagación.",
     "entities": [
       {"start": 24, "end": 34, "label": "problema"},
-      {"start": 68, "end": 85, "label": "tratamiento"}
+      {"start": 73, "end": 90, "label": "tratamiento"}
     ]
   },
   {
@@ -1216,15 +1212,15 @@
     "entities": [
       {"start": 52, "end": 57, "label": "cultivo"},
       {"start": 61, "end": 69, "label": "pais"},
-      {"start": 92, "end": 103, "label": "superficie"},
-      {"start": 109, "end": 128, "label": "sistema_produccion"}
+      {"start": 93, "end": 104, "label": "superficie"},
+      {"start": 117, "end": 129, "label": "sistema_produccion"}
     ]
   },
   {
     "text": "Hoy se hizo aplicación foliar con biofertilizante preparado en la finca con estiércol melaza y ceniza.",
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
-      {"start": 13, "end": 52, "label": "tratamiento"}
+      {"start": 12, "end": 49, "label": "tratamiento"}
     ]
   },
   {
@@ -1239,15 +1235,15 @@
     "entities": [
       {"start": 50, "end": 54, "label": "cultivo"},
       {"start": 58, "end": 66, "label": "pais"},
-      {"start": 79, "end": 90, "label": "superficie"},
-      {"start": 104, "end": 111, "label": "variedad"}
+      {"start": 80, "end": 91, "label": "superficie"},
+      {"start": 105, "end": 112, "label": "variedad"}
     ]
   },
   {
     "text": "Entonces estamos haciendo recolección selectiva solo grano maduro porque si se mezcla baja la calidad en taza.",
     "entities": [
-      {"start": 24, "end": 44, "label": "tratamiento"},
-      {"start": 75, "end": 84, "label": "problema"}
+      {"start": 26, "end": 47, "label": "tratamiento"},
+      {"start": 86, "end": 101, "label": "problema"}
     ]
   },
   {
@@ -1256,109 +1252,109 @@
       {"start": 0, "end": 3, "label": "fecha_evento"},
       {"start": 20, "end": 26, "label": "tratamiento"},
       {"start": 31, "end": 35, "label": "cultivo"},
-      {"start": 80, "end": 85, "label": "problema"}
+      {"start": 83, "end": 87, "label": "problema"}
     ]
   },
   {
     "text": "Bueno en la finca estamos aplicando fertilización con compost y algo de guano para reforzar las plantas después de cosecha.",
     "entities": [
-      {"start": 32, "end": 58, "label": "tratamiento"},
-      {"start": 68, "end": 73, "label": "tratamiento"},
-      {"start": 108, "end": 115, "label": "fecha_evento"}
+      {"start": 36, "end": 61, "label": "tratamiento"},
+      {"start": 72, "end": 77, "label": "tratamiento"},
+      {"start": 115, "end": 122, "label": "fecha_evento"}
     ]
   },
   {
     "text": "Muy buenos días, mi nombre es Susana Aviles Gutierrez. Vengo cultivando el café con una extensión de 1 hectárea y el distanciamiento de 2x1. La sombra temporal es la guava y la actividad que vengo realizando es la fertilización con guano de isla, así mejorar las hojas y aportar nitrógeno a las plantas.",
     "entities": [
       {"start": 75, "end": 79, "label": "cultivo"},
-      {"start": 104, "end": 114, "label": "superficie"},
-      {"start": 138, "end": 141, "label": "distancia"},
-      {"start": 168, "end": 173, "label": "especie_sombra"},
-      {"start": 216, "end": 250, "label": "tratamiento"}
+      {"start": 101, "end": 111, "label": "superficie"},
+      {"start": 136, "end": 139, "label": "distancia"},
+      {"start": 166, "end": 171, "label": "especie_sombra"},
+      {"start": 214, "end": 245, "label": "tratamiento"}
     ]
   },
   {
     "text": "Ayer revisamos el lote y encontramos presencia de roya en varias plantas entonces hay que hacer control.",
     "entities": [
       {"start": 0, "end": 4, "label": "fecha_evento"},
-      {"start": 47, "end": 51, "label": "problema"},
-      {"start": 88, "end": 95, "label": "tratamiento"}
+      {"start": 50, "end": 54, "label": "problema"},
+      {"start": 96, "end": 103, "label": "tratamiento"}
     ]
   },
   {
     "text": "Estamos preparando terreno para nueva siembra limpiando y organizando surcos para sembrar bien.",
     "entities": [
-      {"start": 31, "end": 43, "label": "tratamiento"},
-      {"start": 44, "end": 92, "label": "tratamiento"}
+      {"start": 32, "end": 45, "label": "tratamiento"},
+      {"start": 46, "end": 94, "label": "tratamiento"}
     ]
   },
   {
     "text": "Mi nombre es Gabriel Ángel Castrillón, soy productor de café en Colombia, tengo unas 5 hectáreas con variedades geisha y catimor bajo sombra de frutales.",
     "entities": [
-      {"start": 55, "end": 59, "label": "cultivo"},
-      {"start": 63, "end": 71, "label": "pais"},
-      {"start": 84, "end": 95, "label": "superficie"},
+      {"start": 56, "end": 60, "label": "cultivo"},
+      {"start": 64, "end": 72, "label": "pais"},
+      {"start": 85, "end": 96, "label": "superficie"},
       {"start": 112, "end": 118, "label": "variedad"},
       {"start": 121, "end": 128, "label": "variedad"},
-      {"start": 145, "end": 154, "label": "especie_sombra"}
+      {"start": 144, "end": 152, "label": "especie_sombra"}
     ]
   },
   {
     "text": "Hoy se hizo el despulpado del café y quedó en fermentación para seguir el proceso mañana temprano.",
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
-      {"start": 16, "end": 26, "label": "tratamiento"},
-      {"start": 31, "end": 35, "label": "cultivo"},
-      {"start": 48, "end": 60, "label": "tratamiento"},
-      {"start": 87, "end": 93, "label": "fecha_evento"}
+      {"start": 15, "end": 25, "label": "tratamiento"},
+      {"start": 30, "end": 34, "label": "cultivo"},
+      {"start": 46, "end": 58, "label": "tratamiento"},
+      {"start": 82, "end": 88, "label": "fecha_evento"}
     ]
   },
   {
     "text": "Entonces estamos aplicando abono compuesto con nitrógeno fósforo y potasio alrededor de la planta para reforzar.",
     "entities": [
-      {"start": 27, "end": 79, "label": "tratamiento"}
+      {"start": 27, "end": 74, "label": "tratamiento"}
     ]
   },
   {
     "text": "Mi nombre es Juan Carlos Orozco, soy productor de cacao en Bolivia, manejo unas 7 hectáreas bajo sistema agroforestal con sombra de inga y cedro.",
     "entities": [
-      {"start": 52, "end": 57, "label": "cultivo"},
-      {"start": 61, "end": 68, "label": "pais"},
-      {"start": 81, "end": 92, "label": "superficie"},
-      {"start": 98, "end": 117, "label": "sistema_produccion"},
-      {"start": 134, "end": 138, "label": "especie_sombra"},
-      {"start": 141, "end": 146, "label": "especie_sombra"}
+      {"start": 50, "end": 55, "label": "cultivo"},
+      {"start": 59, "end": 66, "label": "pais"},
+      {"start": 80, "end": 91, "label": "superficie"},
+      {"start": 97, "end": 117, "label": "sistema_produccion"},
+      {"start": 132, "end": 136, "label": "especie_sombra"},
+      {"start": 139, "end": 144, "label": "especie_sombra"}
     ]
   },
   {
     "text": "La broca sigue afectando bastante entonces estamos recogiendo granos caídos para evitar propagación.",
     "entities": [
       {"start": 3, "end": 8, "label": "problema"},
-      {"start": 48, "end": 81, "label": "tratamiento"}
+      {"start": 51, "end": 75, "label": "tratamiento"}
     ]
   },
   {
     "text": "Hoy se hizo limpieza del lote con machete y guadaña porque la maleza estaba muy alta.",
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
-      {"start": 13, "end": 48, "label": "tratamiento"},
-      {"start": 61, "end": 68, "label": "problema"}
+      {"start": 12, "end": 51, "label": "tratamiento"},
+      {"start": 62, "end": 68, "label": "problema"}
     ]
   },
   {
     "text": "Mi nombre es Fausto Gualberto Cueva, soy productor de café en Panamá, manejo unas 6 hectáreas con variedad arábica bajo sombra de cedro.",
     "entities": [
-      {"start": 52, "end": 56, "label": "cultivo"},
-      {"start": 60, "end": 66, "label": "pais"},
-      {"start": 79, "end": 90, "label": "superficie"},
-      {"start": 104, "end": 111, "label": "variedad"},
-      {"start": 128, "end": 133, "label": "especie_sombra"}
+      {"start": 54, "end": 58, "label": "cultivo"},
+      {"start": 62, "end": 68, "label": "pais"},
+      {"start": 82, "end": 93, "label": "superficie"},
+      {"start": 107, "end": 114, "label": "variedad"},
+      {"start": 130, "end": 135, "label": "especie_sombra"}
     ]
   },
   {
     "text": "Entonces estamos viendo que las plantas están débiles entonces toca reforzar con fertilización.",
     "entities": [
-      {"start": 44, "end": 51, "label": "problema"},
+      {"start": 46, "end": 53, "label": "problema"},
       {"start": 81, "end": 94, "label": "tratamiento"}
     ]
   },
@@ -1366,25 +1362,25 @@
     "text": "Hoy se hizo lavado del café con agua limpia después de la fermentación en tanque.",
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
-      {"start": 13, "end": 19, "label": "tratamiento"},
-      {"start": 24, "end": 28, "label": "cultivo"},
+      {"start": 12, "end": 18, "label": "tratamiento"},
+      {"start": 23, "end": 27, "label": "cultivo"},
       {"start": 58, "end": 70, "label": "tratamiento"}
     ]
   },
   {
     "text": "Mi nombre es Nelson de Jesús Cano, soy productor de cacao en Honduras, manejo unas 5 hectáreas con variedades comerciales bajo sombra.",
     "entities": [
-      {"start": 51, "end": 56, "label": "cultivo"},
-      {"start": 60, "end": 68, "label": "pais"},
-      {"start": 81, "end": 92, "label": "superficie"},
-      {"start": 123, "end": 135, "label": "variedad"}
+      {"start": 52, "end": 57, "label": "cultivo"},
+      {"start": 61, "end": 69, "label": "pais"},
+      {"start": 83, "end": 94, "label": "superficie"},
+      {"start": 110, "end": 121, "label": "variedad"}
     ]
   },
   {
     "text": "Se está haciendo regulación de sombra porque el lote estaba muy cerrado y generó enfermedades.",
     "entities": [
       {"start": 17, "end": 37, "label": "tratamiento"},
-      {"start": 63, "end": 70, "label": "problema"},
+      {"start": 64, "end": 71, "label": "problema"},
       {"start": 81, "end": 93, "label": "problema"}
     ]
   },
@@ -1393,37 +1389,37 @@
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
       {"start": 19, "end": 35, "label": "tratamiento"},
-      {"start": 39, "end": 46, "label": "cultivo"},
-      {"start": 81, "end": 93, "label": "fecha_evento"}
+      {"start": 40, "end": 47, "label": "cultivo"},
+      {"start": 79, "end": 93, "label": "fecha_evento"}
     ]
   },
   {
     "text": "Mi nombre es John L. Arquini Etopa, soy del Cacerío 3 de octubre del Centro Poblado la Divisoria, distrito de Boquerón, provincia de Padre Abad, región Ocayali, Perú. Soy un productor cafetalero, cuento con 2 hectáreas de café en cosecha. Las variedades son caturra y catimor. Como sombra permanente he sembrado guava y algunos árboles forestales como es el pino. La idea de hoy es la cosecha selectiva, que consiste en cosechar frutos puros maduros para no tener pérdidas al momento del desculpado y así tener pergaminos de buena calidad, buen peso y buen rendimiento en calidad de taza y así poder vender nuestro café a mayor precio.",
     "entities": [
-      {"start": 48, "end": 60, "label": "localidad"},
-      {"start": 80, "end": 92, "label": "localidad"},
-      {"start": 106, "end": 114, "label": "localidad"},
-      {"start": 129, "end": 140, "label": "localidad"},
-      {"start": 149, "end": 156, "label": "region"},
-      {"start": 158, "end": 162, "label": "pais"},
-      {"start": 203, "end": 214, "label": "superficie"},
-      {"start": 218, "end": 222, "label": "cultivo"},
-      {"start": 256, "end": 263, "label": "variedad"},
-      {"start": 266, "end": 273, "label": "variedad"},
-      {"start": 316, "end": 321, "label": "especie_sombra"},
-      {"start": 333, "end": 351, "label": "especie_sombra"},
-      {"start": 364, "end": 368, "label": "especie_sombra"},
-      {"start": 383, "end": 386, "label": "fecha_evento"},
-      {"start": 393, "end": 410, "label": "tratamiento"},
-      {"start": 507, "end": 517, "label": "tratamiento"},
-      {"start": 634, "end": 638, "label": "cultivo"}
+      {"start": 52, "end": 64, "label": "localidad"},
+      {"start": 84, "end": 96, "label": "localidad"},
+      {"start": 110, "end": 118, "label": "localidad"},
+      {"start": 133, "end": 143, "label": "localidad"},
+      {"start": 152, "end": 159, "label": "region"},
+      {"start": 161, "end": 165, "label": "pais"},
+      {"start": 207, "end": 218, "label": "superficie"},
+      {"start": 222, "end": 226, "label": "cultivo"},
+      {"start": 258, "end": 265, "label": "variedad"},
+      {"start": 268, "end": 275, "label": "variedad"},
+      {"start": 312, "end": 317, "label": "especie_sombra"},
+      {"start": 328, "end": 346, "label": "especie_sombra"},
+      {"start": 358, "end": 362, "label": "especie_sombra"},
+      {"start": 375, "end": 378, "label": "fecha_evento"},
+      {"start": 385, "end": 402, "label": "tratamiento"},
+      {"start": 488, "end": 498, "label": "tratamiento"},
+      {"start": 615, "end": 619, "label": "cultivo"}
     ]
   },
   {
     "text": "Entonces estamos organizando la jornada para hacer poda de renovación en cafetales viejos.",
     "entities": [
-      {"start": 46, "end": 64, "label": "tratamiento"},
-      {"start": 68, "end": 77, "label": "cultivo"}
+      {"start": 51, "end": 69, "label": "tratamiento"},
+      {"start": 73, "end": 82, "label": "cultivo"}
     ]
   },
   {
@@ -1431,7 +1427,7 @@
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
       {"start": 14, "end": 34, "label": "tratamiento"},
-      {"start": 49, "end": 55, "label": "problema"}
+      {"start": 50, "end": 56, "label": "problema"}
     ]
   },
   {
@@ -1439,103 +1435,103 @@
     "entities": [
       {"start": 54, "end": 58, "label": "cultivo"},
       {"start": 62, "end": 70, "label": "pais"},
-      {"start": 83, "end": 94, "label": "superficie"},
+      {"start": 84, "end": 95, "label": "superficie"},
       {"start": 111, "end": 124, "label": "variedad"},
-      {"start": 131, "end": 150, "label": "sistema_produccion"},
-      {"start": 167, "end": 176, "label": "especie_sombra"},
-      {"start": 179, "end": 197, "label": "especie_sombra"}
+      {"start": 138, "end": 150, "label": "sistema_produccion"},
+      {"start": 165, "end": 173, "label": "especie_sombra"},
+      {"start": 176, "end": 194, "label": "especie_sombra"}
     ]
   },
   {
     "text": "Bueno eh en estos días también hemos estado viendo problemas de sequía porque no ha llovido lo suficiente entonces las plantas se están afectando bastante y toca buscar alternativas.",
     "entities": [
-      {"start": 12, "end": 25, "label": "fecha_evento"},
-      {"start": 63, "end": 69, "label": "factor_climatico"},
-      {"start": 157, "end": 169, "label": "problema"}
+      {"start": 9, "end": 22, "label": "fecha_evento"},
+      {"start": 64, "end": 70, "label": "factor_climatico"},
+      {"start": 136, "end": 145, "label": "problema"}
     ]
   },
   {
     "text": "Mi nombre es Rodrigo Alberto Agudelo, soy productor de cacao en Panamá, manejo unas 10 hectáreas con variedades aroma cacao y forastero bajo sombra de frutales.",
     "entities": [
-      {"start": 54, "end": 59, "label": "cultivo"},
-      {"start": 63, "end": 69, "label": "pais"},
-      {"start": 82, "end": 94, "label": "superficie"},
-      {"start": 111, "end": 122, "label": "variedad"},
-      {"start": 125, "end": 134, "label": "variedad"},
-      {"start": 151, "end": 160, "label": "especie_sombra"}
+      {"start": 55, "end": 60, "label": "cultivo"},
+      {"start": 64, "end": 70, "label": "pais"},
+      {"start": 84, "end": 96, "label": "superficie"},
+      {"start": 112, "end": 123, "label": "variedad"},
+      {"start": 126, "end": 135, "label": "variedad"},
+      {"start": 151, "end": 159, "label": "especie_sombra"}
     ]
   },
   {
     "text": "Entonces estamos haciendo zanjas de infiltración para captar agua porque está escasa.",
     "entities": [
-      {"start": 24, "end": 46, "label": "tratamiento"},
-      {"start": 74, "end": 80, "label": "problema"}
+      {"start": 26, "end": 48, "label": "tratamiento"},
+      {"start": 78, "end": 84, "label": "problema"}
     ]
   },
   {
     "text": "Hoy se hizo aplicación de fertilizante orgánico alrededor de la planta para reforzar crecimiento.",
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
-      {"start": 13, "end": 44, "label": "tratamiento"}
+      {"start": 12, "end": 47, "label": "tratamiento"}
     ]
   },
   {
     "text": "Mi nombre es Pedro Pilco Hilari, soy productor de café de la comunidad Vidal Carmen y también estoy asociado a una organización productora de café que es la Montaña Verde. Estoy en lote número 17 con una superficie de 10 hectáreas y 2.5 hectáreas en producción. Esto en sistema de producción orgánica certificada ya a una altitud de 1650 metros sobre el nivel del mar. Mi parcela está asociado con árboles forestales y otros dentro de mi parcela. Y también agradecer a la institución INEAF con el proyecto Colfasi por el apoyo, trabajos y investigaciones que se han realizado en mi parcela, tanto asistencia técnica en manejo de fertilizantes y abonados y podas dentro de mi parcela, donde nosotros ya pondremos en práctica en la parcela para tener una mejor rendimiento.",
     "entities": [
-      {"start": 49, "end": 53, "label": "cultivo"},
-      {"start": 70, "end": 82, "label": "localidad"},
-      {"start": 145, "end": 149, "label": "cultivo"},
-      {"start": 219, "end": 231, "label": "superficie"},
-      {"start": 234, "end": 247, "label": "superficie"},
-      {"start": 266, "end": 305, "label": "sistema_produccion"},
-      {"start": 324, "end": 335, "label": "cantidad"},
+      {"start": 50, "end": 54, "label": "cultivo"},
+      {"start": 71, "end": 83, "label": "localidad"},
+      {"start": 142, "end": 146, "label": "cultivo"},
+      {"start": 218, "end": 230, "label": "superficie"},
+      {"start": 233, "end": 246, "label": "superficie"},
+      {"start": 270, "end": 312, "label": "sistema_produccion"},
+      {"start": 333, "end": 344, "label": "cantidad"},
       {"start": 398, "end": 416, "label": "especie_sombra"},
-      {"start": 661, "end": 674, "label": "tratamiento"},
-      {"start": 678, "end": 687, "label": "tratamiento"},
-      {"start": 690, "end": 695, "label": "tratamiento"}
+      {"start": 629, "end": 642, "label": "tratamiento"},
+      {"start": 645, "end": 653, "label": "tratamiento"},
+      {"start": 656, "end": 661, "label": "tratamiento"}
     ]
   },
   {
     "text": "En cuanto a afectaciones de plagas y enfermedades, podemos notar claramente que tenemos en cuanto a enfermedad, hay mucha afectación en lo que es el ojo de gallo y la roya. Y en cuanto a las plagas, tenemos la afectación y la presencia de la broca, el minador y la hilacha. Y también en los últimos años ya sentimos también lo que es el cambio climático, la sequía y otros factores que enargúyen, digamos, en lo que es el clima. Entonces, como productores tenemos que ya ver qué formas tomar dentro de nuestra conciencia.",
     "entities": [
-      {"start": 150, "end": 163, "label": "problema"},
-      {"start": 170, "end": 174, "label": "problema"},
-      {"start": 258, "end": 263, "label": "problema"},
-      {"start": 268, "end": 275, "label": "problema"},
-      {"start": 281, "end": 288, "label": "problema"},
-      {"start": 352, "end": 368, "label": "factor_climatico"},
-      {"start": 374, "end": 380, "label": "factor_climatico"}
+      {"start": 149, "end": 161, "label": "problema"},
+      {"start": 167, "end": 171, "label": "problema"},
+      {"start": 242, "end": 247, "label": "problema"},
+      {"start": 252, "end": 259, "label": "problema"},
+      {"start": 265, "end": 272, "label": "problema"},
+      {"start": 337, "end": 353, "label": "factor_climatico"},
+      {"start": 358, "end": 364, "label": "factor_climatico"}
     ]
   },
   {
     "text": "Hoy se avanzó en cosecha recogiendo lo más maduro para asegurar calidad.",
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
-      {"start": 18, "end": 35, "label": "tratamiento"}
+      {"start": 17, "end": 24, "label": "tratamiento"}
     ]
   },
   {
     "text": "Mi nombre es Dixon Giovanny Castro, soy productor de café en Bolivia, manejo unas 3 hectáreas con variedades arábica bajo sombra de banano.",
     "entities": [
-      {"start": 52, "end": 56, "label": "cultivo"},
-      {"start": 60, "end": 67, "label": "pais"},
-      {"start": 80, "end": 91, "label": "superficie"},
-      {"start": 108, "end": 115, "label": "variedad"},
+      {"start": 53, "end": 57, "label": "cultivo"},
+      {"start": 61, "end": 68, "label": "pais"},
+      {"start": 82, "end": 93, "label": "superficie"},
+      {"start": 109, "end": 116, "label": "variedad"},
       {"start": 132, "end": 138, "label": "especie_sombra"}
     ]
   },
   {
     "text": "Entonces estamos organizando el trabajo para la próxima semana con poda y fertilización.",
     "entities": [
-      {"start": 64, "end": 68, "label": "tratamiento"},
-      {"start": 71, "end": 84, "label": "tratamiento"}
+      {"start": 67, "end": 71, "label": "tratamiento"},
+      {"start": 74, "end": 87, "label": "tratamiento"}
     ]
   },
   {
     "text": "Hoy el día fue más de planificación que de trabajo en campo.",
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
-      {"start": 23, "end": 36, "label": "tratamiento"}
+      {"start": 22, "end": 35, "label": "tratamiento"}
     ]
   },
   {
@@ -1543,7 +1539,7 @@
     "entities": [
       {"start": 57, "end": 61, "label": "cultivo"},
       {"start": 65, "end": 71, "label": "pais"},
-      {"start": 84, "end": 95, "label": "superficie"},
+      {"start": 85, "end": 96, "label": "superficie"},
       {"start": 112, "end": 118, "label": "variedad"},
       {"start": 121, "end": 131, "label": "variedad"}
     ]
@@ -1552,15 +1548,15 @@
     "text": "Bueno eh estamos viendo que el cultivo necesita más manejo porque hay zonas muy débiles.",
     "entities": [
       {"start": 31, "end": 38, "label": "cultivo"},
-      {"start": 74, "end": 81, "label": "problema"}
+      {"start": 76, "end": 87, "label": "problema"}
     ]
   },
   {
     "text": "Hoy se hizo limpieza general quitando maleza en todo el lote.",
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
-      {"start": 13, "end": 46, "label": "tratamiento"},
-      {"start": 37, "end": 44, "label": "problema"}
+      {"start": 12, "end": 28, "label": "tratamiento"},
+      {"start": 38, "end": 44, "label": "problema"}
     ]
   },
   {
@@ -1569,40 +1565,40 @@
       {"start": 58, "end": 71, "label": "localidad"},
       {"start": 85, "end": 91, "label": "localidad"},
       {"start": 106, "end": 118, "label": "region"},
-      {"start": 133, "end": 146, "label": "cultivo"},
-      {"start": 151, "end": 162, "label": "superficie"},
-      {"start": 201, "end": 208, "label": "especie_sombra"},
-      {"start": 211, "end": 220, "label": "especie_sombra"}
+      {"start": 132, "end": 144, "label": "cultivo"},
+      {"start": 146, "end": 157, "label": "superficie"},
+      {"start": 208, "end": 215, "label": "especie_sombra"},
+      {"start": 218, "end": 226, "label": "especie_sombra"}
     ]
   },
   {
     "text": "Entonces estamos reforzando con abono orgánico para mejorar el desarrollo.",
     "entities": [
-      {"start": 31, "end": 45, "label": "tratamiento"}
+      {"start": 32, "end": 46, "label": "tratamiento"}
     ]
   },
   {
     "text": "Hoy se hizo revisión de plagas y enfermedades en todo el cultivo.",
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
-      {"start": 13, "end": 44, "label": "tratamiento"},
+      {"start": 12, "end": 45, "label": "tratamiento"},
       {"start": 57, "end": 64, "label": "cultivo"}
     ]
   },
   {
     "text": "Mi nombre es Leovigildo Potes, soy productor de café en Perú, manejo unas 5 hectáreas con variedades typica y arábica bajo sombra.",
     "entities": [
-      {"start": 47, "end": 51, "label": "cultivo"},
-      {"start": 55, "end": 59, "label": "pais"},
-      {"start": 72, "end": 83, "label": "superficie"},
-      {"start": 100, "end": 106, "label": "variedad"},
-      {"start": 109, "end": 116, "label": "variedad"}
+      {"start": 48, "end": 52, "label": "cultivo"},
+      {"start": 56, "end": 60, "label": "pais"},
+      {"start": 74, "end": 85, "label": "superficie"},
+      {"start": 101, "end": 107, "label": "variedad"},
+      {"start": 110, "end": 117, "label": "variedad"}
     ]
   },
   {
     "text": "Bueno eh seguimos trabajando en cosecha porque todavía queda bastante por recoger.",
     "entities": [
-      {"start": 31, "end": 38, "label": "tratamiento"}
+      {"start": 32, "end": 39, "label": "tratamiento"}
     ]
   },
   {
@@ -1610,7 +1606,7 @@
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
       {"start": 22, "end": 28, "label": "tratamiento"},
-      {"start": 74, "end": 81, "label": "factor_climatico"}
+      {"start": 75, "end": 82, "label": "factor_climatico"}
     ]
   },
   {
@@ -1618,52 +1614,52 @@
     "entities": [
       {"start": 36, "end": 43, "label": "localidad"},
       {"start": 59, "end": 70, "label": "localidad"},
-      {"start": 80, "end": 86, "label": "localidad"},
-      {"start": 99, "end": 112, "label": "cultivo"},
-      {"start": 132, "end": 141, "label": "superficie"},
+      {"start": 83, "end": 89, "label": "localidad"},
+      {"start": 102, "end": 114, "label": "cultivo"},
+      {"start": 133, "end": 141, "label": "superficie"},
       {"start": 161, "end": 185, "label": "cantidad"},
       {"start": 217, "end": 223, "label": "especie_sombra"},
       {"start": 225, "end": 249, "label": "especie_sombra"},
-      {"start": 272, "end": 279, "label": "cultivo"},
-      {"start": 282, "end": 291, "label": "especie_sombra"}
+      {"start": 267, "end": 274, "label": "cultivo"},
+      {"start": 277, "end": 285, "label": "especie_sombra"}
     ]
   },
   {
     "text": "Entonces estamos viendo que toca mejorar manejo del suelo porque está muy degradado.",
     "entities": [
-      {"start": 66, "end": 75, "label": "problema"}
+      {"start": 74, "end": 83, "label": "problema"}
     ]
   },
   {
     "text": "Hoy se hizo fertilización orgánica en varias plantas del lote.",
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
-      {"start": 13, "end": 36, "label": "tratamiento"}
+      {"start": 12, "end": 34, "label": "tratamiento"}
     ]
   },
   {
     "text": "Mi nombre es Gladys Marleni Choque, soy productora de café en Honduras, manejo unas 4 hectáreas con variedades bourbon y marsellesa.",
     "entities": [
-      {"start": 53, "end": 57, "label": "cultivo"},
-      {"start": 61, "end": 69, "label": "pais"},
-      {"start": 82, "end": 93, "label": "superficie"},
-      {"start": 110, "end": 117, "label": "variedad"},
-      {"start": 120, "end": 130, "label": "variedad"}
+      {"start": 54, "end": 58, "label": "cultivo"},
+      {"start": 62, "end": 70, "label": "pais"},
+      {"start": 84, "end": 95, "label": "superficie"},
+      {"start": 111, "end": 118, "label": "variedad"},
+      {"start": 121, "end": 131, "label": "variedad"}
     ]
   },
   {
     "text": "Bueno eh estamos haciendo control de broca recogiendo granos del suelo.",
     "entities": [
-      {"start": 26, "end": 42, "label": "tratamiento"},
+      {"start": 26, "end": 33, "label": "tratamiento"},
       {"start": 37, "end": 42, "label": "problema"},
-      {"start": 43, "end": 68, "label": "tratamiento"}
+      {"start": 43, "end": 70, "label": "tratamiento"}
     ]
   },
   {
     "text": "Hoy se hizo limpieza manual del lote con machete y guadaña.",
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
-      {"start": 13, "end": 58, "label": "tratamiento"}
+      {"start": 12, "end": 58, "label": "tratamiento"}
     ]
   },
   {
@@ -1671,70 +1667,70 @@
     "entities": [
       {"start": 51, "end": 55, "label": "cultivo"},
       {"start": 59, "end": 67, "label": "pais"},
-      {"start": 80, "end": 92, "label": "superficie"},
+      {"start": 81, "end": 93, "label": "superficie"},
       {"start": 109, "end": 117, "label": "variedad"}
     ]
   },
   {
     "text": "Entonces estamos organizando actividades para mejorar el rendimiento del cultivo.",
     "entities": [
-      {"start": 29, "end": 41, "label": "tratamiento"},
-      {"start": 69, "end": 76, "label": "cultivo"}
+      {"start": 29, "end": 40, "label": "tratamiento"},
+      {"start": 73, "end": 80, "label": "cultivo"}
     ]
   },
   {
     "text": "Hoy se hizo revisión general del cultivo sin novedades graves.",
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
-      {"start": 13, "end": 29, "label": "tratamiento"},
+      {"start": 12, "end": 28, "label": "tratamiento"},
       {"start": 33, "end": 40, "label": "cultivo"}
     ]
   },
   {
     "text": "Mi nombre es Luis Fernando Murillo, soy productor de cacao en Bolivia, manejo unas 7 hectáreas con variedades aroma cacao y CCN 51 bajo sombra.",
     "entities": [
-      {"start": 54, "end": 59, "label": "cultivo"},
-      {"start": 63, "end": 70, "label": "pais"},
+      {"start": 53, "end": 58, "label": "cultivo"},
+      {"start": 62, "end": 69, "label": "pais"},
       {"start": 83, "end": 94, "label": "superficie"},
-      {"start": 111, "end": 122, "label": "variedad"},
-      {"start": 125, "end": 131, "label": "variedad"}
+      {"start": 110, "end": 121, "label": "variedad"},
+      {"start": 124, "end": 130, "label": "variedad"}
     ]
   },
   {
     "text": "Bueno eh estamos viendo que el clima está afectando bastante la producción.",
     "entities": [
-      {"start": 28, "end": 33, "label": "factor_climatico"}
+      {"start": 31, "end": 36, "label": "factor_climatico"}
     ]
   },
   {
     "text": "Mi nombre es José Castaya. Comentarles, informarles sobre el manejo agronómico de nuestro cultivo de café. Tenemos presencias de plagas, no como la broca, entonces como caficultor para contrarrestar esto siempre hacemos lo que es la cosecha sanitaria. También tenemos enfermedades, presencia de enfermedades. Entonces nosotros, para que no haya daños, manejamos variedades que sean resistentes y tolerantes a las enfermedades. Otra situación preocupante es sobre los cambios climáticos y la sequía. Entonces, como familia, por eso hemos establecido el sistema agroforestal para contrarrestar la sequía. Por el momento la familia no está manejando una fertilización al cultivo, ya los posteriores años estamos planificando. Lo que manejamos por el momento son los jornaleros para los trabajos de control de hierbas, con materiales como machete, azadón y motodesbrozadora. Luego utilizamos jornales para la recolección de la cosecha. Estamos en tiempo de cosecha, entonces manejamos jornaleros. Posteriormente vamos a estar con las podas. Siempre agradecer al proyecto Colfasi y a los técnicos de INIAF que siempre nos dan apoyo de asistencia técnica. Al finalizar vamos a hacer el control de la sombra para mantener un adecuado 40 a 50% de sombra. Muchas gracias y saludos al proyecto Colfasi, a la institución INIAF y a los técnicos que trabajan arduamente con los productores de este sector.",
     "entities": [
-      {"start": 96, "end": 100, "label": "cultivo"},
-      {"start": 154, "end": 160, "label": "problema"},
-      {"start": 177, "end": 182, "label": "problema"},
-      {"start": 242, "end": 259, "label": "tratamiento"},
-      {"start": 279, "end": 291, "label": "problema"},
-      {"start": 504, "end": 521, "label": "factor_climatico"},
-      {"start": 528, "end": 534, "label": "factor_climatico"},
-      {"start": 595, "end": 614, "label": "sistema_produccion"},
-      {"start": 643, "end": 649, "label": "factor_climatico"},
-      {"start": 708, "end": 721, "label": "tratamiento"},
-      {"start": 851, "end": 870, "label": "tratamiento"},
-      {"start": 905, "end": 912, "label": "tratamiento"},
-      {"start": 971, "end": 988, "label": "tratamiento"},
-      {"start": 1082, "end": 1087, "label": "tratamiento"},
-      {"start": 1228, "end": 1247, "label": "tratamiento"},
-      {"start": 1277, "end": 1288, "label": "cantidad"}
+      {"start": 101, "end": 105, "label": "cultivo"},
+      {"start": 129, "end": 135, "label": "problema"},
+      {"start": 148, "end": 153, "label": "problema"},
+      {"start": 233, "end": 250, "label": "tratamiento"},
+      {"start": 268, "end": 280, "label": "problema"},
+      {"start": 467, "end": 485, "label": "factor_climatico"},
+      {"start": 491, "end": 497, "label": "factor_climatico"},
+      {"start": 552, "end": 572, "label": "sistema_produccion"},
+      {"start": 595, "end": 601, "label": "factor_climatico"},
+      {"start": 651, "end": 664, "label": "tratamiento"},
+      {"start": 795, "end": 813, "label": "tratamiento"},
+      {"start": 835, "end": 842, "label": "tratamiento"},
+      {"start": 905, "end": 930, "label": "tratamiento"},
+      {"start": 1030, "end": 1035, "label": "tratamiento"},
+      {"start": 1180, "end": 1200, "label": "tratamiento"},
+      {"start": 1227, "end": 1235, "label": "cantidad"}
     ]
   },
   {
     "text": "Mi nombre es Morán Reyes, soy productor de cacao en Panamá, manejo unas 11 hectáreas con sistema agroforestal bajo sombra de banano.",
     "entities": [
-      {"start": 42, "end": 47, "label": "cultivo"},
-      {"start": 51, "end": 57, "label": "pais"},
-      {"start": 70, "end": 82, "label": "superficie"},
-      {"start": 88, "end": 107, "label": "sistema_produccion"},
-      {"start": 124, "end": 130, "label": "especie_sombra"}
+      {"start": 43, "end": 48, "label": "cultivo"},
+      {"start": 52, "end": 58, "label": "pais"},
+      {"start": 72, "end": 84, "label": "superficie"},
+      {"start": 89, "end": 109, "label": "sistema_produccion"},
+      {"start": 125, "end": 131, "label": "especie_sombra"}
     ]
   },
   {
@@ -1747,8 +1743,8 @@
     "text": "Hoy se hizo control de enfermedades en varias zonas del cultivo.",
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
-      {"start": 13, "end": 36, "label": "tratamiento"},
-      {"start": 57, "end": 64, "label": "cultivo"}
+      {"start": 12, "end": 35, "label": "tratamiento"},
+      {"start": 56, "end": 63, "label": "cultivo"}
     ]
   },
   {
@@ -1756,39 +1752,39 @@
     "entities": [
       {"start": 50, "end": 54, "label": "cultivo"},
       {"start": 58, "end": 64, "label": "pais"},
-      {"start": 77, "end": 88, "label": "superficie"},
+      {"start": 78, "end": 89, "label": "superficie"},
       {"start": 105, "end": 118, "label": "variedad"}
     ]
   },
   {
     "text": "Bueno eh seguimos trabajando normal en la finca con mantenimiento general.",
     "entities": [
-      {"start": 49, "end": 70, "label": "tratamiento"}
+      {"start": 52, "end": 73, "label": "tratamiento"}
     ]
   },
   {
     "text": "Hoy se hizo revisión de plantas y estado general del cultivo.",
     "entities": [
       {"start": 0, "end": 3, "label": "fecha_evento"},
-      {"start": 13, "end": 32, "label": "tratamiento"},
-      {"start": 54, "end": 61, "label": "cultivo"}
+      {"start": 12, "end": 31, "label": "tratamiento"},
+      {"start": 53, "end": 60, "label": "cultivo"}
     ]
   },
   {
     "text": "Mi nombre es Fabio de Jesús Chavarría, soy productor de cacao en Bolivia, manejo unas 7 hectáreas con variedades CCN 51 y nacional bajo sombra.",
     "entities": [
-      {"start": 55, "end": 60, "label": "cultivo"},
-      {"start": 64, "end": 71, "label": "pais"},
-      {"start": 84, "end": 95, "label": "superficie"},
-      {"start": 112, "end": 118, "label": "variedad"},
-      {"start": 121, "end": 129, "label": "variedad"}
+      {"start": 56, "end": 61, "label": "cultivo"},
+      {"start": 65, "end": 72, "label": "pais"},
+      {"start": 86, "end": 97, "label": "superficie"},
+      {"start": 113, "end": 119, "label": "variedad"},
+      {"start": 122, "end": 130, "label": "variedad"}
     ]
   },
   {
     "text": "Entonces estamos organizando próximas labores de fertilización y poda.",
     "entities": [
-      {"start": 42, "end": 55, "label": "tratamiento"},
-      {"start": 58, "end": 62, "label": "tratamiento"}
+      {"start": 49, "end": 62, "label": "tratamiento"},
+      {"start": 65, "end": 69, "label": "tratamiento"}
     ]
   },
   {
@@ -1796,14 +1792,14 @@
     "entities": [
       {"start": 53, "end": 58, "label": "cultivo"},
       {"start": 62, "end": 66, "label": "pais"},
-      {"start": 79, "end": 90, "label": "superficie"},
+      {"start": 80, "end": 91, "label": "superficie"},
       {"start": 107, "end": 114, "label": "variedad"},
       {"start": 117, "end": 125, "label": "variedad"},
-      {"start": 131, "end": 150, "label": "sistema_produccion"},
-      {"start": 167, "end": 174, "label": "especie_sombra"},
-      {"start": 176, "end": 182, "label": "especie_sombra"},
-      {"start": 185, "end": 203, "label": "especie_sombra"},
-      {"start": 260, "end": 267, "label": "cultivo"}
+      {"start": 131, "end": 151, "label": "sistema_produccion"},
+      {"start": 166, "end": 173, "label": "especie_sombra"},
+      {"start": 175, "end": 181, "label": "especie_sombra"},
+      {"start": 184, "end": 202, "label": "especie_sombra"},
+      {"start": 252, "end": 259, "label": "cultivo"}
     ]
   }
 ]
