@@ -1,20 +1,18 @@
 {
   "entities": [
-    "cultivo",
-    "plaga_enfermedad",
-    "evento_agricola",
-    "producto_fitosanitario",
     "cantidad",
-    "volumen",
-    "superficie",
-    "masa",
-    "duracion",
+    "cultivo",
+    "distancia",
+    "especie_sombra",
+    "factor_climatico",
     "fecha_evento",
-    "espacio_agricola",
-    "estado_cultivo",
-    "condicion_climatica",
-    "parte_planta",
-    "tipo_suelo",
-    "herramienta_equipo"
+    "localidad",
+    "pais",
+    "problema",
+    "region",
+    "sistema_produccion",
+    "superficie",
+    "tratamiento",
+    "variedad"
   ]
 }

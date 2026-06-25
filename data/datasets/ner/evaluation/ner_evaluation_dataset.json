@@ -1,0 +1,244 @@
+[
+  {
+    "text": "Ayer por la tarde revisamos las 4 hectáreas de café y encontramos bastante roya en las hojas más bajas. En algunas plantas también se observa caída prematura de hojas, sobre todo en la parte donde pega menos el sol. Aplicamos 200 litros de fungicida a base de cobre, pero empezó a llover como a la hora y no sabemos si alcanzó a hacer efecto. Mañana, si mejora el tiempo, vamos a revisar otra vez el lote y decidir si repetimos el tratamiento.",
+    "entities": [
+      {"start": 0, "end": 17, "label": "fecha_evento"},
+      {"start": 32, "end": 43, "label": "superficie"},
+      {"start": 47, "end": 51, "label": "cultivo"},
+      {"start": 75, "end": 79, "label": "problema"},
+      {"start": 142, "end": 166, "label": "problema"},
+      {"start": 226, "end": 236, "label": "cantidad"},
+      {"start": 240, "end": 265, "label": "tratamiento"},
+      {"start": 281, "end": 287, "label": "factor_climatico"},
+      {"start": 343, "end": 349, "label": "fecha_evento"},
+      {"start": 418, "end": 442, "label": "tratamiento"}
+    ]
+  },
+  {
+    "text": "Mi nombre es Carlos Méndez y trabajo con cacao en una finca de 7 hectáreas en Santander. Desde hace dos semanas venimos encontrando mazorcas con monilia, primero eran pocas pero ahora ya aparecen en varios sectores. Hoy retiramos aproximadamente 35 mazorcas enfermas y aplicamos cal en los puntos donde quedaron los residuos. También hicimos poda de ramas bajas porque había demasiada humedad y casi no entraba aire entre las plantas.",
+    "entities": [
+      {"start": 41, "end": 46, "label": "cultivo"},
+      {"start": 63, "end": 74, "label": "superficie"},
+      {"start": 78, "end": 87, "label": "region"},
+      {"start": 89, "end": 111, "label": "fecha_evento"},
+      {"start": 145, "end": 152, "label": "problema"},
+      {"start": 216, "end": 219, "label": "fecha_evento"},
+      {"start": 246, "end": 257, "label": "cantidad"},
+      {"start": 258, "end": 266, "label": "problema"},
+      {"start": 279, "end": 282, "label": "tratamiento"},
+      {"start": 342, "end": 361, "label": "tratamiento"},
+      {"start": 385, "end": 392, "label": "factor_climatico"}
+    ]
+  },
+  {
+    "text": "Bueno, esta mañana estuvimos cosechando café variedad caturra en el lote de arriba, fueron como 180 kilos de fruto maduro. El problema es que todavía hay bastante grano verde mezclado porque algunos trabajadores recogen rápido y no seleccionan bien. Dejamos el café en fermentación desde las cuatro de la tarde y calculamos lavarlo mañana después de unas 18 horas. El agua está llegando con poca presión, entonces puede que el lavado se demore más de lo normal.",
+    "entities": [
+      {"start": 7, "end": 18, "label": "fecha_evento"},
+      {"start": 40, "end": 44, "label": "cultivo"},
+      {"start": 54, "end": 61, "label": "variedad"},
+      {"start": 96, "end": 105, "label": "cantidad"},
+      {"start": 163, "end": 174, "label": "problema"},
+      {"start": 261, "end": 265, "label": "cultivo"},
+      {"start": 269, "end": 281, "label": "tratamiento"},
+      {"start": 288, "end": 310, "label": "fecha_evento"},
+      {"start": 355, "end": 363, "label": "cantidad"},
+      {"start": 427, "end": 433, "label": "tratamiento"}
+    ]
+  },
+  {
+    "text": "En la parcela de cacao tenemos 5 hectáreas sembradas con trinitario y criollo, bajo sombra de plátano y árboles forestales. Durante la última semana ha llovido casi todos los días y el suelo permanece demasiado mojado. Encontramos síntomas de mazorca negra en unas 20 plantas y también presencia de hormigas en los brotes nuevos. El técnico recomendó mejorar el drenaje, retirar las mazorcas afectadas y aplicar un fungicida cada 15 días mientras continúe la humedad.",
+    "entities": [
+      {"start": 17, "end": 22, "label": "cultivo"},
+      {"start": 31, "end": 42, "label": "superficie"},
+      {"start": 57, "end": 67, "label": "variedad"},
+      {"start": 70, "end": 77, "label": "variedad"},
+      {"start": 94, "end": 101, "label": "especie_sombra"},
+      {"start": 104, "end": 122, "label": "especie_sombra"},
+      {"start": 124, "end": 148, "label": "fecha_evento"},
+      {"start": 152, "end": 159, "label": "factor_climatico"},
+      {"start": 201, "end": 217, "label": "problema"},
+      {"start": 243, "end": 256, "label": "problema"},
+      {"start": 265, "end": 275, "label": "cantidad"},
+      {"start": 299, "end": 307, "label": "problema"},
+      {"start": 351, "end": 369, "label": "tratamiento"},
+      {"start": 371, "end": 401, "label": "tratamiento"},
+      {"start": 404, "end": 424, "label": "tratamiento"},
+      {"start": 430, "end": 437, "label": "cantidad"},
+      {"start": 459, "end": 466, "label": "factor_climatico"}
+    ]
+  },
+  {
+    "text": "Hoy recorrimos el cultivo de café porque varios árboles estaban con las hojas amarillas y poco desarrollo en las ramas nuevas. El lote tiene aproximadamente 3 hectáreas y fue fertilizado hace un mes con 2 sacos de abono orgánico, pero parece que no fue suficiente. En la parte baja el suelo está muy compacto y se acumula agua cuando llueve fuerte. Vamos a hacer análisis del suelo la próxima semana y mientras tanto se aplicará compost alrededor de cada planta, sin acercarlo demasiado al tallo.",
+    "entities": [
+      {"start": 0, "end": 3, "label": "fecha_evento"},
+      {"start": 29, "end": 33, "label": "cultivo"},
+      {"start": 72, "end": 87, "label": "problema"},
+      {"start": 157, "end": 168, "label": "superficie"},
+      {"start": 187, "end": 198, "label": "fecha_evento"},
+      {"start": 203, "end": 210, "label": "cantidad"},
+      {"start": 214, "end": 228, "label": "tratamiento"},
+      {"start": 296, "end": 308, "label": "problema"},
+      {"start": 334, "end": 347, "label": "factor_climatico"},
+      {"start": 382, "end": 399, "label": "fecha_evento"},
+      {"start": 429, "end": 436, "label": "tratamiento"}
+    ]
+  },
+  {
+    "text": "Hoy encontramos broca en varios frutos de café, sobre todo en el lote dos. Se recogieron los granos caídos del suelo y se dejaron separados para evitar que la plaga siga aumentando.",
+    "entities": [
+      {"start": 0, "end": 3, "label": "fecha_evento"},
+      {"start": 16, "end": 21, "label": "problema"},
+      {"start": 42, "end": 46, "label": "cultivo"},
+      {"start": 78, "end": 116, "label": "tratamiento"}
+    ]
+  },
+  {
+    "text": "Estamos aplicando abono orgánico tipo bocashi en cacao, más o menos 500 gramos por planta. El suelo estaba bastante pobre y las plantas nuevas no estaban creciendo bien.",
+    "entities": [
+      {"start": 18, "end": 45, "label": "tratamiento"},
+      {"start": 49, "end": 54, "label": "cultivo"},
+      {"start": 68, "end": 78, "label": "cantidad"},
+      {"start": 116, "end": 121, "label": "problema"}
+    ]
+  },
+  {
+    "text": "Ayer se hizo poda sanitaria en el café, quitando ramas secas, hojas con roya y algunos chupones. Quedaron pendientes unas 60 plantas porque empezó a llover muy duro.",
+    "entities": [
+      {"start": 0, "end": 4, "label": "fecha_evento"},
+      {"start": 13, "end": 27, "label": "tratamiento"},
+      {"start": 34, "end": 38, "label": "cultivo"},
+      {"start": 49, "end": 60, "label": "problema"},
+      {"start": 72, "end": 76, "label": "problema"},
+      {"start": 122, "end": 132, "label": "cantidad"},
+      {"start": 149, "end": 164, "label": "factor_climatico"}
+    ]
+  },
+  {
+    "text": "En la finca tenemos 6 hectáreas de cacao y desde el lunes estamos viendo presencia de monilia. Hoy retiramos las mazorcas dañadas y las enterramos lejos del cultivo.",
+    "entities": [
+      {"start": 20, "end": 31, "label": "superficie"},
+      {"start": 35, "end": 40, "label": "cultivo"},
+      {"start": 43, "end": 57, "label": "fecha_evento"},
+      {"start": 86, "end": 93, "label": "problema"},
+      {"start": 95, "end": 98, "label": "fecha_evento"},
+      {"start": 99, "end": 129, "label": "tratamiento"},
+      {"start": 132, "end": 146, "label": "tratamiento"}
+    ]
+  },
+  {
+    "text": "El café lleva unas 16 horas en fermentación, pero todavía no se siente listo para lavar. Tal vez lo dejamos dos horas más porque anoche estuvo bastante frío.",
+    "entities": [
+      {"start": 3, "end": 7, "label": "cultivo"},
+      {"start": 19, "end": 27, "label": "cantidad"},
+      {"start": 31, "end": 43, "label": "tratamiento"},
+      {"start": 82, "end": 87, "label": "tratamiento"},
+      {"start": 108, "end": 117, "label": "cantidad"},
+      {"start": 129, "end": 135, "label": "fecha_evento"},
+      {"start": 152, "end": 156, "label": "factor_climatico"}
+    ]
+  },
+  {
+    "text": "Esta mañana aplicamos 20 litros de fungicida en una hectárea de cacao. Se trató principalmente la zona donde aparecieron manchas oscuras en las mazorcas.",
+    "entities": [
+      {"start": 0, "end": 11, "label": "fecha_evento"},
+      {"start": 22, "end": 31, "label": "cantidad"},
+      {"start": 35, "end": 44, "label": "tratamiento"},
+      {"start": 48, "end": 60, "label": "superficie"},
+      {"start": 64, "end": 69, "label": "cultivo"},
+      {"start": 121, "end": 136, "label": "problema"}
+    ]
+  },
+  {
+    "text": "La lluvia de los últimos días no ha dejado entrar al lote. El terreno está muy mojado y varias plantas de café tienen las raíces expuestas por la escorrentía.",
+    "entities": [
+      {"start": 0, "end": 9, "label": "factor_climatico"},
+      {"start": 13, "end": 29, "label": "fecha_evento"},
+      {"start": 75, "end": 85, "label": "problema"},
+      {"start": 106, "end": 110, "label": "cultivo"},
+      {"start": 122, "end": 138, "label": "problema"},
+      {"start": 146, "end": 157, "label": "factor_climatico"}
+    ]
+  },
+  {
+    "text": "Hoy se recogieron aproximadamente 120 kilos de café maduro. Salió también bastante grano verde, toca volver a revisar la selección antes del despulpado.",
+    "entities": [
+      {"start": 0, "end": 3, "label": "fecha_evento"},
+      {"start": 34, "end": 43, "label": "cantidad"},
+      {"start": 47, "end": 51, "label": "cultivo"},
+      {"start": 83, "end": 94, "label": "problema"},
+      {"start": 121, "end": 130, "label": "tratamiento"},
+      {"start": 141, "end": 151, "label": "tratamiento"}
+    ]
+  },
+  {
+    "text": "En el cacao se observan brotes nuevos con hojas arrugadas y algunas manchas amarillas. No sabemos si es falta de nutrientes o algún insecto, entonces mañana viene el técnico.",
+    "entities": [
+      {"start": 6, "end": 11, "label": "cultivo"},
+      {"start": 42, "end": 57, "label": "problema"},
+      {"start": 68, "end": 85, "label": "problema"},
+      {"start": 104, "end": 123, "label": "problema"},
+      {"start": 132, "end": 139, "label": "problema"},
+      {"start": 150, "end": 156, "label": "fecha_evento"}
+    ]
+  },
+  {
+    "text": "Aplicamos cal alrededor de las plantas porque el análisis mostró que el suelo está ácido. Fueron unos 300 gramos por planta en una superficie de 2 hectáreas.",
+    "entities": [
+      {"start": 10, "end": 13, "label": "tratamiento"},
+      {"start": 83, "end": 88, "label": "problema"},
+      {"start": 102, "end": 112, "label": "cantidad"},
+      {"start": 145, "end": 156, "label": "superficie"}
+    ]
+  },
+  {
+    "text": "Desde hace tres días hay mucho calor y viento fuerte. Las plantas jóvenes de café se están marchitando y algunas hojas ya tienen los bordes secos.",
+    "entities": [
+      {"start": 0, "end": 20, "label": "fecha_evento"},
+      {"start": 31, "end": 36, "label": "factor_climatico"},
+      {"start": 39, "end": 52, "label": "factor_climatico"},
+      {"start": 77, "end": 81, "label": "cultivo"},
+      {"start": 91, "end": 102, "label": "problema"},
+      {"start": 133, "end": 145, "label": "problema"}
+    ]
+  },
+  {
+    "text": "Hoy hicimos limpieza manual del lote con machete y guadaña. La maleza estaba muy alta, casi cubría las plantas pequeñas de cacao.",
+    "entities": [
+      {"start": 0, "end": 3, "label": "fecha_evento"},
+      {"start": 12, "end": 58, "label": "tratamiento"},
+      {"start": 63, "end": 69, "label": "problema"},
+      {"start": 123, "end": 128, "label": "cultivo"}
+    ]
+  },
+  {
+    "text": "En la parcela de café variedad castillo apareció roya otra vez, aunque se había aplicado fungicida hace 20 días. La afectación todavía es leve, pero está aumentando en la parte más húmeda.",
+    "entities": [
+      {"start": 17, "end": 21, "label": "cultivo"},
+      {"start": 31, "end": 39, "label": "variedad"},
+      {"start": 49, "end": 53, "label": "problema"},
+      {"start": 89, "end": 98, "label": "tratamiento"},
+      {"start": 99, "end": 111, "label": "fecha_evento"},
+      {"start": 177, "end": 187, "label": "factor_climatico"}
+    ]
+  },
+  {
+    "text": "Se aplicaron 3 sacos de fertilizante en una hectárea de cacao. Quedó pendiente la zona cercana al río porque el camino estaba lleno de barro.",
+    "entities": [
+      {"start": 13, "end": 20, "label": "cantidad"},
+      {"start": 24, "end": 36, "label": "tratamiento"},
+      {"start": 40, "end": 52, "label": "superficie"},
+      {"start": 56, "end": 61, "label": "cultivo"},
+      {"start": 135, "end": 140, "label": "problema"}
+    ]
+  },
+  {
+    "text": "Ayer por la mañana se revisaron las trampas para broca y varias estaban llenas. Se cambiaron los atrayentes y se recogieron los frutos secos que quedaban en las ramas.",
+    "entities": [
+      {"start": 0, "end": 18, "label": "fecha_evento"},
+      {"start": 36, "end": 43, "label": "tratamiento"},
+      {"start": 49, "end": 54, "label": "problema"},
+      {"start": 83, "end": 107, "label": "tratamiento"},
+      {"start": 113, "end": 140, "label": "tratamiento"}
+    ]
+  }
+]

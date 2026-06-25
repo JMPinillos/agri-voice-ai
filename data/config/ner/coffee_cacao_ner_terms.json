@@ -1,0 +1,5 @@
+{
+  "cultivo": ["café", "cacao"],
+  "problema": ["roya", "broca", "monilia"],
+  "tratamiento": ["fungicida", "fertilizante"]
+}
