@@ -1,5 +1,33 @@
 {
   "cultivo": ["café", "cacao"],
-  "problema": ["roya", "broca", "monilia"],
-  "tratamiento": ["fungicida", "fertilizante"]
+  "problema": [
+  "roya",
+  "broca",
+  "monilia",
+  "mazorca negra",
+  "grano verde",
+  "falta de nutrientes",
+  "hojas amarillas",
+  "manchas oscuras",
+  "hormigas",
+  "caída prematura de hojas"
+  ],
+  "tratamiento": [
+    "fungicida",
+    "fertilizante",
+    "cal",
+    "trampas"
+  ],
+  "variedad": [
+    "caturra",
+    "castillo"
+  ],
+  "factor_climatico": [
+    "lluvia",
+    "frío",
+    "viento"
+  ],
+  "region": [
+    "santander"
+  ]
 }
