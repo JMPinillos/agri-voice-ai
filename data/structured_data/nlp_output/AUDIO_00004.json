@@ -1,0 +1,23 @@
+{
+    "audio_id": "AUDIO_00004",
+    "text": "Ayer estuvimos recogiendo cacao, no mucho, pero algo salió unas cuantas mazurcas buenas  y otras dañadas que tocó separar.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "Ayer",
+            "label": "fecha_evento"
+        },
+        {
+            "text": "recogiendo",
+            "label": "tratamiento"
+        },
+        {
+            "text": "cacao",
+            "label": "cultivo"
+        },
+        {
+            "text": "dañadas",
+            "label": "problema"
+        }
+    ]
+}

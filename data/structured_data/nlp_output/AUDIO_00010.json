@@ -1,0 +1,19 @@
+{
+    "audio_id": "AUDIO_00010",
+    "text": "La verdad el clima está raro, mucha lluvia de golpe y luego sequía larga y eso afecta todo el cultivo.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "lluvia",
+            "label": "factor_climatico"
+        },
+        {
+            "text": "sequía",
+            "label": "factor_climatico"
+        },
+        {
+            "text": "cultivo",
+            "label": "cultivo"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "audio_id": "AUDIO_00071",
+    "text": "Mi nombre es Fernando Castillo, soy productor de cacao, manejo unas nueve hectáreas en  sistema agroforestal con variedades comerciales.",
+    "prediction": "registro_inicial",
+    "entities": [
+        {
+            "text": "cacao",
+            "label": "cultivo"
+        },
+        {
+            "text": "nueve hectáreas",
+            "label": "superficie"
+        },
+        {
+            "text": "sistema agroforestal",
+            "label": "sistema_produccion"
+        },
+        {
+            "text": "comerciales",
+            "label": "variedad"
+        },
+        {
+            "text": "Castillo",
+            "label": "variedad"
+        }
+    ]
+}

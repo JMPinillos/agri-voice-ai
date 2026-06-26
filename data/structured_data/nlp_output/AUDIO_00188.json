@@ -1,0 +1,19 @@
+{
+    "audio_id": "AUDIO_00188",
+    "text": "Hoy se hizo revisión general del cultivo sin novedades graves.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "Hoy",
+            "label": "fecha_evento"
+        },
+        {
+            "text": "revisión general",
+            "label": "tratamiento"
+        },
+        {
+            "text": "cultivo",
+            "label": "cultivo"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "audio_id": "AUDIO_00009",
+    "text": "Estamos haciendo poda de renovación en los cafetales viejos, ya no estaban produciendo bien y toca renovar.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "poda de renovación",
+            "label": "tratamiento"
+        },
+        {
+            "text": "cafetales",
+            "label": "cultivo"
+        },
+        {
+            "text": "ya no estaban produciendo",
+            "label": "problema"
+        }
+    ]
+}

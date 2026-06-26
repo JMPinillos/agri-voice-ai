@@ -1,0 +1,27 @@
+{
+    "audio_id": "AUDIO_00065",
+    "text": "Mi nombre es Ricardo Gómez, soy productor de cacao en Panamá, tengo unas 5 hectáreas  bajo manejo agro forestal con sombra de frutales.",
+    "prediction": "registro_inicial",
+    "entities": [
+        {
+            "text": "cacao",
+            "label": "cultivo"
+        },
+        {
+            "text": "Panamá",
+            "label": "pais"
+        },
+        {
+            "text": "5 hectáreas",
+            "label": "superficie"
+        },
+        {
+            "text": "manejo agro forestal",
+            "label": "sistema_produccion"
+        },
+        {
+            "text": "frutales",
+            "label": "especie_sombra"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "audio_id": "AUDIO_00011",
+    "text": "Entonces, en estos días estamos en cosecha de cacao, cortando las mazorcas maduras y separando  las que tienen enfermedad para no mezclar.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "estos días",
+            "label": "fecha_evento"
+        },
+        {
+            "text": "cosecha",
+            "label": "tratamiento"
+        },
+        {
+            "text": "cacao",
+            "label": "cultivo"
+        },
+        {
+            "text": "enfermedad",
+            "label": "problema"
+        }
+    ]
+}

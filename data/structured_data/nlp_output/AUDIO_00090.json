@@ -1,0 +1,15 @@
+{
+    "audio_id": "AUDIO_00090",
+    "text": "Hoy casi no se trabajó mucho porque la lluvia no dejó entrar al lote.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "Hoy",
+            "label": "fecha_evento"
+        },
+        {
+            "text": "lluvia",
+            "label": "factor_climatico"
+        }
+    ]
+}

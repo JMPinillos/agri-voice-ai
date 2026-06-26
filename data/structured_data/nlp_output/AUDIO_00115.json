@@ -1,0 +1,19 @@
+{
+    "audio_id": "AUDIO_00115",
+    "text": "Se está haciendo regulación de sombra porque el lote estaba muy cerrado y generó enfermedades",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "regulación de sombra",
+            "label": "tratamiento"
+        },
+        {
+            "text": "cerrado",
+            "label": "problema"
+        },
+        {
+            "text": "enfermedades",
+            "label": "problema"
+        }
+    ]
+}

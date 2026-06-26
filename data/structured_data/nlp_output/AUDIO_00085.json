@@ -1,0 +1,35 @@
+{
+    "audio_id": "AUDIO_00085",
+    "text": "Buenas, mi nombre es Jorge Mario Muñoz, soy productor de café en el departamento del  Cauca, Colombia. Tengo unas ocho hectáreas sembradas con variedad castillo y caturra,  bajo sombra de guanos y árboles nativos trabajando en producción limpia.",
+    "prediction": "registro_inicial",
+    "entities": [
+        {
+            "text": "café",
+            "label": "cultivo"
+        },
+        {
+            "text": "Cauca",
+            "label": "region"
+        },
+        {
+            "text": "Colombia",
+            "label": "pais"
+        },
+        {
+            "text": "ocho hectáreas",
+            "label": "superficie"
+        },
+        {
+            "text": "castillo",
+            "label": "variedad"
+        },
+        {
+            "text": "caturra",
+            "label": "variedad"
+        },
+        {
+            "text": "árboles nativos",
+            "label": "especie_sombra"
+        }
+    ]
+}

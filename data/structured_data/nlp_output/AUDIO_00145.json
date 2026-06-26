@@ -1,0 +1,23 @@
+{
+    "audio_id": "AUDIO_00145",
+    "text": "Mi nombre es Gabriel Ager Castrillon, soy productor de café en Colombia. Tengo unas  cinco hectáreas con variedades Heysa y Catimor bajo sombra de frutales.",
+    "prediction": "registro_inicial",
+    "entities": [
+        {
+            "text": "café",
+            "label": "cultivo"
+        },
+        {
+            "text": "Colombia",
+            "label": "pais"
+        },
+        {
+            "text": "cinco hectáreas",
+            "label": "superficie"
+        },
+        {
+            "text": "frutales",
+            "label": "especie_sombra"
+        }
+    ]
+}

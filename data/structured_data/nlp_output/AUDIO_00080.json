@@ -1,0 +1,39 @@
+{
+    "audio_id": "AUDIO_00080",
+    "text": "Mi nombre es Jorge Iván Morales, soy productor de Caffe en Perú, trabajo en una finca de aproximadamente 8 hectáreas,  con variedades arábicas, bajo sistema oroforestal, con sombra de guava y árboles forestales,  buscando mejorar la calidad del cultivo y mantener sostenibilidad en la producción.",
+    "prediction": "registro_inicial",
+    "entities": [
+        {
+            "text": "Caffe",
+            "label": "cultivo"
+        },
+        {
+            "text": "Perú",
+            "label": "pais"
+        },
+        {
+            "text": "8 hectáreas",
+            "label": "superficie"
+        },
+        {
+            "text": "arábicas",
+            "label": "variedad"
+        },
+        {
+            "text": "sistema oroforestal",
+            "label": "sistema_produccion"
+        },
+        {
+            "text": "guava",
+            "label": "especie_sombra"
+        },
+        {
+            "text": "árboles forestales",
+            "label": "especie_sombra"
+        },
+        {
+            "text": "cultivo",
+            "label": "cultivo"
+        }
+    ]
+}

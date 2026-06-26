@@ -1,0 +1,23 @@
+{
+    "audio_id": "AUDIO_00018",
+    "text": "Mi nombre es Pedro Castillo, soy productor de cacao y actualmente tengo dos hectáreas  sembradas con manejo tradicional en sistema mixto.",
+    "prediction": "registro_inicial",
+    "entities": [
+        {
+            "text": "cacao",
+            "label": "cultivo"
+        },
+        {
+            "text": "dos hectáreas",
+            "label": "superficie"
+        },
+        {
+            "text": "manejo tradicional",
+            "label": "sistema_produccion"
+        },
+        {
+            "text": "Castillo",
+            "label": "variedad"
+        }
+    ]
+}

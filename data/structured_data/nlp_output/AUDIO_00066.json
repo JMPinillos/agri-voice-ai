@@ -1,0 +1,27 @@
+{
+    "audio_id": "AUDIO_00066",
+    "text": "Hoy se hizo el despulpado del café y quedó en fermentación para seguir el proceso mañana.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "Hoy",
+            "label": "fecha_evento"
+        },
+        {
+            "text": "despulpado",
+            "label": "tratamiento"
+        },
+        {
+            "text": "café",
+            "label": "cultivo"
+        },
+        {
+            "text": "fermentación",
+            "label": "tratamiento"
+        },
+        {
+            "text": "mañana",
+            "label": "fecha_evento"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "audio_id": "AUDIO_00198",
+    "text": "Mi nombre es Fabio de Jesús Chavarría. Soy productor de cacao en Bolivia.  Manejo unas siete tareas con variedades CCN 51 y Nacional Bajo Sombra.",
+    "prediction": "registro_inicial",
+    "entities": [
+        {
+            "text": "cacao",
+            "label": "cultivo"
+        },
+        {
+            "text": "Bolivia",
+            "label": "pais"
+        },
+        {
+            "text": "siete tareas",
+            "label": "cantidad"
+        },
+        {
+            "text": "CCN 51",
+            "label": "variedad"
+        },
+        {
+            "text": "Nacional",
+            "label": "variedad"
+        }
+    ]
+}

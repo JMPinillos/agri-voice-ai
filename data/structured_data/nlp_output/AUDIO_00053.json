@@ -1,0 +1,15 @@
+{
+    "audio_id": "AUDIO_00053",
+    "text": "Entonces, organizando el trabajo del día, hicimos deshierbe y limpieza general del lote.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "deshierbe",
+            "label": "tratamiento"
+        },
+        {
+            "text": "limpieza",
+            "label": "tratamiento"
+        }
+    ]
+}

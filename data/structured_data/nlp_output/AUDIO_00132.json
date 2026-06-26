@@ -1,0 +1,31 @@
+{
+    "audio_id": "AUDIO_00132",
+    "text": "Mi nombre es Saura María Mosquera, soy productora de Kakán, Perú.  Manejo una finca de 7 hectáreas con variedades trinitario y nacional bajo sistema agroforestal.",
+    "prediction": "registro_inicial",
+    "entities": [
+        {
+            "text": "Kakán",
+            "label": "localidad"
+        },
+        {
+            "text": "Perú",
+            "label": "pais"
+        },
+        {
+            "text": "7 hectáreas",
+            "label": "superficie"
+        },
+        {
+            "text": "trinitario",
+            "label": "variedad"
+        },
+        {
+            "text": "nacional",
+            "label": "variedad"
+        },
+        {
+            "text": "sistema agroforestal",
+            "label": "sistema_produccion"
+        }
+    ]
+}

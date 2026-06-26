@@ -1,0 +1,19 @@
+{
+    "audio_id": "AUDIO_00095",
+    "text": "Hola soy Marta Lucía Torres, cultivo café en una finca de cuatro hectáreas  con variedad gaysa y manejo técnico enfocado en calidad.",
+    "prediction": "registro_inicial",
+    "entities": [
+        {
+            "text": "café",
+            "label": "cultivo"
+        },
+        {
+            "text": "cuatro hectáreas",
+            "label": "superficie"
+        },
+        {
+            "text": "gaysa",
+            "label": "variedad"
+        }
+    ]
+}

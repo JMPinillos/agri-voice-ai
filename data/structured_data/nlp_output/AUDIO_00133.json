@@ -1,0 +1,19 @@
+{
+    "audio_id": "AUDIO_00133",
+    "text": "Entonces estamos aplicando abono orgánico tipo Bokashi  porque el suelo estaba bastante pobre y necesitamos recuperar nutrientes.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "abono orgánico tipo",
+            "label": "tratamiento"
+        },
+        {
+            "text": "pobre",
+            "label": "problema"
+        },
+        {
+            "text": "nutrientes",
+            "label": "problema"
+        }
+    ]
+}

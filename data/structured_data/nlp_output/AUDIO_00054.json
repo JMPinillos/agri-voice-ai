@@ -1,0 +1,15 @@
+{
+    "audio_id": "AUDIO_00054",
+    "text": "Se observó presencia de hongos en algunas plantas por exceso de humedad en el lote.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "hongos",
+            "label": "problema"
+        },
+        {
+            "text": "humedad",
+            "label": "factor_climatico"
+        }
+    ]
+}

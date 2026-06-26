@@ -1,0 +1,19 @@
+{
+    "audio_id": "AUDIO_00063",
+    "text": "Ayer revisamos el lote y encontramos moniliasis en varias plantas, entonces toca hacer control.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "Ayer",
+            "label": "fecha_evento"
+        },
+        {
+            "text": "moniliasis",
+            "label": "problema"
+        },
+        {
+            "text": "control",
+            "label": "tratamiento"
+        }
+    ]
+}

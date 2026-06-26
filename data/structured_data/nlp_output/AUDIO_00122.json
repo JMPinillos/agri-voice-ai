@@ -1,0 +1,67 @@
+{
+    "audio_id": "AUDIO_00122",
+    "text": "Mi nombre es Javier de Jesús Jaramillo, soy productor de cacao del caserío Pampa Hermosa  del centro poblado San Martín, distrito de Moyo Bamba, provincia de Moyo Bamba, región  de San Martín, Perú. Actualmente mantengo una finca de 8 hectáreas sembradas con  variedades ICS95 y criollo bajo un sistema agroforestal con sombra de cítricos, guavos  y árboles forestales, trabajando con asistencia técnica para mejorar la productividad y sostenibilidad  del cultivo.",
+    "prediction": "registro_inicial",
+    "entities": [
+        {
+            "text": "cacao",
+            "label": "cultivo"
+        },
+        {
+            "text": "Pampa Hermosa",
+            "label": "localidad"
+        },
+        {
+            "text": "San Martín",
+            "label": "localidad"
+        },
+        {
+            "text": "Moyo Bamba",
+            "label": "region"
+        },
+        {
+            "text": "Moyo Bamba",
+            "label": "region"
+        },
+        {
+            "text": "San Martín",
+            "label": "region"
+        },
+        {
+            "text": "Perú",
+            "label": "pais"
+        },
+        {
+            "text": "8 hectáreas",
+            "label": "superficie"
+        },
+        {
+            "text": "ICS95",
+            "label": "fecha_evento"
+        },
+        {
+            "text": "criollo",
+            "label": "variedad"
+        },
+        {
+            "text": "sistema agroforestal",
+            "label": "sistema_produccion"
+        },
+        {
+            "text": "cítricos",
+            "label": "especie_sombra"
+        },
+        {
+            "text": "guavos  ",
+            "label": "especie_sombra"
+        },
+        {
+            "text": "árboles forestales",
+            "label": "especie_sombra"
+        },
+        {
+            "text": "cultivo",
+            "label": "cultivo"
+        }
+    ]
+}

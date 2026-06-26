@@ -1,0 +1,35 @@
+{
+    "audio_id": "AUDIO_00131",
+    "text": "En estos momentos estamos en proceso de post cosecha del café y ahí hicimos el  descultado y ahora está en fermentación más o menos unas 18 horas antes del lavado.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "En estos momentos",
+            "label": "fecha_evento"
+        },
+        {
+            "text": "post cosecha",
+            "label": "tratamiento"
+        },
+        {
+            "text": "café",
+            "label": "cultivo"
+        },
+        {
+            "text": "descultado",
+            "label": "tratamiento"
+        },
+        {
+            "text": "fermentación",
+            "label": "tratamiento"
+        },
+        {
+            "text": "18 horas",
+            "label": "cantidad"
+        },
+        {
+            "text": "lavado",
+            "label": "tratamiento"
+        }
+    ]
+}

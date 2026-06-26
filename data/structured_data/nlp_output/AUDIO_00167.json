@@ -1,0 +1,15 @@
+{
+    "audio_id": "AUDIO_00167",
+    "text": "Hoy se avanzó en cosecha recogiendo lo más maduro para asegurar calidad.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "Hoy",
+            "label": "fecha_evento"
+        },
+        {
+            "text": "cosecha",
+            "label": "tratamiento"
+        }
+    ]
+}

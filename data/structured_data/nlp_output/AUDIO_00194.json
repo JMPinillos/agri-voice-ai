@@ -1,0 +1,19 @@
+{
+    "audio_id": "AUDIO_00194",
+    "text": "Hoy se hizo control de enfermedades en varias zonas del cultivo.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "Hoy",
+            "label": "fecha_evento"
+        },
+        {
+            "text": "control de enfermedades",
+            "label": "tratamiento"
+        },
+        {
+            "text": "cultivo",
+            "label": "cultivo"
+        }
+    ]
+}

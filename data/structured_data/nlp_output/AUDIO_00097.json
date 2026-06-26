@@ -1,0 +1,15 @@
+{
+    "audio_id": "AUDIO_00097",
+    "text": "Bueno, estamos viendo que el suelo está ácido, entonces toca aplicar cal para mejorar las  condiciones.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "ácido",
+            "label": "problema"
+        },
+        {
+            "text": "cal",
+            "label": "tratamiento"
+        }
+    ]
+}

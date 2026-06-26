@@ -1,0 +1,27 @@
+{
+    "audio_id": "AUDIO_00189",
+    "text": "Mi nombre es Luis Fernando Murillo, soy productor de cacao en Bolivia, manejo unas quince hectáreas  con variedades Aroma Cacao y CCN 51 bajo sombra.",
+    "prediction": "registro_inicial",
+    "entities": [
+        {
+            "text": "cacao",
+            "label": "cultivo"
+        },
+        {
+            "text": "Bolivia",
+            "label": "pais"
+        },
+        {
+            "text": "quince hectáreas",
+            "label": "superficie"
+        },
+        {
+            "text": "Aroma Cacao",
+            "label": "variedad"
+        },
+        {
+            "text": "CCN 51",
+            "label": "variedad"
+        }
+    ]
+}

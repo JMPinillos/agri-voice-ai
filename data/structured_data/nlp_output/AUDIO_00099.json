@@ -1,0 +1,11 @@
+{
+    "audio_id": "AUDIO_00099",
+    "text": "Entonces estamos haciendo cosecha selectiva recogiendo solo frutos maduros para no afectar la calidad final.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "cosecha selectiva",
+            "label": "tratamiento"
+        }
+    ]
+}

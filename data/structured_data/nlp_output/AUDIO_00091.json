@@ -1,0 +1,35 @@
+{
+    "audio_id": "AUDIO_00091",
+    "text": "En estos días estamos en proceso de fermentación del café. Ya llevo unas 18 horas y mañana seguimos con el lavado.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "En estos días",
+            "label": "fecha_evento"
+        },
+        {
+            "text": "fermentación",
+            "label": "tratamiento"
+        },
+        {
+            "text": "café",
+            "label": "cultivo"
+        },
+        {
+            "text": "Ya",
+            "label": "fecha_evento"
+        },
+        {
+            "text": "18 horas",
+            "label": "cantidad"
+        },
+        {
+            "text": "mañana",
+            "label": "fecha_evento"
+        },
+        {
+            "text": "lavado",
+            "label": "tratamiento"
+        }
+    ]
+}

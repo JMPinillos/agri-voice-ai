@@ -1,0 +1,15 @@
+{
+    "audio_id": "AUDIO_00038",
+    "text": "Hola soy Miguel Ríos, productor cacaotero. Tengo aproximadamente cuatro tareas en producción  bajo manejo convencional.",
+    "prediction": "registro_inicial",
+    "entities": [
+        {
+            "text": "cacaotero",
+            "label": "cultivo"
+        },
+        {
+            "text": "manejo convencional",
+            "label": "sistema_produccion"
+        }
+    ]
+}

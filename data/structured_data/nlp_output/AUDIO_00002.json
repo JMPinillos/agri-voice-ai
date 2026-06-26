@@ -1,0 +1,43 @@
+{
+    "audio_id": "AUDIO_00002",
+    "text": "Mi nombre es Luis Fernando Taborda, soy productor de café en la vereda El Tambo, municipio de El Tambo, departamento de Cauca, Colombia.  Actualmente manejo aproximadamente 7 hectáreas sembradas con variedad castillo bajo un sistema agroforestal con sombra de guavos y algunos frutales, trabajando con apoyo técnico para mejorar la producción.",
+    "prediction": "registro_inicial",
+    "entities": [
+        {
+            "text": "café",
+            "label": "cultivo"
+        },
+        {
+            "text": "El Tambo",
+            "label": "localidad"
+        },
+        {
+            "text": "Cauca",
+            "label": "region"
+        },
+        {
+            "text": "Colombia",
+            "label": "pais"
+        },
+        {
+            "text": "7 hectáreas",
+            "label": "superficie"
+        },
+        {
+            "text": "castillo",
+            "label": "variedad"
+        },
+        {
+            "text": "sistema agroforestal",
+            "label": "sistema_produccion"
+        },
+        {
+            "text": "guavos",
+            "label": "especie_sombra"
+        },
+        {
+            "text": "frutales",
+            "label": "especie_sombra"
+        }
+    ]
+}

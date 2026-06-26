@@ -1,0 +1,15 @@
+{
+    "audio_id": "AUDIO_00112",
+    "text": "Entonces estamos viendo que las plantas están débiles, entonces toca reforzar con fertilización  orgánica.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "débiles",
+            "label": "problema"
+        },
+        {
+            "text": "fertilización  orgánica",
+            "label": "tratamiento"
+        }
+    ]
+}

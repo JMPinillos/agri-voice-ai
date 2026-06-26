@@ -1,0 +1,11 @@
+{
+    "audio_id": "AUDIO_00178",
+    "text": "Bueno, seguimos trabajando en cosecha porque todavía queda bastante por recoger.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "cosecha",
+            "label": "tratamiento"
+        }
+    ]
+}

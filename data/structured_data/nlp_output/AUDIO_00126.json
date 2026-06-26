@@ -1,0 +1,15 @@
+{
+    "audio_id": "AUDIO_00126",
+    "text": "La verdad, el clima está bastante complicado porque llueve muy duro en unos momentos y  luego pega un calor fuerte.  Entonces eso estresa mucho las plantas.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "llueve muy duro",
+            "label": "factor_climatico"
+        },
+        {
+            "text": "calor fuerte",
+            "label": "factor_climatico"
+        }
+    ]
+}

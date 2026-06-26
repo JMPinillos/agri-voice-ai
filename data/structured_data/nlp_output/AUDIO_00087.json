@@ -1,0 +1,19 @@
+{
+    "audio_id": "AUDIO_00087",
+    "text": "Hoy tocó hacer poda sanitaria quitando ramas secas, enfermas y partes que ya no sirven del cultivo.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "Hoy",
+            "label": "fecha_evento"
+        },
+        {
+            "text": "poda sanitaria",
+            "label": "tratamiento"
+        },
+        {
+            "text": "cultivo",
+            "label": "cultivo"
+        }
+    ]
+}

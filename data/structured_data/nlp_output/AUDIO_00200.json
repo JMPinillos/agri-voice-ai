@@ -1,0 +1,47 @@
+{
+    "audio_id": "AUDIO_00200",
+    "text": "Mi nombre es Blanca Nieves Rivera, soy productora de cacao en Perú.  Manejo unas 5 hectáreas con variedades criollo y nacional, bajo sistema agroforestal,  con sombra de plátano, guavos y árboles forestales,  buscando mantener la productividad y calidad del cultivo con apoyo técnico.",
+    "prediction": "registro_inicial",
+    "entities": [
+        {
+            "text": "cacao",
+            "label": "cultivo"
+        },
+        {
+            "text": "Perú",
+            "label": "pais"
+        },
+        {
+            "text": "5 hectáreas",
+            "label": "superficie"
+        },
+        {
+            "text": "criollo",
+            "label": "variedad"
+        },
+        {
+            "text": "nacional",
+            "label": "variedad"
+        },
+        {
+            "text": "sistema agroforestal",
+            "label": "sistema_produccion"
+        },
+        {
+            "text": "plátano",
+            "label": "especie_sombra"
+        },
+        {
+            "text": "guavos",
+            "label": "especie_sombra"
+        },
+        {
+            "text": "árboles forestales",
+            "label": "especie_sombra"
+        },
+        {
+            "text": "cultivo",
+            "label": "cultivo"
+        }
+    ]
+}

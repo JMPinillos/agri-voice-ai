@@ -1,0 +1,27 @@
+{
+    "audio_id": "AUDIO_00077",
+    "text": "Mi nombre es Carlos Andrés Ríos, soy productor de cacao en Colombia, manejo unas seis hectáreas  con sistema agroforestal bajo sombra de árboles nativos.",
+    "prediction": "registro_inicial",
+    "entities": [
+        {
+            "text": "cacao",
+            "label": "cultivo"
+        },
+        {
+            "text": "Colombia",
+            "label": "pais"
+        },
+        {
+            "text": "seis hectáreas",
+            "label": "superficie"
+        },
+        {
+            "text": "sistema agroforestal",
+            "label": "sistema_produccion"
+        },
+        {
+            "text": "árboles nativos",
+            "label": "especie_sombra"
+        }
+    ]
+}

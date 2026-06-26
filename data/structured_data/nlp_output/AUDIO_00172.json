@@ -1,0 +1,15 @@
+{
+    "audio_id": "AUDIO_00172",
+    "text": "Bueno, estamos viendo que el cultivo necesita más manejo porque hay zonas muy débiles.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "cultivo",
+            "label": "cultivo"
+        },
+        {
+            "text": "muy débiles",
+            "label": "problema"
+        }
+    ]
+}

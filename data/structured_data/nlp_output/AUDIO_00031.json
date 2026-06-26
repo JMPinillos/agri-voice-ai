@@ -1,0 +1,19 @@
+{
+    "audio_id": "AUDIO_00031",
+    "text": "En estos momentos estamos en plena cosecha de café recogiendo lo más maduro para asegurar buena calidad en el producto final.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "En estos momentos",
+            "label": "fecha_evento"
+        },
+        {
+            "text": "cosecha",
+            "label": "tratamiento"
+        },
+        {
+            "text": "café",
+            "label": "cultivo"
+        }
+    ]
+}

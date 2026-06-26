@@ -1,0 +1,15 @@
+{
+    "audio_id": "AUDIO_00025",
+    "text": "Hola, soy Andrés Pérez, cultivo café en una parcela de tres hectáreas con variedad  geisa buscando calidad en taza.",
+    "prediction": "registro_inicial",
+    "entities": [
+        {
+            "text": "café",
+            "label": "cultivo"
+        },
+        {
+            "text": "tres hectáreas",
+            "label": "superficie"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "audio_id": "AUDIO_00166",
+    "text": "En cuanto a afectaciones de plagas y enfermedades, podemos notar claramente que tenemos en cuanto  a enfermedad, hay mucha afectación en lo que es el ojo de gallo y la roya. Y en cuanto  a las plagas, tenemos la afectación y la presencia de la broca, el minador y la hilacha.  Y también en los últimos años ya sentimos también lo que es el cambio climático, la  sequía y otros factores que enargúyen, digamos, en lo que es el clima.  Entonces, como productores tenemos que ya ver qué formas tomar dentro de nuestra conciencia.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "ojo de gallo",
+            "label": "problema"
+        },
+        {
+            "text": "roya",
+            "label": "problema"
+        },
+        {
+            "text": "broca",
+            "label": "problema"
+        },
+        {
+            "text": "minador",
+            "label": "problema"
+        },
+        {
+            "text": "hilacha",
+            "label": "problema"
+        },
+        {
+            "text": "cambio climático",
+            "label": "factor_climatico"
+        },
+        {
+            "text": "sequía",
+            "label": "factor_climatico"
+        },
+        {
+            "text": "ya ver qué formas tomar dentro de nuestra conciencia",
+            "label": "fecha_evento"
+        }
+    ]
+}

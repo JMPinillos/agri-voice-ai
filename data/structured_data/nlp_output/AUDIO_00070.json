@@ -1,0 +1,15 @@
+{
+    "audio_id": "AUDIO_00070",
+    "text": "Hoy se hizo limpieza del lote quitando maleza con machetes y guadaña.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "Hoy",
+            "label": "fecha_evento"
+        },
+        {
+            "text": "limpieza del lote quitando maleza con machetes y guadaña",
+            "label": "tratamiento"
+        }
+    ]
+}

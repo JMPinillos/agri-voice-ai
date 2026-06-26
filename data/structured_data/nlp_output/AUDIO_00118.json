@@ -1,0 +1,19 @@
+{
+    "audio_id": "AUDIO_00118",
+    "text": "Entonces estamos organizando la jornada para hacer poda de renovación en cafetales viejos  que ya no producen bien.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "poda de renovación",
+            "label": "tratamiento"
+        },
+        {
+            "text": "cafetales",
+            "label": "cultivo"
+        },
+        {
+            "text": "ya no producen bien",
+            "label": "problema"
+        }
+    ]
+}

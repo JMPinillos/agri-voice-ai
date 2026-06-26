@@ -1,0 +1,27 @@
+{
+    "audio_id": "AUDIO_00171",
+    "text": "Mi nombre es Sonia Elizabeth Alvarado, soy productora de café en Panamá, manejo  unas ocho hectáreas con variedades Heisha y Marseilla.  Bajo sombra.",
+    "prediction": "registro_inicial",
+    "entities": [
+        {
+            "text": "café",
+            "label": "cultivo"
+        },
+        {
+            "text": "Panamá",
+            "label": "pais"
+        },
+        {
+            "text": "ocho hectáreas",
+            "label": "superficie"
+        },
+        {
+            "text": "Heisha",
+            "label": "variedad"
+        },
+        {
+            "text": "Marseilla.",
+            "label": "region"
+        }
+    ]
+}

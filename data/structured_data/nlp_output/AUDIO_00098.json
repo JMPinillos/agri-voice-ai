@@ -1,0 +1,31 @@
+{
+    "audio_id": "AUDIO_00098",
+    "text": "Mi nombre es Pedro Castillo, soy productor de cacao, manejo unas 7 hectáreas bajo sombra  de plátano y árboles forestales con Cixemamisto.",
+    "prediction": "registro_inicial",
+    "entities": [
+        {
+            "text": "cacao",
+            "label": "cultivo"
+        },
+        {
+            "text": "7 hectáreas",
+            "label": "superficie"
+        },
+        {
+            "text": "plátano",
+            "label": "especie_sombra"
+        },
+        {
+            "text": "árboles forestales",
+            "label": "especie_sombra"
+        },
+        {
+            "text": "Cixemamisto",
+            "label": "localidad"
+        },
+        {
+            "text": "Castillo",
+            "label": "variedad"
+        }
+    ]
+}

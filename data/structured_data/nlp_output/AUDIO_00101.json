@@ -1,0 +1,15 @@
+{
+    "audio_id": "AUDIO_00101",
+    "text": "Bueno, en la finca estamos aplicando compost para recuperar las plantas después de la cosecha  anterior porque estaban débiles.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "compost",
+            "label": "tratamiento"
+        },
+        {
+            "text": "débiles",
+            "label": "problema"
+        }
+    ]
+}

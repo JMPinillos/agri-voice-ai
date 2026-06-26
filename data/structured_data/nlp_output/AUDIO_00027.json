@@ -1,0 +1,23 @@
+{
+    "audio_id": "AUDIO_00027",
+    "text": "Hoy se hizo lavado del café después de la fermentación con agua limpia de la finca.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "Hoy",
+            "label": "fecha_evento"
+        },
+        {
+            "text": "lavado",
+            "label": "tratamiento"
+        },
+        {
+            "text": "café",
+            "label": "cultivo"
+        },
+        {
+            "text": "fermentación",
+            "label": "tratamiento"
+        }
+    ]
+}

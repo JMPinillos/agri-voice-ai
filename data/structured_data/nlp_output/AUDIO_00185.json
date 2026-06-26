@@ -1,0 +1,15 @@
+{
+    "audio_id": "AUDIO_00185",
+    "text": "Hoy seguizó limpieza manual del lote con machete y guadaña.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "Hoy",
+            "label": "fecha_evento"
+        },
+        {
+            "text": "limpieza manual del lote con machete y guadaña",
+            "label": "tratamiento"
+        }
+    ]
+}
