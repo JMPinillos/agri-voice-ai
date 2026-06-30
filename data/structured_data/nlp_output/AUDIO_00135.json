@@ -4,10 +4,6 @@
     "prediction": "registro_inicial",
     "entities": [
         {
-            "text": "caca",
-            "label": "cultivo"
-        },
-        {
             "text": "Colombia",
             "label": "pais"
         },
@@ -16,8 +12,9 @@
             "label": "superficie"
         },
         {
-            "text": "sistema agroforestal",
+            "text": "agroforestal",
             "label": "sistema_produccion"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

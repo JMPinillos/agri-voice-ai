@@ -19,5 +19,6 @@
             "text": "manejo tradicional",
             "label": "sistema_produccion"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

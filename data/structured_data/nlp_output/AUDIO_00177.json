@@ -18,10 +18,7 @@
         {
             "text": "típicas",
             "label": "variedad"
-        },
-        {
-            "text": "arábicas",
-            "label": "variedad"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

@@ -17,7 +17,8 @@
         },
         {
             "text": "para la semana",
-            "label": "fecha_evento"
+            "label": "tratamiento"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

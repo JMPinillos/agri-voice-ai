@@ -13,7 +13,7 @@
         },
         {
             "text": "La Divisoria",
-            "label": "region"
+            "label": "localidad"
         },
         {
             "text": "Oquerón",
@@ -25,7 +25,7 @@
         },
         {
             "text": "Tucayali",
-            "label": "localidad"
+            "label": "region"
         },
         {
             "text": "Perú",
@@ -37,14 +37,10 @@
         },
         {
             "text": "agroforestal",
-            "label": "fecha_evento"
+            "label": "pais"
         },
         {
             "text": "leguminosas forestales",
-            "label": "especie_sombra"
-        },
-        {
-            "text": "guaba",
             "label": "especie_sombra"
         },
         {
@@ -55,5 +51,6 @@
             "text": "un metro",
             "label": "distancia"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

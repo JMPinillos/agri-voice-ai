@@ -6,6 +6,11 @@
         {
             "text": "recogiendo",
             "label": "tratamiento"
+        },
+        {
+            "text": "solo grano maduro",
+            "label": "tratamiento"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

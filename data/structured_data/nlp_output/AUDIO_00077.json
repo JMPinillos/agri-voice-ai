@@ -16,12 +16,9 @@
             "label": "superficie"
         },
         {
-            "text": "sistema agroforestal",
-            "label": "sistema_produccion"
-        },
-        {
             "text": "árboles nativos",
             "label": "especie_sombra"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

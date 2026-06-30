@@ -20,10 +20,6 @@
             "label": "superficie"
         },
         {
-            "text": "sistema agroforestal",
-            "label": "sistema_produccion"
-        },
-        {
             "text": "crío",
             "label": "variedad"
         },
@@ -31,5 +27,6 @@
             "text": "trinitario",
             "label": "variedad"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

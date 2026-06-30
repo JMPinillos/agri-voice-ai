@@ -1,0 +1,12 @@
+{
+  "action_categories": {
+    "siembra": "manejo_cultivo",
+    "cosecha": "manejo_cultivo",
+    "riego": "manejo_cultivo",
+    "fumigacion": "tratamiento_fitosanitario",
+    "poda": "manejo_cultivo",
+    "deshierbe": "manejo_cultivo",
+    "abonado": "fertilizacion",
+    "control_plaga": "manejo_sanitario"
+  }
+}

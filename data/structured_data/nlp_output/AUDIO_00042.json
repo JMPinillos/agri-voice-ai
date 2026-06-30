@@ -17,11 +17,15 @@
         },
         {
             "text": "Uleá",
-            "label": "pais"
+            "label": "region"
         },
         {
             "text": "Colombia",
             "label": "pais"
+        },
+        {
+            "text": "seis hectáreas",
+            "label": "superficie"
         },
         {
             "text": "castillo",
@@ -32,12 +36,13 @@
             "label": "variedad"
         },
         {
-            "text": "sistema agroforestal",
-            "label": "sistema_produccion"
+            "text": "guanos",
+            "label": "especie_sombra"
         },
         {
             "text": "árboles nativos",
             "label": "especie_sombra"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

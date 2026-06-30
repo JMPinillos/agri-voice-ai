@@ -8,12 +8,9 @@
             "label": "fecha_evento"
         },
         {
-            "text": "limpieza del lote",
+            "text": "limpieza del lote, quitando maleza con machete y guadaña",
             "label": "tratamiento"
-        },
-        {
-            "text": "maleza",
-            "label": "problema"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

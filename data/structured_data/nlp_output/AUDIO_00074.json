@@ -15,5 +15,6 @@
             "text": "caturra",
             "label": "variedad"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

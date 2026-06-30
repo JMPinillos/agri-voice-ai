@@ -12,6 +12,10 @@
             "label": "tratamiento"
         },
         {
+            "text": "ramas secas",
+            "label": "problema"
+        },
+        {
             "text": "partes enfermas",
             "label": "problema"
         },
@@ -19,5 +23,6 @@
             "text": "daño",
             "label": "problema"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

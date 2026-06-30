@@ -8,8 +8,9 @@
             "label": "factor_climatico"
         },
         {
-            "text": "calor",
+            "text": "calor,",
             "label": "factor_climatico"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

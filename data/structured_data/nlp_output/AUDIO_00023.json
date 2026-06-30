@@ -6,6 +6,11 @@
         {
             "text": "control manual de hierbas con machete y guadaña",
             "label": "tratamiento"
+        },
+        {
+            "text": "químicos",
+            "label": "tratamiento"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

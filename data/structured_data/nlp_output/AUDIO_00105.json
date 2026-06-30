@@ -16,8 +16,8 @@
             "label": "superficie"
         },
         {
-            "text": "siembra agroforestal",
-            "label": "sistema_produccion"
+            "text": "siembra agroforestal con",
+            "label": "problema"
         },
         {
             "text": "árboles nativos",
@@ -27,5 +27,6 @@
             "text": "frutales",
             "label": "especie_sombra"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

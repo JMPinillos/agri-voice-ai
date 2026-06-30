@@ -18,10 +18,7 @@
         {
             "text": "Heisha",
             "label": "variedad"
-        },
-        {
-            "text": "Marseilla.",
-            "label": "region"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

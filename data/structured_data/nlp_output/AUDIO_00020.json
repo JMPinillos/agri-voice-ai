@@ -10,6 +10,11 @@
         {
             "text": "lluvia",
             "label": "factor_climatico"
+        },
+        {
+            "text": "muy fuerte",
+            "label": "problema"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

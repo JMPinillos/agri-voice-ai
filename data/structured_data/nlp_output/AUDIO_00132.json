@@ -4,10 +4,6 @@
     "prediction": "registro_inicial",
     "entities": [
         {
-            "text": "Kakán",
-            "label": "localidad"
-        },
-        {
             "text": "Perú",
             "label": "pais"
         },
@@ -24,8 +20,9 @@
             "label": "variedad"
         },
         {
-            "text": "sistema agroforestal",
+            "text": "agroforestal",
             "label": "sistema_produccion"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

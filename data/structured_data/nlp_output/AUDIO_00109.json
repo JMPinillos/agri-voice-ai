@@ -11,5 +11,6 @@
             "text": "recolección de granos caídos en el suelo",
             "label": "tratamiento"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

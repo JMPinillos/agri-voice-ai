@@ -23,5 +23,6 @@
             "text": "mañana",
             "label": "fecha_evento"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

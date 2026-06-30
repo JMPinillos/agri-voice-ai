@@ -4,8 +4,12 @@
     "prediction": "evento_cultivo",
     "entities": [
         {
-            "text": "abono orgánico tipo",
+            "text": "abono orgánico",
             "label": "tratamiento"
+        },
+        {
+            "text": "Bokashi  ",
+            "label": "problema"
         },
         {
             "text": "pobre",
@@ -15,5 +19,6 @@
             "text": "nutrientes",
             "label": "problema"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

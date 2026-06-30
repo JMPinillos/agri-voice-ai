@@ -24,10 +24,6 @@
             "label": "superficie"
         },
         {
-            "text": "sistema de producción orgánica certificada",
-            "label": "sistema_produccion"
-        },
-        {
             "text": "1650 metros",
             "label": "cantidad"
         },
@@ -36,8 +32,8 @@
             "label": "especie_sombra"
         },
         {
-            "text": "manejo  de fertilizantes",
-            "label": "sistema_produccion"
+            "text": "fertilizantes",
+            "label": "tratamiento"
         },
         {
             "text": "abonados",
@@ -47,5 +43,6 @@
             "text": "podas",
             "label": "tratamiento"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

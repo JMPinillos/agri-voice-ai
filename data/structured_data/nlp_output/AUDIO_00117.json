@@ -24,10 +24,6 @@
             "label": "variedad"
         },
         {
-            "text": "sistema  agroforestal",
-            "label": "sistema_produccion"
-        },
-        {
             "text": "guava",
             "label": "especie_sombra"
         },
@@ -39,5 +35,6 @@
             "text": "cultivo",
             "label": "cultivo"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

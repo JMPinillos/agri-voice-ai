@@ -8,6 +8,10 @@
             "label": "fecha_evento"
         },
         {
+            "text": "malesa",
+            "label": "tratamiento"
+        },
+        {
             "text": "café",
             "label": "cultivo"
         },
@@ -15,5 +19,6 @@
             "text": "machete",
             "label": "tratamiento"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

@@ -16,12 +16,9 @@
             "label": "superficie"
         },
         {
-            "text": "manejo agro forestal",
-            "label": "sistema_produccion"
-        },
-        {
             "text": "frutales",
             "label": "especie_sombra"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

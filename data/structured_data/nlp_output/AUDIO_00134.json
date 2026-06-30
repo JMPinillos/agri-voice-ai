@@ -4,12 +4,13 @@
     "prediction": "evento_cultivo",
     "entities": [
         {
-            "text": "semáreas",
-            "label": "problema"
+            "text": "monilias",
+            "label": "variedad"
         },
         {
             "text": "cosecha",
             "label": "tratamiento"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

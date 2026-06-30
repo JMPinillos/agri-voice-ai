@@ -5,7 +5,7 @@
     "entities": [
         {
             "text": "cacau",
-            "label": "especie_sombra"
+            "label": "cultivo"
         },
         {
             "text": "Santander",
@@ -27,5 +27,6 @@
             "text": "árboles forestales",
             "label": "especie_sombra"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

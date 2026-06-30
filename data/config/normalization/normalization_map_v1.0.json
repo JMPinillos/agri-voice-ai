@@ -1,0 +1,83 @@
+{
+  "cultivo": {
+    "cafe": ["café", "cafe", "cafeto", "cafetal", "plantacion de cafe", "plantación de café"],
+    "cacao": ["cacao", "cocoa", "cacaotero", "cacaotal", "plantacion de cacao", "plantación de cacao"]
+  },
+  "especie_sombra": {
+    "guavo": ["guavo", "guavos"],
+    "platano": ["platano", "plátano", "banano", "bananos"],
+    "inga": ["inga", "ingas"],
+    "cedro": ["cedro", "cedros"]
+  },
+  "factor_climatico": {
+    "lluvia": ["lluvia", "lluvias", "lloviendo", "precipitacion", "precipitación"],
+    "sequia": ["sequia", "sequía", "falta de agua", "verano fuerte"],
+    "calor": ["calor", "mucho calor", "temperatura alta"],
+    "humedad": ["humedad", "mucha humedad", "ambiente humedo", "ambiente húmedo"]
+  },
+  "localidad": {
+    "caranavi": ["caranavi"],
+    "alcoche": ["alcoche"],
+    "sapecho": ["sapecho"],
+    "palos_blancos": ["palos blancos"],
+    "alto_beni": ["alto beni"]
+  },
+  "pais": {
+    "bolivia": ["bolivia"],
+    "colombia": ["colombia"],
+    "peru": ["peru", "perú"],
+    "ecuador": ["ecuador"],
+    "costa_rica": ["costa rica"],
+    "honduras": ["honduras"],
+    "guatemala": ["guatemala"],
+    "nicaragua": ["nicaragua"],
+    "panama": ["panama", "panamá"]
+  },
+  "problema": {
+    "roya": ["roya", "hongo naranja", "roya del cafe", "roya del café"],
+    "broca": ["broca", "gorgojo", "barrenador", "broca del cafe", "broca del café"],
+    "monilia": ["monilia", "moniliasis", "pasmo", "cacao cenizo", "cacao podrido", "mancha blanca", "mazorca podrida"]
+  },
+  "region": {
+    "la_paz": ["la paz"],
+    "caranavi": ["caranavi"],
+    "alto_beni": ["alto beni"],
+    "yungas": ["yungas", "los yungas"],
+    "cauca": ["cauca"],
+    "huila": ["huila"],
+    "tolima": ["tolima"],
+    "antioquia": ["antioquia"]
+  },
+  "sistema_produccion": {
+    "sombra": ["sombra", "bajo sombra", "con sombra"],
+    "pleno_sol": ["pleno sol", "a pleno sol", "sin sombra"],
+    "agroforestal": ["agroforestal", "sistema agroforestal"],
+    "organico": ["organico", "orgánico", "produccion organica", "producción orgánica"]
+  },
+  "tratamiento": {
+    "fungicida": ["fungicida", "remedio", "medicina", "cura", "veneno para el hongo"],
+    "insecticida": ["insecticida", "veneno para insecto", "veneno para la broca", "producto para la broca"],
+    "herbicida": ["herbicida", "mata monte", "quema monte", "liquido para el pasto", "líquido para el pasto", "matamaleza"],
+    "fertilizante": ["fertilizante", "abono", "nutriente", "urea", "triple 15", "npk", "compost", "gallinaza"]
+  },
+  "variedad": {
+    "caturra": ["caturra"],
+    "typica": ["typica", "típica", "tipica"],
+    "castillo": ["castillo"],
+    "bourbon": ["bourbon", "borbon", "borbón"],
+    "ccn51": ["ccn51", "ccn 51"],
+    "criollo": ["criollo"],
+    "forastero": ["forastero"],
+    "trinitario": ["trinitario"]
+  },
+  "accion": {
+    "siembra": ["siembra", "sembrar", "sembré", "sembramos"],
+    "cosecha": ["cosecha", "recoleccion", "recolección", "recojo", "recogida", "recoger"],
+    "riego": ["riego", "regar", "regué", "regamos"],
+    "fumigacion": ["fumigacion", "fumigación", "fumigar", "fumigué", "fumigamos", "aplicacion", "aplicación", "apliqué"],
+    "poda": ["poda", "podar", "zoca", "recepa", "deschuponado", "descope", "renovacion", "renovación"],
+    "deshierbe": ["deshierbe", "desyerbe", "chapear", "machetear", "hacer la limpia", "limpia", "limpieza"],
+    "abonado": ["abonado", "abonar", "aboné", "fertilizacion", "fertilización", "echar abono"],
+    "control_plaga": ["control de plaga", "controlar la plaga", "control sanitario"]
+  }
+}

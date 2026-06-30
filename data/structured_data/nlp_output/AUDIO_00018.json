@@ -8,10 +8,6 @@
             "label": "cultivo"
         },
         {
-            "text": "dos hectáreas",
-            "label": "superficie"
-        },
-        {
             "text": "manejo tradicional",
             "label": "sistema_produccion"
         },
@@ -19,5 +15,6 @@
             "text": "Castillo",
             "label": "variedad"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

@@ -12,16 +12,13 @@
             "label": "cultivo"
         },
         {
-            "text": "Ya",
-            "label": "fecha_evento"
-        },
-        {
             "text": "18 horas",
-            "label": "cantidad"
+            "label": "superficie"
         },
         {
             "text": "lavado",
             "label": "tratamiento"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

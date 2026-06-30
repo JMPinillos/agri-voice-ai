@@ -30,6 +30,11 @@
         {
             "text": "frutales",
             "label": "especie_sombra"
+        },
+        {
+            "text": "abono, plástico",
+            "label": "tratamiento"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

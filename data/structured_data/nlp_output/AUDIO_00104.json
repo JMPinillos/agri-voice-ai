@@ -8,8 +8,9 @@
             "label": "tratamiento"
         },
         {
-            "text": "limpiando y organizando surfos",
+            "text": "limpiando y organizando surfos para sembrar",
             "label": "tratamiento"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

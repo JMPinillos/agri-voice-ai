@@ -16,12 +16,8 @@
             "label": "cultivo"
         },
         {
-            "text": "Ya",
-            "label": "fecha_evento"
-        },
-        {
             "text": "18 horas",
-            "label": "cantidad"
+            "label": "superficie"
         },
         {
             "text": "mañana",
@@ -31,5 +27,6 @@
             "text": "lavado",
             "label": "tratamiento"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

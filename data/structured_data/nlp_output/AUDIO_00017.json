@@ -4,12 +4,13 @@
     "prediction": "evento_cultivo",
     "entities": [
         {
-            "text": "recolección selectiva",
+            "text": "recolección selectiva de granos maduros",
             "label": "tratamiento"
         },
         {
             "text": "bajar la calidad",
             "label": "problema"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

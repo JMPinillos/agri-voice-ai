@@ -13,14 +13,14 @@
         },
         {
             "text": "café robusta",
-            "label": "cultivo"
+            "label": "factor_climatico"
         },
         {
             "text": "hectárea",
-            "label": "cultivo"
+            "label": "variedad"
         },
         {
-            "text": "800 plantas por hectárea",
+            "text": "800 plantas",
             "label": "cantidad"
         },
         {
@@ -39,5 +39,6 @@
             "text": "frutales",
             "label": "especie_sombra"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

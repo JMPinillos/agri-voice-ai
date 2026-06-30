@@ -28,8 +28,13 @@
             "label": "variedad"
         },
         {
+            "text": "guanos",
+            "label": "especie_sombra"
+        },
+        {
             "text": "árboles nativos",
             "label": "especie_sombra"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

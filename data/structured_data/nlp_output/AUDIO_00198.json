@@ -12,10 +12,6 @@
             "label": "pais"
         },
         {
-            "text": "siete tareas",
-            "label": "cantidad"
-        },
-        {
             "text": "CCN 51",
             "label": "variedad"
         },
@@ -23,5 +19,6 @@
             "text": "Nacional",
             "label": "variedad"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

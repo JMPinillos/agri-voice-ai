@@ -12,10 +12,6 @@
             "label": "superficie"
         },
         {
-            "text": "sistema agroforestal",
-            "label": "sistema_produccion"
-        },
-        {
             "text": "comerciales",
             "label": "variedad"
         },
@@ -23,5 +19,6 @@
             "text": "Castillo",
             "label": "variedad"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

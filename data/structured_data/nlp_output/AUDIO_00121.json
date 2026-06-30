@@ -20,12 +20,17 @@
             "label": "problema"
         },
         {
-            "text": "café",
+            "text": "cultivo",
+            "label": "cultivo"
+        },
+        {
+            "text": "café  ",
             "label": "cultivo"
         },
         {
             "text": "baja la producción",
             "label": "problema"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

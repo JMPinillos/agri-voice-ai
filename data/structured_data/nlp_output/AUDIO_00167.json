@@ -9,7 +9,8 @@
         },
         {
             "text": "cosecha",
-            "label": "tratamiento"
+            "label": "factor_climatico"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

@@ -16,8 +16,17 @@
             "label": "superficie"
         },
         {
+            "text": "Heysa",
+            "label": "variedad"
+        },
+        {
+            "text": "Catimor",
+            "label": "variedad"
+        },
+        {
             "text": "frutales",
             "label": "especie_sombra"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

@@ -17,11 +17,11 @@
         },
         {
             "text": "Moyo Bamba",
-            "label": "region"
+            "label": "especie_sombra"
         },
         {
             "text": "Moyo Bamba",
-            "label": "region"
+            "label": "especie_sombra"
         },
         {
             "text": "San Martín",
@@ -32,20 +32,20 @@
             "label": "pais"
         },
         {
+            "text": "Actualmente",
+            "label": "fecha_evento"
+        },
+        {
             "text": "8 hectáreas",
             "label": "superficie"
         },
         {
             "text": "ICS95",
-            "label": "fecha_evento"
+            "label": "variedad"
         },
         {
             "text": "criollo",
             "label": "variedad"
-        },
-        {
-            "text": "sistema agroforestal",
-            "label": "sistema_produccion"
         },
         {
             "text": "cítricos",
@@ -63,5 +63,6 @@
             "text": "cultivo",
             "label": "cultivo"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

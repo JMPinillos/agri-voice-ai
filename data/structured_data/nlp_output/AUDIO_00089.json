@@ -4,8 +4,9 @@
     "prediction": "evento_cultivo",
     "entities": [
         {
-            "text": "recogiendo solo el grano maduro",
+            "text": "recogiendo",
             "label": "tratamiento"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

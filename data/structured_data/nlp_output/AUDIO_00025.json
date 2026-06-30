@@ -11,5 +11,6 @@
             "text": "tres hectáreas",
             "label": "superficie"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

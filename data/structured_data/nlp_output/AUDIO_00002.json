@@ -12,6 +12,10 @@
             "label": "localidad"
         },
         {
+            "text": "El Tambo",
+            "label": "localidad"
+        },
+        {
             "text": "Cauca",
             "label": "region"
         },
@@ -28,10 +32,6 @@
             "label": "variedad"
         },
         {
-            "text": "sistema agroforestal",
-            "label": "sistema_produccion"
-        },
-        {
             "text": "guavos",
             "label": "especie_sombra"
         },
@@ -39,5 +39,6 @@
             "text": "frutales",
             "label": "especie_sombra"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

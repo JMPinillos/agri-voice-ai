@@ -17,11 +17,12 @@
         },
         {
             "text": "Burbon",
-            "label": "variedad"
+            "label": "localidad"
         },
         {
             "text": "Marselleza",
-            "label": "localidad"
+            "label": "variedad"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

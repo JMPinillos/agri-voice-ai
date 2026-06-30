@@ -16,7 +16,7 @@
             "label": "superficie"
         },
         {
-            "text": "sistema agroforestal",
+            "text": "agroforestal",
             "label": "sistema_produccion"
         },
         {
@@ -27,5 +27,6 @@
             "text": "cedro",
             "label": "especie_sombra"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

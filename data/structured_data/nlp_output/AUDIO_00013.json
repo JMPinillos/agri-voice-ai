@@ -4,10 +4,6 @@
     "prediction": "evento_cultivo",
     "entities": [
         {
-            "text": "Bocassi",
-            "label": "tratamiento"
-        },
-        {
             "text": "pobre",
             "label": "problema"
         },
@@ -15,5 +11,6 @@
             "text": "sin nutrientes",
             "label": "problema"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

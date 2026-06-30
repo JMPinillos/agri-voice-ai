@@ -4,7 +4,7 @@
     "prediction": "evento_cultivo",
     "entities": [
         {
-            "text": "estos días",
+            "text": "en estos días",
             "label": "fecha_evento"
         },
         {
@@ -19,5 +19,6 @@
             "text": "enfermedad",
             "label": "problema"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

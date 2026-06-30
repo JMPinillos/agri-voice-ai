@@ -36,8 +36,16 @@
             "label": "cultivo"
         },
         {
-            "text": "4500 plantas por hectárea",
+            "text": "4500 plantas",
             "label": "cantidad"
+        },
+        {
+            "text": "por hectárea",
+            "label": "distancia"
+        },
+        {
+            "text": "edades",
+            "label": "problema"
         },
         {
             "text": "tres hectáreas",
@@ -48,8 +56,13 @@
             "label": "sistema_produccion"
         },
         {
-            "text": "sistema agroforestal",
+            "text": "árboles",
+            "label": "especie_sombra"
+        },
+        {
+            "text": "agroforestal",
             "label": "sistema_produccion"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

@@ -12,12 +12,9 @@
             "label": "pais"
         },
         {
-            "text": "conceptarias",
-            "label": "fecha_evento"
-        },
-        {
             "text": "Colombia",
             "label": "variedad"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

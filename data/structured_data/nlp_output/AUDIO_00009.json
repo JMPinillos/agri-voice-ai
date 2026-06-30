@@ -12,8 +12,9 @@
             "label": "cultivo"
         },
         {
-            "text": "ya no estaban produciendo",
+            "text": "ya no estaban produciendo bien",
             "label": "problema"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

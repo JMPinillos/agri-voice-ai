@@ -4,8 +4,9 @@
     "prediction": "evento_cultivo",
     "entities": [
         {
-            "text": "abono compuesto con nitrógeno",
+            "text": "abono compuesto con nitrógeno, fósforo y potasio",
             "label": "tratamiento"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

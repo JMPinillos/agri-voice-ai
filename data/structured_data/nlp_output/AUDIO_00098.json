@@ -21,11 +21,12 @@
         },
         {
             "text": "Cixemamisto",
-            "label": "localidad"
+            "label": "region"
         },
         {
             "text": "Castillo",
             "label": "variedad"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

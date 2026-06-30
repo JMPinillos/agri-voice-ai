@@ -16,10 +16,6 @@
             "label": "superficie"
         },
         {
-            "text": "sistema agroforestal",
-            "label": "sistema_produccion"
-        },
-        {
             "text": "frutales",
             "label": "especie_sombra"
         },
@@ -27,5 +23,6 @@
             "text": "árboles forestales",
             "label": "especie_sombra"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

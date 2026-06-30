@@ -16,10 +16,6 @@
             "label": "superficie"
         },
         {
-            "text": "sistema agroforestal",
-            "label": "sistema_produccion"
-        },
-        {
             "text": "crío",
             "label": "variedad"
         },
@@ -35,5 +31,6 @@
             "text": "forestales",
             "label": "especie_sombra"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

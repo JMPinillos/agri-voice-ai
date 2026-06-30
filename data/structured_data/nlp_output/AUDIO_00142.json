@@ -8,8 +8,8 @@
             "label": "cultivo"
         },
         {
-            "text": "2x1",
-            "label": "distancia"
+            "text": "2x1.",
+            "label": "factor_climatico"
         },
         {
             "text": "guava",
@@ -19,5 +19,6 @@
             "text": "fertilización con guano de isla",
             "label": "tratamiento"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

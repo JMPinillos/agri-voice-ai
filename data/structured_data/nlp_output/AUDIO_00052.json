@@ -28,8 +28,9 @@
             "label": "variedad"
         },
         {
-            "text": "sistema agroforestal",
+            "text": "agroforestal",
             "label": "sistema_produccion"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

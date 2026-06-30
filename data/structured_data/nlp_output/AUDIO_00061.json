@@ -4,12 +4,13 @@
     "prediction": "evento_cultivo",
     "entities": [
         {
-            "text": "compost",
+            "text": "fertilidadión con compost",
             "label": "tratamiento"
         },
         {
             "text": "cultivo",
             "label": "cultivo"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

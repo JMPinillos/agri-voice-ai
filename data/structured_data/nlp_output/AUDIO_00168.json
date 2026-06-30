@@ -23,5 +23,6 @@
             "text": "banano",
             "label": "especie_sombra"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

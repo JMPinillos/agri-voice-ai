@@ -6,10 +6,7 @@
         {
             "text": "cacaotero",
             "label": "cultivo"
-        },
-        {
-            "text": "manejo convencional",
-            "label": "sistema_produccion"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

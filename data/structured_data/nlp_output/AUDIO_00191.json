@@ -28,16 +28,16 @@
             "label": "problema"
         },
         {
+            "text": "enfermedades",
+            "label": "problema"
+        },
+        {
             "text": "cambios climáticos",
             "label": "factor_climatico"
         },
         {
             "text": "sequía",
             "label": "factor_climatico"
-        },
-        {
-            "text": "sistema agroforestar",
-            "label": "sistema_produccion"
         },
         {
             "text": "sequía",
@@ -48,19 +48,19 @@
             "label": "tratamiento"
         },
         {
+            "text": "jornaleros  ",
+            "label": "especie_sombra"
+        },
+        {
             "text": "control de hierbas",
             "label": "tratamiento"
         },
         {
-            "text": "machete",
+            "text": "utilizando jornales",
             "label": "tratamiento"
         },
         {
-            "text": "jornales",
-            "label": "tratamiento"
-        },
-        {
-            "text": "recolección de la cosecha",
+            "text": "recolección de la cosecha.  ",
             "label": "tratamiento"
         },
         {
@@ -68,8 +68,13 @@
             "label": "tratamiento"
         },
         {
-            "text": "control de lo que es de la sombra",
+            "text": "control",
             "label": "tratamiento"
+        },
+        {
+            "text": "40 a",
+            "label": "cantidad"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

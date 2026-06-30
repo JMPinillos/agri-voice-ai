@@ -12,8 +12,13 @@
             "label": "tratamiento"
         },
         {
+            "text": "ramas secas, enfermas",
+            "label": "problema"
+        },
+        {
             "text": "cultivo",
             "label": "cultivo"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

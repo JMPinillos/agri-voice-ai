@@ -18,6 +18,11 @@
         {
             "text": "Bourbon",
             "label": "variedad"
+        },
+        {
+            "text": "sombra natural",
+            "label": "especie_sombra"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

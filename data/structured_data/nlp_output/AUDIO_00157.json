@@ -8,6 +8,10 @@
             "label": "localidad"
         },
         {
+            "text": "la Divisoria",
+            "label": "localidad"
+        },
+        {
             "text": "Boquerón",
             "label": "localidad"
         },
@@ -60,8 +64,9 @@
             "label": "tratamiento"
         },
         {
-            "text": "café",
+            "text": "café  ",
             "label": "cultivo"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

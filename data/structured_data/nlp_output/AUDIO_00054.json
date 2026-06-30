@@ -11,5 +11,6 @@
             "text": "humedad",
             "label": "factor_climatico"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

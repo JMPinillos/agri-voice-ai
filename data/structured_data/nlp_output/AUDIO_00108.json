@@ -18,10 +18,7 @@
         {
             "text": "castillo",
             "label": "variedad"
-        },
-        {
-            "text": "manejo tradicional mejorado",
-            "label": "sistema_produccion"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

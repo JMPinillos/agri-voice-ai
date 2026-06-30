@@ -11,5 +11,6 @@
             "text": "recogiendo granos caídos",
             "label": "tratamiento"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

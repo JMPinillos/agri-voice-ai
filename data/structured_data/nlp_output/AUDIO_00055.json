@@ -16,8 +16,9 @@
             "label": "superficie"
         },
         {
-            "text": "Varela Heysa",
-            "label": "region"
+            "text": "Heysa y Manejo",
+            "label": "localidad"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

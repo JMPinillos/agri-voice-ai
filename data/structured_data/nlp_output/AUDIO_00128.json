@@ -8,8 +8,16 @@
             "label": "localidad"
         },
         {
+            "text": "la Divisoria",
+            "label": "localidad"
+        },
+        {
             "text": "café",
             "label": "cultivo"
+        },
+        {
+            "text": "estos momentos",
+            "label": "fecha_evento"
         },
         {
             "text": "dos hectáreas",
@@ -28,7 +36,11 @@
             "label": "cultivo"
         },
         {
-            "text": "post cosecha",
+            "text": "en estos momentos",
+            "label": "fecha_evento"
+        },
+        {
+            "text": "post cosecha  ",
             "label": "tratamiento"
         },
         {
@@ -44,8 +56,9 @@
             "label": "problema"
         },
         {
-            "text": "café",
+            "text": "café  ",
             "label": "cultivo"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

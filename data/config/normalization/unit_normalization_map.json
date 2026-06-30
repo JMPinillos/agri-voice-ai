@@ -1,0 +1,22 @@
+{
+  "superficie": {
+    "ha": ["hectarea", "hectareas", "ha"],
+    "m2": ["m2", "metro cuadrado", "metros cuadrados"]
+  },
+  "distancia": {
+    "m": ["metro", "metros", "m"],
+    "cm": ["centimetro", "centimetros", "cm"]
+  },
+  "cantidad": {
+    "plantas": ["planta", "plantas", "arbol", "arboles"],
+    "unidades": ["unidad", "unidades"]
+  },
+  "volumen": {
+    "l": ["litro", "litros", "l"],
+    "ml": ["mililitro", "mililitros", "ml"]
+  },
+  "masa": {
+    "kg": ["kg", "kilo", "kilos", "kilogramo", "kilogramos"],
+    "g": ["g", "gramo", "gramos"]
+  }
+}

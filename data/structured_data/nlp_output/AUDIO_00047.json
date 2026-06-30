@@ -12,12 +12,17 @@
             "label": "tratamiento"
         },
         {
-            "text": "partes enfermas",
+            "text": "ramas secas",
+            "label": "problema"
+        },
+        {
+            "text": "partes enfermas del  ",
             "label": "problema"
         },
         {
             "text": "cultivo",
             "label": "cultivo"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }

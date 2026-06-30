@@ -12,6 +12,10 @@
             "label": "localidad"
         },
         {
+            "text": "Cantón de",
+            "label": "localidad"
+        },
+        {
             "text": "Caranavi",
             "label": "localidad"
         },
@@ -24,6 +28,10 @@
             "label": "region"
         },
         {
+            "text": "Olímpico.",
+            "label": "superficie"
+        },
+        {
             "text": "yelletarias",
             "label": "especie_sombra"
         },
@@ -33,7 +41,7 @@
         },
         {
             "text": "caturras",
-            "label": "tratamiento"
+            "label": "variedad"
         },
         {
             "text": "frutales",
@@ -43,5 +51,6 @@
             "text": "leguminosas forestales",
             "label": "especie_sombra"
         }
-    ]
+    ],
+    "processing_version": "1.0"
 }
