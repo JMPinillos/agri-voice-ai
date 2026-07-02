@@ -1,0 +1,33 @@
+{
+    "audio_id": "AUDIO_00129",
+    "tipo": "evento_cultivo",
+    "timestamp_recepcion": "2026-05-28T09:01:18.088000Z",
+    "fecha_recepcion": "2026-05-28",
+    "transcripcion": "Entonces organizando las actividades del día estuvimos haciendo deshierbe manual  porque no usamos herbicidas químicos para no dañar el suelo.",
+    "evento": {
+        "fecha_evento": null,
+        "fecha_evento_fin": null,
+        "granularidad_fecha_evento": null,
+        "cultivo": null,
+        "variedad": null,
+        "accion": null,
+        "categoria_accion": null,
+        "magnitudes": [],
+        "problemas": [],
+        "tratamientos": [
+            "deshierbe",
+            "herbicida"
+        ],
+        "partes_planta": [],
+        "estado_cultivo": null,
+        "espacio_agricola": null,
+        "localidad": null,
+        "region": null,
+        "pais": null,
+        "factor_climatico": [],
+        "sistema_produccion": null,
+        "especie_sombra": []
+    },
+    "estado_procesamiento": "ok",
+    "normalization_version": "1.1"
+}

@@ -1,0 +1,33 @@
+{
+    "audio_id": "AUDIO_00113",
+    "tipo": "evento_cultivo",
+    "timestamp_recepcion": "2026-05-28T05:01:18.088000Z",
+    "fecha_recepcion": "2026-05-28",
+    "transcripcion": "Hoy se hizo el lavado del café con agua limpia después del proceso de fermentación.",
+    "evento": {
+        "fecha_evento": "2026-05-28",
+        "fecha_evento_fin": null,
+        "granularidad_fecha_evento": "dia",
+        "cultivo": "cafe",
+        "variedad": null,
+        "accion": null,
+        "categoria_accion": null,
+        "magnitudes": [],
+        "problemas": [],
+        "tratamientos": [
+            "lavado",
+            "fermentacion"
+        ],
+        "partes_planta": [],
+        "estado_cultivo": null,
+        "espacio_agricola": null,
+        "localidad": null,
+        "region": null,
+        "pais": null,
+        "factor_climatico": [],
+        "sistema_produccion": null,
+        "especie_sombra": []
+    },
+    "estado_procesamiento": "ok",
+    "normalization_version": "1.1"
+}

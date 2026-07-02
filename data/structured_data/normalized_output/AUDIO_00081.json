@@ -1,0 +1,30 @@
+{
+    "audio_id": "AUDIO_00081",
+    "tipo": "evento_cultivo",
+    "timestamp_recepcion": "2026-05-27T21:01:18.088000Z",
+    "fecha_recepcion": "2026-05-27",
+    "transcripcion": "Bueno, hoy estuvimos desde temprano, así lo deciré, porque la malesa ya estaba muy alta  y eso no deja que el café crezca bien, entonces tocó meter machete casi todo el día.",
+    "evento": {
+        "fecha_evento": "2026-05-27",
+        "fecha_evento_fin": null,
+        "granularidad_fecha_evento": "dia",
+        "cultivo": "cafe",
+        "variedad": null,
+        "accion": null,
+        "categoria_accion": null,
+        "magnitudes": [],
+        "problemas": [],
+        "tratamientos": [],
+        "partes_planta": [],
+        "estado_cultivo": null,
+        "espacio_agricola": null,
+        "localidad": null,
+        "region": null,
+        "pais": null,
+        "factor_climatico": [],
+        "sistema_produccion": null,
+        "especie_sombra": []
+    },
+    "estado_procesamiento": "ok",
+    "normalization_version": "1.1"
+}

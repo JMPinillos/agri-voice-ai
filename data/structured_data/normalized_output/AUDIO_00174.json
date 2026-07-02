@@ -1,0 +1,41 @@
+{
+    "audio_id": "AUDIO_00174",
+    "tipo": "registro_inicial",
+    "timestamp_recepcion": "2026-05-28T20:16:18.088000Z",
+    "fecha_recepcion": "2026-05-28",
+    "transcripcion": "Mi nombre es profesor Morán Reyes.  Soy de la comunidad de Tres Hermanas, distrito de Capira, provincia de Panamá Oeste.  Mi cultivo, café Augusta.  Un hectárea en plantación.  Ocho años de producción, sombra de plátano y frutales.  Agradezco al proyecto por todo el apoyo recibido,  insumos, abono, plástico para secar y otros muy necesarios.  Gracias por todo su apoyo.",
+    "evento": {
+        "fecha_evento": null,
+        "fecha_evento_fin": null,
+        "granularidad_fecha_evento": null,
+        "cultivo": null,
+        "variedad": null,
+        "accion": null,
+        "categoria_accion": null,
+        "magnitudes": [
+            {
+                "tipo": "superficie",
+                "valor": 1.0,
+                "unidad": "ha",
+                "unidad_original": "hectarea",
+                "estado": "ok"
+            }
+        ],
+        "problemas": [],
+        "tratamientos": [],
+        "partes_planta": [],
+        "estado_cultivo": null,
+        "espacio_agricola": null,
+        "localidad": "tres_hermanas",
+        "region": "panama_oeste",
+        "pais": null,
+        "factor_climatico": [],
+        "sistema_produccion": null,
+        "especie_sombra": [
+            "platano",
+            "frutales"
+        ]
+    },
+    "estado_procesamiento": "ok",
+    "normalization_version": "1.1"
+}

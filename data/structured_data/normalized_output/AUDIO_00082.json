@@ -1,0 +1,48 @@
+{
+    "audio_id": "AUDIO_00082",
+    "tipo": "registro_inicial",
+    "timestamp_recepcion": "2026-05-27T21:16:18.088000Z",
+    "fecha_recepcion": "2026-05-27",
+    "transcripcion": "Mi nombre es Albeiro de Jesús Morales.  Soy productor de cacao del caserío 3 de octubre del centro poblado La Divisoria, distrito  de Oquerón, provincia de Padre Abad, región Tucayali, Perú.  Actualmente manejo una finca de nueve hectáreas, de las cuales tres están en producción.  El sistema que trabajamos es agroforestal, con leguminosas forestales, guaba y árboles  maderables, sembrado con distancias de un metro por dos metros y medio con variedades  Trinitario EICS95, buscando mejorar la productividad con asistencia técnica.",
+    "evento": {
+        "fecha_evento": null,
+        "fecha_evento_fin": null,
+        "granularidad_fecha_evento": null,
+        "cultivo": "cacao",
+        "variedad": null,
+        "accion": null,
+        "categoria_accion": null,
+        "magnitudes": [
+            {
+                "tipo": "superficie",
+                "valor": 9.0,
+                "unidad": "ha",
+                "unidad_original": "hectareas",
+                "estado": "ok"
+            },
+            {
+                "tipo": "distancia",
+                "valor": 1.0,
+                "unidad": "m",
+                "unidad_original": "metro",
+                "estado": "ok"
+            }
+        ],
+        "problemas": [],
+        "tratamientos": [],
+        "partes_planta": [],
+        "estado_cultivo": null,
+        "espacio_agricola": null,
+        "localidad": "tres_de_octubre",
+        "region": "padre_abad",
+        "pais": "peru",
+        "factor_climatico": [],
+        "sistema_produccion": null,
+        "especie_sombra": [
+            "arboles_forestales",
+            "arboles_maderables"
+        ]
+    },
+    "estado_procesamiento": "ok",
+    "normalization_version": "1.1"
+}

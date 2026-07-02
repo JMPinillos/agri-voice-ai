@@ -1,0 +1,34 @@
+{
+    "audio_id": "AUDIO_00139",
+    "tipo": "evento_cultivo",
+    "timestamp_recepcion": "2026-05-28T11:31:18.088000Z",
+    "fecha_recepcion": "2026-05-28",
+    "transcripcion": "Entonces estamos haciendo recolección selectiva, solo grano maduro porque si se mezcla baja la calidad en taza",
+    "evento": {
+        "fecha_evento": null,
+        "fecha_evento_fin": null,
+        "granularidad_fecha_evento": null,
+        "cultivo": null,
+        "variedad": null,
+        "accion": null,
+        "categoria_accion": null,
+        "magnitudes": [],
+        "problemas": [
+            "baja_calidad"
+        ],
+        "tratamientos": [
+            "cosecha"
+        ],
+        "partes_planta": [],
+        "estado_cultivo": null,
+        "espacio_agricola": null,
+        "localidad": null,
+        "region": null,
+        "pais": null,
+        "factor_climatico": [],
+        "sistema_produccion": null,
+        "especie_sombra": []
+    },
+    "estado_procesamiento": "ok",
+    "normalization_version": "1.1"
+}

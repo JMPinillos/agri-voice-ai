@@ -1,0 +1,58 @@
+{
+    "audio_id": "AUDIO_00165",
+    "tipo": "registro_inicial",
+    "timestamp_recepcion": "2026-05-28T18:01:18.088000Z",
+    "fecha_recepcion": "2026-05-28",
+    "transcripcion": "Mi nombre es Pedro Pilco Hilari, soy productor de café de la comunidad Vidal Carmen y también  estoy asociado a una organización productora de café que es la Montaña Verde.  Estoy en lote número 17 con una superficie de 10 hectáreas y 2.5 hectáreas en producción.  Esto en sistema de producción orgánica certificada ya a una altitud de 1650 metros  sobre el nivel del mar.  mi parcela está asociado con árboles forestales y otros dentro de mi parcela.  Y también agradecer a la institución INEAF con el proyecto Colfasi por el apoyo, trabajos  y investigaciones que se han realizado en mi parcela, tanto asistencia técnica en manejo  de fertilizantes y abonados y podas dentro de mi parcela, donde nosotros ya pondremos  en práctica en la parcela para tener una mejor rendimiento.",
+    "evento": {
+        "fecha_evento": null,
+        "fecha_evento_fin": null,
+        "granularidad_fecha_evento": null,
+        "cultivo": "cafe",
+        "variedad": null,
+        "accion": null,
+        "categoria_accion": null,
+        "magnitudes": [
+            {
+                "tipo": "superficie",
+                "valor": 10.0,
+                "unidad": "ha",
+                "unidad_original": "hectareas",
+                "estado": "ok"
+            },
+            {
+                "tipo": "superficie",
+                "valor": 2.5,
+                "unidad": "ha",
+                "unidad_original": "hectareas",
+                "estado": "ok"
+            },
+            {
+                "tipo": "conteo",
+                "valor": 1650.0,
+                "unidad": null,
+                "unidad_original": "metros",
+                "estado": "unidad_no_mapeada"
+            }
+        ],
+        "problemas": [],
+        "tratamientos": [
+            "fertilizante",
+            "fertilizacion",
+            "poda"
+        ],
+        "partes_planta": [],
+        "estado_cultivo": null,
+        "espacio_agricola": null,
+        "localidad": "vidal_carmen",
+        "region": null,
+        "pais": null,
+        "factor_climatico": [],
+        "sistema_produccion": null,
+        "especie_sombra": [
+            "arboles_forestales"
+        ]
+    },
+    "estado_procesamiento": "ok",
+    "normalization_version": "1.1"
+}

@@ -1,0 +1,41 @@
+{
+    "audio_id": "AUDIO_00117",
+    "tipo": "registro_inicial",
+    "timestamp_recepcion": "2026-05-28T06:01:18.088000Z",
+    "fecha_recepcion": "2026-05-28",
+    "transcripcion": "Mi nombre es Andrés Felipe Muñoz, soy productor de cacao en Perú.  Trabajo en una finca de nueve hectáreas con variedades criollo y trinitario bajo sistema  agroforestal con sombra de guava y árboles forestales buscando mejorar la productividad  y calidad del cultivo.",
+    "evento": {
+        "fecha_evento": null,
+        "fecha_evento_fin": null,
+        "granularidad_fecha_evento": null,
+        "cultivo": "cacao",
+        "variedad": "criollo",
+        "accion": null,
+        "categoria_accion": null,
+        "magnitudes": [
+            {
+                "tipo": "superficie",
+                "valor": 9.0,
+                "unidad": "ha",
+                "unidad_original": "hectareas",
+                "estado": "ok"
+            }
+        ],
+        "problemas": [],
+        "tratamientos": [],
+        "partes_planta": [],
+        "estado_cultivo": null,
+        "espacio_agricola": null,
+        "localidad": null,
+        "region": null,
+        "pais": "peru",
+        "factor_climatico": [],
+        "sistema_produccion": null,
+        "especie_sombra": [
+            "guavo",
+            "arboles_forestales"
+        ]
+    },
+    "estado_procesamiento": "ok",
+    "normalization_version": "1.1"
+}
