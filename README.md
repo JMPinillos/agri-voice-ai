@@ -1,3 +1,7 @@
+# AgriVoice AI
+
+Transforming Agricultural Producers’ Voice Messages into Structured Data
+
 ## **Requisitos del sistema**
 
 El proyecto requiere un entorno de ejecución con Python 3.x y la instalación de dependencias tanto a nivel de Python como de sistema.
