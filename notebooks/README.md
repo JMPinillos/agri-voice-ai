@@ -22,6 +22,8 @@ Los archivos HTML permiten revisar la metodología, el flujo de trabajo, el cód
 4. `04_nlp_normalization.html` 
    Normalización semántica y generación de la salida estructurada en formato JSON.
 
+
+
 > [!NOTE]
 >
 > Estos archivos tienen finalidad documental y de revisión. No están pensados para su ejecución directa.
