@@ -2,7 +2,7 @@
 
 Esta carpeta contiene las versiones HTML de los notebooks desarrollados durante el proyecto.
 
-Los notebooks ejecutables originales (`.ipynb`) no se incluyen en esta versión pública del repositorio por motivos de privacidad, tamaño y control de exposición del código ejecutable. Las versiones HTML permiten revisar la metodología, el flujo de trabajo, el código utilizado y los resultados principales de cada etapa del pipeline.
+Los notebooks ejecutables originales (`.ipynb`) no se incluyen en esta versión pública del repositorio por motivos de privacidad, tamaño y control de exposición del código ejecutable. Las versiones HTML permiten revisar la metodología, el flujo de trabajo, el código utilizado y los resultados principales de cada etapa del *pipeline*.
 
 ## Orden de revisión
 
