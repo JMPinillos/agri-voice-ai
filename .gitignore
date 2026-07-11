@@ -67,6 +67,10 @@ notebooks/
 *.bak
 *.swp
 
+logs/
+results/
+results_final/
+
 ######################################
 # Datos intermedios y artefactos
 ######################################
