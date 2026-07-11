@@ -1,0 +1,42 @@
+{
+    "audio_id": "AUDIO_00028",
+    "user_id": null,
+    "tipo": "registro_inicial",
+    "timestamp_recepcion": "2026-05-27T07:46:18.088000Z",
+    "fecha_recepcion": "2026-05-27",
+    "transcripcion": "Mi nombre es Rosa Martínez, soy productora de cacao y tengo unas 8 hectáreas con variedad criollo, bajo sombra de plátano y árboles nativos.",
+    "evento": {
+        "fecha_evento": null,
+        "fecha_evento_fin": null,
+        "granularidad_fecha_evento": null,
+        "cultivo": "cacao",
+        "variedad": "criollo",
+        "accion": null,
+        "categoria_accion": null,
+        "magnitudes": [
+            {
+                "tipo": "superficie",
+                "valor": 8.0,
+                "unidad": "ha",
+                "unidad_original": "hectareas",
+                "estado": "ok"
+            }
+        ],
+        "problemas": [],
+        "tratamientos": [],
+        "partes_planta": [],
+        "estado_cultivo": null,
+        "espacio_agricola": null,
+        "localidad": null,
+        "region": null,
+        "pais": null,
+        "factor_climatico": [],
+        "sistema_produccion": null,
+        "especie_sombra": [
+            "platano",
+            "arboles_nativos"
+        ]
+    },
+    "estado_procesamiento": "ok",
+    "normalization_version": "1.1"
+}

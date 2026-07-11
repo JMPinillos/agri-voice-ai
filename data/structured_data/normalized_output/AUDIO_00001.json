@@ -1,0 +1,35 @@
+{
+    "audio_id": "AUDIO_00001",
+    "user_id": null,
+    "tipo": "evento_cultivo",
+    "timestamp_recepcion": "2026-05-27T01:01:18.088000Z",
+    "fecha_recepcion": "2026-05-27",
+    "transcripcion": "Bueno, hoy estuvimos haciendo deshierbe en el lote porque estaba muy amontonado y eso afecta bastante al desarrollo del café.",
+    "evento": {
+        "fecha_evento": "2026-05-27",
+        "fecha_evento_fin": null,
+        "granularidad_fecha_evento": "dia",
+        "cultivo": "cafe",
+        "variedad": null,
+        "accion": null,
+        "categoria_accion": null,
+        "magnitudes": [],
+        "problemas": [
+            "maleza"
+        ],
+        "tratamientos": [
+            "deshierbe"
+        ],
+        "partes_planta": [],
+        "estado_cultivo": null,
+        "espacio_agricola": null,
+        "localidad": null,
+        "region": null,
+        "pais": null,
+        "factor_climatico": [],
+        "sistema_produccion": null,
+        "especie_sombra": []
+    },
+    "estado_procesamiento": "ok",
+    "normalization_version": "1.1"
+}

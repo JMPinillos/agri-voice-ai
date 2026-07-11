@@ -1,0 +1,24 @@
+{
+    "audio_id": "AUDIO_00058",
+    "text": "Mi nombre es José Ramírez, soy productor de cacao, manejo unas 8 hectáreas bajo sombra  de árboles forestales y plátano en sistema mixto.",
+    "prediction": "registro_inicial",
+    "entities": [
+        {
+            "text": "cacao",
+            "label": "cultivo"
+        },
+        {
+            "text": "8 hectáreas",
+            "label": "superficie"
+        },
+        {
+            "text": "árboles forestales",
+            "label": "especie_sombra"
+        },
+        {
+            "text": "plátano",
+            "label": "especie_sombra"
+        }
+    ],
+    "processing_version": "1.0"
+}

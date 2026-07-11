@@ -1,0 +1,20 @@
+{
+    "audio_id": "AUDIO_00173",
+    "text": "Hoy se hizo limpieza general quitando maleza en todo el lote.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "Hoy",
+            "label": "fecha_evento"
+        },
+        {
+            "text": "limpieza general",
+            "label": "tratamiento"
+        },
+        {
+            "text": "maleza",
+            "label": "problema"
+        }
+    ],
+    "processing_version": "1.0"
+}

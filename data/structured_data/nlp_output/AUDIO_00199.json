@@ -1,0 +1,16 @@
+{
+    "audio_id": "AUDIO_00199",
+    "text": "Entonces estamos organizando próximas labores de fertilización y poda.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "fertilización",
+            "label": "tratamiento"
+        },
+        {
+            "text": "poda",
+            "label": "tratamiento"
+        }
+    ],
+    "processing_version": "1.0"
+}

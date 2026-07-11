@@ -1,0 +1,16 @@
+{
+    "audio_id": "AUDIO_00069",
+    "text": "La broca sigue afectando bastante entonces estamos haciendo recolección de granos del suelo.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "broca",
+            "label": "problema"
+        },
+        {
+            "text": "recolección de granos del suelo",
+            "label": "tratamiento"
+        }
+    ],
+    "processing_version": "1.0"
+}

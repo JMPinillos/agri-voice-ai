@@ -1,0 +1,32 @@
+{
+    "audio_id": "AUDIO_00120",
+    "text": "Mi nombre es Hernando López, soy productor de café en Panamá.  Manejo aproximadamente 7 hectáreas con variedades arábicas bajo sistema agroforestal,  con sombra de frutales y árboles forestales buscando mantener producción sostenible  y mejorar la calidad del grano.",
+    "prediction": "registro_inicial",
+    "entities": [
+        {
+            "text": "café",
+            "label": "cultivo"
+        },
+        {
+            "text": "Panamá",
+            "label": "pais"
+        },
+        {
+            "text": "7 hectáreas",
+            "label": "superficie"
+        },
+        {
+            "text": "arábicas",
+            "label": "variedad"
+        },
+        {
+            "text": "frutales",
+            "label": "especie_sombra"
+        },
+        {
+            "text": "árboles forestales",
+            "label": "especie_sombra"
+        }
+    ],
+    "processing_version": "1.0"
+}

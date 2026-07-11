@@ -1,0 +1,28 @@
+{
+    "audio_id": "AUDIO_00127",
+    "text": "Hoy estuvimos haciendo podas sanitaria quitando ramas secas y partes enfermas  porque ya había bastante daño en algunas plantas.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "Hoy",
+            "label": "fecha_evento"
+        },
+        {
+            "text": "podas sanitaria",
+            "label": "tratamiento"
+        },
+        {
+            "text": "ramas secas",
+            "label": "problema"
+        },
+        {
+            "text": "partes enfermas",
+            "label": "problema"
+        },
+        {
+            "text": "daño",
+            "label": "problema"
+        }
+    ],
+    "processing_version": "1.0"
+}

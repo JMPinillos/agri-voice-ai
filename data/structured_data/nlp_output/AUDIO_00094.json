@@ -1,0 +1,16 @@
+{
+    "audio_id": "AUDIO_00094",
+    "text": "Se encontró presencia de moníleasis en varias plantas, entonces toca hacer manejo rápido para que no se propague.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "moníleasis",
+            "label": "problema"
+        },
+        {
+            "text": "manejo rápido",
+            "label": "tratamiento"
+        }
+    ],
+    "processing_version": "1.0"
+}

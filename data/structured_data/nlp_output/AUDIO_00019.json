@@ -1,0 +1,24 @@
+{
+    "audio_id": "AUDIO_00019",
+    "text": "Estamos regulando la sombra porque el lote estaba muy tapado y salieron hongos por la humedad.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "regulando la sombra",
+            "label": "tratamiento"
+        },
+        {
+            "text": "tapado",
+            "label": "problema"
+        },
+        {
+            "text": "hongos",
+            "label": "problema"
+        },
+        {
+            "text": "humedad",
+            "label": "factor_climatico"
+        }
+    ],
+    "processing_version": "1.0"
+}

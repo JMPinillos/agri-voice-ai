@@ -1,0 +1,16 @@
+{
+    "audio_id": "AUDIO_00170",
+    "text": "Hoy el día fue más de planificación que de trabajo en campo.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "Hoy",
+            "label": "fecha_evento"
+        },
+        {
+            "text": "planificación",
+            "label": "tratamiento"
+        }
+    ],
+    "processing_version": "1.0"
+}

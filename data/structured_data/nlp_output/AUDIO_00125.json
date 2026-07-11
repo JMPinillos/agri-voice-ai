@@ -1,0 +1,56 @@
+{
+    "audio_id": "AUDIO_00125",
+    "text": "Mi nombre es William de Jesús Serna, soy productor de café en la comunidad Alcochet,  Cantón de Caranavi, provincia de Caranavi, departamento de La Paz, Olímpico.  Tengo una finca de yelletarias con variedades típicas y caturras,  pajos, sombras de frutales y leguminosas forestales,  enfocado en producción sostenible.",
+    "prediction": "registro_inicial",
+    "entities": [
+        {
+            "text": "café",
+            "label": "cultivo"
+        },
+        {
+            "text": "Alcochet",
+            "label": "localidad"
+        },
+        {
+            "text": "Cantón de",
+            "label": "localidad"
+        },
+        {
+            "text": "Caranavi",
+            "label": "localidad"
+        },
+        {
+            "text": "Caranavi",
+            "label": "localidad"
+        },
+        {
+            "text": "La Paz",
+            "label": "region"
+        },
+        {
+            "text": "Olímpico.",
+            "label": "superficie"
+        },
+        {
+            "text": "yelletarias",
+            "label": "especie_sombra"
+        },
+        {
+            "text": "típicas",
+            "label": "variedad"
+        },
+        {
+            "text": "caturras",
+            "label": "variedad"
+        },
+        {
+            "text": "frutales",
+            "label": "especie_sombra"
+        },
+        {
+            "text": "leguminosas forestales",
+            "label": "especie_sombra"
+        }
+    ],
+    "processing_version": "1.0"
+}

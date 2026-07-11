@@ -1,0 +1,24 @@
+{
+    "audio_id": "AUDIO_00035",
+    "text": "Bueno, me llamo Daniela Torres, cultivo café en una parcela pequeña de dos hectáreas  con variedad turbon y manejo tradicional.",
+    "prediction": "registro_inicial",
+    "entities": [
+        {
+            "text": "café",
+            "label": "cultivo"
+        },
+        {
+            "text": "dos hectáreas",
+            "label": "superficie"
+        },
+        {
+            "text": "turbon",
+            "label": "variedad"
+        },
+        {
+            "text": "manejo tradicional",
+            "label": "sistema_produccion"
+        }
+    ],
+    "processing_version": "1.0"
+}

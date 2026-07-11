@@ -1,0 +1,16 @@
+{
+    "audio_id": "AUDIO_00104",
+    "text": "Estamos preparando terreno para siembra nueva,  limpiando y organizando surfos para sembrar.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "siembra nueva",
+            "label": "tratamiento"
+        },
+        {
+            "text": "limpiando y organizando surfos para sembrar",
+            "label": "tratamiento"
+        }
+    ],
+    "processing_version": "1.0"
+}

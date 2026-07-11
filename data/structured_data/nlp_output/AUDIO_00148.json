@@ -1,0 +1,32 @@
+{
+    "audio_id": "AUDIO_00148",
+    "text": "Mi nombre es Juan Carlos Orozco, soy productor de cacao en Bolivia,  manejo unas siete hectáreas bajo el sistema agroforestal con sombra de inga y cedro.",
+    "prediction": "registro_inicial",
+    "entities": [
+        {
+            "text": "cacao",
+            "label": "cultivo"
+        },
+        {
+            "text": "Bolivia",
+            "label": "pais"
+        },
+        {
+            "text": "siete hectáreas",
+            "label": "superficie"
+        },
+        {
+            "text": "agroforestal",
+            "label": "sistema_produccion"
+        },
+        {
+            "text": "inga",
+            "label": "especie_sombra"
+        },
+        {
+            "text": "cedro",
+            "label": "especie_sombra"
+        }
+    ],
+    "processing_version": "1.0"
+}

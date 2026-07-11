@@ -1,0 +1,16 @@
+{
+    "audio_id": "AUDIO_00064",
+    "text": "Estamos preparando el terreno para nueva siembra, limpiando y marcando surcos.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "nueva siembra",
+            "label": "tratamiento"
+        },
+        {
+            "text": "limpiando y marcando surcos",
+            "label": "tratamiento"
+        }
+    ],
+    "processing_version": "1.0"
+}

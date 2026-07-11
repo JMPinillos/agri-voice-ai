@@ -1,0 +1,80 @@
+{
+    "audio_id": "AUDIO_00191",
+    "text": "Mi nombre es José Castaya.  Comentarles, informarles sobre el manejo agronómico de nuestro cultivo de café.  Tenemos presencias de plagas, no como la broca,  entonces como café-cultor para contras de estar,  siempre hacemos lo que es la cosecha sanitaria.  También tenemos enfermedades, presencia de enfermedades.  Entonces nosotros, para que no haya daños,  entonces lo que manejamos son las variedades que sean resistentes  y tolerantes a las enfermedades.  Y otra situación preocupante es sobre los cambios climáticos, la sequía.  Entonces, como la familia, por eso es lo que hemos establecido,  lo que es el sistema agroforestar para contrarrestar la sequía.  Por el momento la familia no está manejando una fertilización al cultivo,  ya los posterios años ya estamos planificando.  Entonces, lo que manejamos por el momento son los jornaleros  para los trabajos de control de hierbas, con los materiales de machete, asador, motodisiervadora.  Entonces, y luego por el momento estamos utilizando jornales para recolección de la cosecha.  Estamos en tiempo de cosecha, entonces, que manejamos los jornaleros.  Y posteriormente vamos a estar con las podas.  Entonces, siempre al agradecer al proyecto Colfasi y a los técnicos de INIAF,  que siempre nos da ese apoyo de asistencia técnica.  Y al finalizar lo que vamos a hacer, el control de lo que es de la sombra,  para mantener a una adecuada de 40 a 50% de sombra.  Y muchas gracias y saludos al proyecto Colfasi  y a la institución INIAP y a los técnicos  que trabajan arduamente con los productores de este sector.  Muchas gracias.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "café",
+            "label": "cultivo"
+        },
+        {
+            "text": "plagas",
+            "label": "problema"
+        },
+        {
+            "text": "broca",
+            "label": "problema"
+        },
+        {
+            "text": "café-cultor",
+            "label": "tratamiento"
+        },
+        {
+            "text": "cosecha sanitaria",
+            "label": "tratamiento"
+        },
+        {
+            "text": "enfermedades",
+            "label": "problema"
+        },
+        {
+            "text": "enfermedades",
+            "label": "problema"
+        },
+        {
+            "text": "cambios climáticos",
+            "label": "factor_climatico"
+        },
+        {
+            "text": "sequía",
+            "label": "factor_climatico"
+        },
+        {
+            "text": "sequía",
+            "label": "factor_climatico"
+        },
+        {
+            "text": "fertilización",
+            "label": "tratamiento"
+        },
+        {
+            "text": "jornaleros  ",
+            "label": "especie_sombra"
+        },
+        {
+            "text": "control de hierbas",
+            "label": "tratamiento"
+        },
+        {
+            "text": "utilizando jornales",
+            "label": "tratamiento"
+        },
+        {
+            "text": "recolección de la cosecha.  ",
+            "label": "tratamiento"
+        },
+        {
+            "text": "podas",
+            "label": "tratamiento"
+        },
+        {
+            "text": "control",
+            "label": "tratamiento"
+        },
+        {
+            "text": "40 a",
+            "label": "cantidad"
+        }
+    ],
+    "processing_version": "1.0"
+}

@@ -1,0 +1,32 @@
+{
+    "audio_id": "AUDIO_00015",
+    "text": "Buenas, soy María Fernanda López, productora de café en Honduras.  Manejo unas seis hectáreas con variedades tradicionales bajo sombra de árboles forestales y leguminosas.",
+    "prediction": "registro_inicial",
+    "entities": [
+        {
+            "text": "café",
+            "label": "cultivo"
+        },
+        {
+            "text": "Honduras",
+            "label": "pais"
+        },
+        {
+            "text": "seis hectáreas",
+            "label": "superficie"
+        },
+        {
+            "text": "tradicionales",
+            "label": "variedad"
+        },
+        {
+            "text": "árboles forestales",
+            "label": "especie_sombra"
+        },
+        {
+            "text": "leguminosas",
+            "label": "especie_sombra"
+        }
+    ],
+    "processing_version": "1.0"
+}

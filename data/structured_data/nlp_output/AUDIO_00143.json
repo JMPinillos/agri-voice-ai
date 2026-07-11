@@ -1,0 +1,20 @@
+{
+    "audio_id": "AUDIO_00143",
+    "text": "Ayer revisamos el lote y encontramos presencia de roya en varias plantas, entonces hay que hacer control.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "Ayer",
+            "label": "fecha_evento"
+        },
+        {
+            "text": "roya",
+            "label": "problema"
+        },
+        {
+            "text": "control",
+            "label": "tratamiento"
+        }
+    ],
+    "processing_version": "1.0"
+}

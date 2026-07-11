@@ -1,0 +1,20 @@
+{
+    "audio_id": "AUDIO_00024",
+    "text": "Ayer revisamos el lote y encontramos presencia de monidiasis en varias plantas y eso hay que manejarlo rápido.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "Ayer",
+            "label": "fecha_evento"
+        },
+        {
+            "text": "monidiasis",
+            "label": "especie_sombra"
+        },
+        {
+            "text": "rápido",
+            "label": "problema"
+        }
+    ],
+    "processing_version": "1.0"
+}

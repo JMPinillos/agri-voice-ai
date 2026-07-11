@@ -1,0 +1,24 @@
+{
+    "audio_id": "AUDIO_00068",
+    "text": "Hola, soy Diana Marcela López.  Cultivo café en Colombia, tengo unas cuatro hectáreas con variedad, castillo y manejo técnico.",
+    "prediction": "registro_inicial",
+    "entities": [
+        {
+            "text": "café",
+            "label": "cultivo"
+        },
+        {
+            "text": "Colombia",
+            "label": "pais"
+        },
+        {
+            "text": "cuatro hectáreas",
+            "label": "superficie"
+        },
+        {
+            "text": "castillo",
+            "label": "variedad"
+        }
+    ],
+    "processing_version": "1.0"
+}

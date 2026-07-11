@@ -1,0 +1,72 @@
+{
+    "audio_id": "AUDIO_00157",
+    "text": "Mi nombre es John L. Arquini Etopa, soy del Cacerío 3 de octubre del Centro Poblado de  la Divisoria, distrito de Boquerón, provincia de Padre Abad, región Ocayali, Perú.  Soy un productor cafetalero, cuento con dos hectáreas de café en cosecha.  Las variedades son caturra y catimor.  Como sombra permanente he sembrado guava y algunos árboles forestales como es  el pino.  La idea de hoy es la cosecha selectiva, que consiste en cosechar frutos puros maduros  para no tener pérdidas al momento del desculpado y así tener pergaminos de buena calidad,  buen peso y buen rendimiento en calidad de taza y así poder vender nuestro café  a mayor precio.",
+    "prediction": "registro_inicial",
+    "entities": [
+        {
+            "text": "3 de octubre",
+            "label": "localidad"
+        },
+        {
+            "text": "la Divisoria",
+            "label": "localidad"
+        },
+        {
+            "text": "Boquerón",
+            "label": "localidad"
+        },
+        {
+            "text": "Padre Abad",
+            "label": "region"
+        },
+        {
+            "text": "Ocayali",
+            "label": "region"
+        },
+        {
+            "text": "Perú",
+            "label": "pais"
+        },
+        {
+            "text": "café",
+            "label": "cultivo"
+        },
+        {
+            "text": "caturra",
+            "label": "variedad"
+        },
+        {
+            "text": "catimor",
+            "label": "variedad"
+        },
+        {
+            "text": "guava",
+            "label": "especie_sombra"
+        },
+        {
+            "text": "árboles forestales",
+            "label": "especie_sombra"
+        },
+        {
+            "text": "pino",
+            "label": "especie_sombra"
+        },
+        {
+            "text": "hoy",
+            "label": "fecha_evento"
+        },
+        {
+            "text": "cosecha selectiva",
+            "label": "tratamiento"
+        },
+        {
+            "text": "desculpado",
+            "label": "tratamiento"
+        },
+        {
+            "text": "café  ",
+            "label": "cultivo"
+        }
+    ],
+    "processing_version": "1.0"
+}

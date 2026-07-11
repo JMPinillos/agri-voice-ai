@@ -1,0 +1,16 @@
+{
+    "audio_id": "AUDIO_00013",
+    "text": "Estamos aplicando Bocassi para mejorar el suelo porque estaba muy pobre y sin nutrientes.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "pobre",
+            "label": "problema"
+        },
+        {
+            "text": "sin nutrientes",
+            "label": "problema"
+        }
+    ],
+    "processing_version": "1.0"
+}

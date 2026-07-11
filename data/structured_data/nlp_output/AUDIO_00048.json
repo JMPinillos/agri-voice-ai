@@ -1,0 +1,28 @@
+{
+    "audio_id": "AUDIO_00048",
+    "text": "Bueno, me llamo Carolina Mendez, soy productora de café en Honduras, tengo unas  cinco hectáreas en producción con variedad bourbón bajo sombra natural.",
+    "prediction": "registro_inicial",
+    "entities": [
+        {
+            "text": "café",
+            "label": "cultivo"
+        },
+        {
+            "text": "Honduras",
+            "label": "pais"
+        },
+        {
+            "text": "cinco hectáreas",
+            "label": "superficie"
+        },
+        {
+            "text": "bourbón",
+            "label": "variedad"
+        },
+        {
+            "text": "sombra natural",
+            "label": "especie_sombra"
+        }
+    ],
+    "processing_version": "1.0"
+}

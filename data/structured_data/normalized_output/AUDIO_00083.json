@@ -1,0 +1,41 @@
+{
+    "audio_id": "AUDIO_00083",
+    "user_id": null,
+    "tipo": "evento_cultivo",
+    "timestamp_recepcion": "2026-05-27T21:31:18.088000Z",
+    "fecha_recepcion": "2026-05-27",
+    "transcripcion": "Entonces lo que hicimos fue aplicar abono orgánico alrededor de la planta,  como unos 30 centímetros, para no quemar la raíz y que absorba mejor.",
+    "evento": {
+        "fecha_evento": null,
+        "fecha_evento_fin": null,
+        "granularidad_fecha_evento": null,
+        "cultivo": null,
+        "variedad": null,
+        "accion": null,
+        "categoria_accion": null,
+        "magnitudes": [
+            {
+                "tipo": "distancia",
+                "valor": 30.0,
+                "unidad": "cm",
+                "unidad_original": "centimetros",
+                "estado": "ok"
+            }
+        ],
+        "problemas": [],
+        "tratamientos": [
+            "fertilizante"
+        ],
+        "partes_planta": [],
+        "estado_cultivo": null,
+        "espacio_agricola": null,
+        "localidad": null,
+        "region": null,
+        "pais": null,
+        "factor_climatico": [],
+        "sistema_produccion": null,
+        "especie_sombra": []
+    },
+    "estado_procesamiento": "ok",
+    "normalization_version": "1.1"
+}

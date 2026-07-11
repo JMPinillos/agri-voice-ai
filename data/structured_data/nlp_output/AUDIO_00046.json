@@ -1,0 +1,16 @@
+{
+    "audio_id": "AUDIO_00046",
+    "text": "La verdad el clima no está ayudando mucho porque llueve fuerte y luego hace calor,  entonces eso afecta bastante a la producción.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "llueve fuerte",
+            "label": "factor_climatico"
+        },
+        {
+            "text": "calor,",
+            "label": "factor_climatico"
+        }
+    ],
+    "processing_version": "1.0"
+}

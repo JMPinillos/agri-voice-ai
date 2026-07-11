@@ -1,0 +1,16 @@
+{
+    "audio_id": "AUDIO_00136",
+    "text": "Hoy se hizo aplicación foliar con biofertilizante preparado en la finca con estiércol, melaza y ceniza.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "Hoy",
+            "label": "fecha_evento"
+        },
+        {
+            "text": "aplicación foliar con biofertilizante",
+            "label": "tratamiento"
+        }
+    ],
+    "processing_version": "1.0"
+}

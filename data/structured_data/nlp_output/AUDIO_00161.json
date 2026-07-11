@@ -1,0 +1,20 @@
+{
+    "audio_id": "AUDIO_00161",
+    "text": "Bueno, en estos días también hemos estado viendo problemas de sequía porque no ha llovido  lo suficiente, entonces las plantas se están afectando bastante y toca buscar alternativas.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "en estos días",
+            "label": "fecha_evento"
+        },
+        {
+            "text": "sequía",
+            "label": "factor_climatico"
+        },
+        {
+            "text": "afectando",
+            "label": "problema"
+        }
+    ],
+    "processing_version": "1.0"
+}

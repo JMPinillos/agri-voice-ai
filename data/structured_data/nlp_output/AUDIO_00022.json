@@ -1,0 +1,24 @@
+{
+    "audio_id": "AUDIO_00022",
+    "text": "Me llamo Juan Camilo Usme, soy productor cacaotero en Honduras y manejo alrededor de 5 hectáreas  en producción con variedades comerciales.",
+    "prediction": "registro_inicial",
+    "entities": [
+        {
+            "text": "cacaotero",
+            "label": "cultivo"
+        },
+        {
+            "text": "Honduras",
+            "label": "pais"
+        },
+        {
+            "text": "5 hectáreas",
+            "label": "superficie"
+        },
+        {
+            "text": "comerciales",
+            "label": "variedad"
+        }
+    ],
+    "processing_version": "1.0"
+}

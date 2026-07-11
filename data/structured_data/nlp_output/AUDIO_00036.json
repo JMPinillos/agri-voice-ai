@@ -1,0 +1,12 @@
+{
+    "audio_id": "AUDIO_00036",
+    "text": "Se observó ataque de antracnosis en varios sectores del lote y hay que actuar pronto.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "antracnosis",
+            "label": "problema"
+        }
+    ],
+    "processing_version": "1.0"
+}

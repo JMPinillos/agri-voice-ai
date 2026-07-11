@@ -1,0 +1,20 @@
+{
+    "audio_id": "AUDIO_00103",
+    "text": "Ayer revisamos el lote y vimos enfermedad en varias plantas, entonces estamos planificando control.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "Ayer",
+            "label": "fecha_evento"
+        },
+        {
+            "text": "enfermedad",
+            "label": "problema"
+        },
+        {
+            "text": "control",
+            "label": "tratamiento"
+        }
+    ],
+    "processing_version": "1.0"
+}

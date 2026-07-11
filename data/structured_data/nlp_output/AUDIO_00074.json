@@ -1,0 +1,20 @@
+{
+    "audio_id": "AUDIO_00074",
+    "text": "Buenas, soy Laura Fernández, productora de café.  Tengo unas tres hectáreas en producción con variedad caturra.",
+    "prediction": "registro_inicial",
+    "entities": [
+        {
+            "text": "café",
+            "label": "cultivo"
+        },
+        {
+            "text": "tres hectáreas",
+            "label": "superficie"
+        },
+        {
+            "text": "caturra",
+            "label": "variedad"
+        }
+    ],
+    "processing_version": "1.0"
+}

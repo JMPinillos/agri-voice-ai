@@ -1,0 +1,20 @@
+{
+    "audio_id": "AUDIO_00129",
+    "text": "Entonces organizando las actividades del día estuvimos haciendo deshierbe manual  porque no usamos herbicidas químicos para no dañar el suelo.",
+    "prediction": "evento_cultivo",
+    "entities": [
+        {
+            "text": "del día",
+            "label": "fecha_evento"
+        },
+        {
+            "text": "deshierbe manual  ",
+            "label": "tratamiento"
+        },
+        {
+            "text": "herbicidas químicos",
+            "label": "tratamiento"
+        }
+    ],
+    "processing_version": "1.0"
+}

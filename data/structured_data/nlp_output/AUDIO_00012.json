@@ -1,0 +1,32 @@
+{
+    "audio_id": "AUDIO_00012",
+    "text": "Me llamo Jorge Iván Atortúa, soy productor de cacao en el departamento del Cauca, Colombia.  Manejo aproximadamente 9 hectáreas bajo sistema agroforestal con variedades crío  y trinitario, combinando producción con conservación del suelo.",
+    "prediction": "registro_inicial",
+    "entities": [
+        {
+            "text": "cacao",
+            "label": "cultivo"
+        },
+        {
+            "text": "Cauca",
+            "label": "region"
+        },
+        {
+            "text": "Colombia",
+            "label": "pais"
+        },
+        {
+            "text": "9 hectáreas",
+            "label": "superficie"
+        },
+        {
+            "text": "crío",
+            "label": "variedad"
+        },
+        {
+            "text": "trinitario",
+            "label": "variedad"
+        }
+    ],
+    "processing_version": "1.0"
+}
