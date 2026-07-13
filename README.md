@@ -89,38 +89,44 @@ El flujo principal del sistema comprende una entrada inicial de audio y cinco m�
 
 El repositorio se organiza separando configuración, datos, modelos, salidas intermedias y documentación metodológica. Esta estructura facilita la trazabilidad del *pipeline*, la revisión de cada etapa y la reutilización de los distintos artefactos generados por el sistema.
 
+
+
 ```text
 agri-voice-ai/
 │
-├── configs/                         # Configuración del dominio, NER y normalización
+├── assets/                          # Recursos visuales y elementos de identidad del repositorio
+│   ├── images/
+│   └── logo/
+│
+├── configs/                         # Configuración del dominio, NER y normalización semántica
 │   ├── domain/
 │   ├── ner/
 │   └── normalization/
 │
-├── data/                            # Datos de entrada, salidas intermedias y resultados estructurados
+├── data/                            # Datos de entrada, artefactos intermedios y salidas estructuradas
 │   ├── audio/
-│   │   ├── raw/
-│   │   ├── standardized/
-│   │   └── processed/
+│   │   ├── raw/                     # Audios originales
+│   │   ├── standardized/            # Audios estandarizados
+│   │   └── processed/               # Audios procesados
 │   │
 │   ├── transcriptions/
-│   │   ├── asr_output/
-│   │   ├── ground_truth/
-│   │   └── predictions/
+│   │   ├── asr_output/              # Transcripciones generadas por el sistema ASR
+│   │   ├── ground_truth/            # Transcripciones de referencia
+│   │   └── predictions/             # Predicciones y resultados de evaluación
 │   │
 │   ├── structured_data/
-│   │   ├── nlp_output/
-│   │   └── normalized_output/
+│   │   ├── nlp_output/              # Salidas del módulo de clasificación y NER
+│   │   └── normalized_output/       # Registros normalizados finales
 │   │
 │   ├── datasets/
-│   │   └── ner/
+│   │   └── ner/                     # Conjuntos de datos de entrenamiento y evaluación NER
 │   │
 │   ├── metadata/
-│   │   └── audio_metadata/
+│   │   └── audio_metadata/          # Metadatos asociados a los audios
 │   │
-│   └── samples/
+│   └── samples/                     # Muestras anonimizadas para documentación
 │
-├── models/                          # Modelos entrenados del sistema
+├── models/                          # Modelos entrenados utilizados por el sistema
 │   ├── classification_model/
 │   └── ner_model/
 │
@@ -130,12 +136,11 @@ agri-voice-ai/
 │   ├── 03_nlp_classification_ner.html
 │   └── 04_nlp_normalization.html
 │
-├── assets/                          # Imágenes y recursos visuales del repositorio
-│   └── images/
-│
-├── requirements.txt                 # Dependencias Python del proyecto
-├── .gitignore
-└── README.md
+├── .gitignore                       # Exclusiones del control de versiones
+├── LICENSE                          # Condiciones de uso y propiedad intelectual
+├── README.md                        # Documentación principal del proyecto
+├── requirements.txt                 # Dependencias principales del entorno Python
+└── requirements-lock.txt            # Versiones exactas utilizadas durante el desarrollo
 ```
 
 
@@ -297,7 +302,7 @@ El proyecto utiliza una estructura modular, rutas relativas a la raíz del repos
 
 Cuando corresponde, se emplean semillas fijas en los procesos de entrenamiento. No obstante, algunos componentes de aprendizaje profundo pueden presentar pequeñas variaciones entre ejecuciones debido al hardware, al backend de aceleración o a las versiones de las librerías utilizadas.
 
-Para reproducir el *pipeline* de forma consistente se recomienda mantener la estructura de carpetas del repositorio, instalar las dependencias desde `requirements.txt`, ejecutar las etapas en el orden indicado y conservar las versiones de configuración utilizadas en cada ejecución.
+Para reproducir el *pipeline* de forma consistente, se recomienda mantener la estructura de carpetas del repositorio, instalar las dependencias desde `requirements.txt` o reproducir el entorno exacto mediante `requirements-lock.txt`, ejecutar las etapas en el orden indicado y conservar las versiones de configuración utilizadas en cada ejecución.
 
 
 
@@ -401,15 +406,15 @@ Antes de publicar nuevas versiones del repositorio, debe revisarse cuidadosament
 
 ## Licencia y propiedad intelectual
 
-Este repositorio contiene código, documentación, configuraciones y artefactos desarrollados por **José Manuel Pinillos Rubio** en el marco del proyecto **AgriVoice AI**, un trabajo académico y técnico de inteligencia artificial aplicada.
+Este repositorio se distribuye bajo una licencia propietaria y contiene código, documentación, configuraciones, modelos y artefactos desarrollados por **José Manuel Pinillos Rubio** en el marco del proyecto **AgriVoice AI**.
 
-El contenido se publica con fines de revisión, presentación académica y documentación técnica del proyecto.
+El contenido se publica exclusivamente con fines de revisión, presentación académica y documentación técnica.
 
 Todos los derechos sobre el código, la documentación, la estructura del proyecto, los recursos de configuración, los modelos y los artefactos incluidos pertenecen a **José Manuel Pinillos Rubio**.
 
-Este repositorio no se distribuye bajo una licencia de código abierto. Su uso, copia, modificación, redistribución, reutilización comercial, publicación derivada o incorporación total o parcial en otros proyectos requiere autorización expresa del autor.
+No se autoriza su copia, modificación, redistribución, reutilización comercial, publicación derivada ni incorporación total o parcial en otros proyectos sin autorización expresa del autor.
 
-Para más información, consultar el archivo [`LICENSE`](LICENSE).
+Para consultar las condiciones completas de uso, consulte el archivo [`LICENSE`](LICENSE).
 
 
 
