@@ -4,6 +4,17 @@ Autor: José Manuel Pinillos Rubio
 Sustituye los marcadores TODO por tus enlaces, imágenes y datos finales antes de publicar.
 -->
 
+
+
+### Logo del proyecto
+
+```html
+<img src="assets/logo/agrivoice-ai-logo.png" alt="AgriVoice AI logo" width="180"/>
+
+```
+
+
+
 <p align="center">
   <!-- TODO: Sustituir por el logo definitivo del proyecto -->
   <!-- Ejemplo: <img src="assets/logo/agrivoice-ai-logo.png" alt="AgriVoice AI logo" width="180"/> -->
@@ -103,7 +114,7 @@ El flujo principal del sistema comprende una entrada inicial de audio y cinco m�
 
 ## Arquitectura del repositorio
 
-El repositorio se organiza separando configuración, datos, modelos, salidas intermedias y documentación metodológica. Esta estructura facilita la trazabilidad del pipeline, la revisión de cada etapa y la reutilización de los distintos artefactos generados por el sistema.
+El repositorio se organiza separando configuración, datos, modelos, salidas intermedias y documentación metodológica. Esta estructura facilita la trazabilidad del *pipeline*, la revisión de cada etapa y la reutilización de los distintos artefactos generados por el sistema.
 
 ```text
 agri-voice-ai/
@@ -156,6 +167,23 @@ agri-voice-ai/
 
 
 
+### Recursos de configuración y modelos
+
+Los recursos de configuración y los modelos entrenados se mantienen separados del resto de datos del proyecto para facilitar su mantenimiento, trazabilidad y reutilización.
+
+| **Carpeta**                    | **Contenido**                                                |
+| ------------------------------ | ------------------------------------------------------------ |
+| `configs/domain/`              | Recursos del dominio agrícola utilizados como apoyo al procesamiento. |
+| `configs/ner/`                 | Configuración, etiquetas y diccionarios empleados por el módulo de extracción de entidades. |
+| `configs/normalization/`       | Mapas, reglas y recursos utilizados para la normalización semántica. |
+| `models/classification_model/` | Modelo entrenado para la clasificación de mensajes agrícolas. |
+| `models/ner_model/`            | Modelo entrenado para la extracción de entidades del dominio. |
+| `tmp/`                         | Directorio temporal para salidas auxiliares de entrenamiento, excluido del control de versiones. |
+
+El directorio `tmp/` se genera únicamente durante ejecuciones locales y permanece excluido del repositorio mediante `.gitignore`.
+
+
+
 ## *Notebooks* del *pipeline*
 
 Las versiones HTML permiten revisar la metodología, el flujo de trabajo, el código utilizado y los resultados principales de cada etapa del sistema.
@@ -163,8 +191,6 @@ Las versiones HTML permiten revisar la metodología, el flujo de trabajo, el có
 > [!NOTE]
 >
 > Los *notebooks* ejecutables originales no se incluyen en la versión pública del repositorio. Se publican versiones HTML para facilitar la revisión metodológica sin exponer innecesariamente código ejecutable, datos sensibles o artefactos de trabajo.
-
-
 
 
 
@@ -288,255 +314,136 @@ La instalación del entorno solo es necesaria si se desea reproducir el pipeline
 
 
 
-## Flujo de ejecución del pipeline
+### Reproducibilidad
+
+El proyecto utiliza una estructura modular, rutas relativas a la raíz del repositorio y recursos de configuración versionados para facilitar la reproducción del flujo de trabajo en distintos entornos.
+
+Cuando corresponde, se emplean semillas fijas en los procesos de entrenamiento. No obstante, algunos componentes de aprendizaje profundo pueden presentar pequeñas variaciones entre ejecuciones debido al hardware, al backend de aceleración o a las versiones de las librerías utilizadas.
+
+Para reproducir el pipeline de forma consistente se recomienda mantener la estructura de carpetas del repositorio, instalar las dependencias desde `requirements.txt`, ejecutar las etapas en el orden indicado y conservar las versiones de configuración utilizadas en cada ejecución.
+
+
+
+## Flujo de ejecución del *pipeline*
 
 El sistema se ejecuta de forma secuencial, de modo que cada etapa consume la salida generada por la etapa anterior. Esta organización permite mantener la trazabilidad del procesamiento y analizar el comportamiento individual de cada módulo.
 
 
 
 <p align="center">
-  <img src="https://img.shields.io/badge/01-Audio%20Preprocessing-2EA043?style=for-the-badge" alt="01 Audio Preprocessing">
+  <img src="https://img.shields.io/badge/1-Audio%20Preprocessing-2EA043?style=flat" alt="01 Audio Preprocessing" width="21%">
   <br><strong>⬇</strong><br>
-  <img src="https://img.shields.io/badge/02-Speech%20to%20Text%20ASR-F97316?style=for-the-badge" alt="02 Speech to Text ASR">
+  <img src="https://img.shields.io/badge/2-Speech%20to%20Text%20ASR-F97316?style=flat" alt="02 Speech to Text ASR" width="20%">
   <br><strong>⬇</strong><br>
-  <img src="https://img.shields.io/badge/03-NLP%20Classification%20%2B%20NER-8B5CF6?style=for-the-badge" alt="03 NLP Classification and NER">
+  <img src="https://img.shields.io/badge/3-NLP%20Classification%20%2B%20NER-8B5CF6?style=flat" alt="03 NLP Classification and NER" width="24%">
   <br><strong>⬇</strong><br>
-  <img src="https://img.shields.io/badge/04-NLP%20Normalization-14B8A6?style=for-the-badge" alt="04 NLP Normalization">
+  <img src="https://img.shields.io/badge/4-NLP%20Normalization-14B8A6?style=flat" alt="04 NLP Normalization" width="20%">
 </p>
 
 
 
+Cada etapa consume los artefactos generados por la anterior y escribe sus resultados en una ubicación específica de `data/`:
+
+| Etapa                | Entrada principal                  | Salida principal                          |
+| :------------------- | :--------------------------------- | :---------------------------------------- |
+| **Preprocesamiento** | `data/audio/raw/`                  | `data/audio/processed/`                   |
+| **ASR**              | `data/audio/processed/`            | `data/transcriptions/asr_output/`         |
+| **NLP**              | `data/transcriptions/asr_output/`  | `data/structured_data/nlp_output/`        |
+| **Normalización**    | `data/structured_data/nlp_output/` | `data/structured_data/normalized_output/` |
 
 
-
-
-Cada módulo genera artefactos intermedios o finales dentro de la estructura `data/`:
-
-| Etapa            | Entrada principal                  | Salida principal                          |
-| ---------------- | ---------------------------------- | ----------------------------------------- |
-| Preprocesamiento | `data/audio/raw/`                  | `data/audio/processed/`                   |
-| ASR              | `data/audio/processed/`            | `data/transcriptions/asr_output/`         |
-| NLP              | `data/transcriptions/asr_output/`  | `data/structured_data/nlp_output/`        |
-| Normalización    | `data/structured_data/nlp_output/` | `data/structured_data/normalized_output/` |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Flujo de ejecución del pipeline
-
-El sistema se ejecuta de forma secuencial, de modo que cada etapa consume la salida generada por la etapa anterior. Esta organización permite mantener la trazabilidad del procesamiento y analizar el comportamiento individual de cada módulo.
-
-```text
-01_audio_preprocessing
-        ↓
-02_speech_to_text_asr
-        ↓
-03_nlp_classification_ner
-        ↓
-04_nlp_normalization
-```
-
-
-
-Cada módulo consume la salida generada por la etapa anterior y produce artefactos intermedios o finales dentro de la estructura `data/`.
-
-| Etapa | Entrada principal | Salida principal |
-|---|---|---|
-| Preprocesamiento | `data/audio/raw/` | `data/audio/processed/` |
-| ASR | `data/audio/processed/` | `data/transcriptions/asr_output/` |
-| NLP | `data/transcriptions/asr_output/` | `data/structured_data/nlp_output/` |
-| Normalización | `data/structured_data/nlp_output/` | `data/structured_data/normalized_output/` |
-
----
 
 ## Salida estructurada
 
-La salida final del pipeline se genera en formato **JSON estructurado**, permitiendo representar de forma homogénea la información extraída de cada mensaje de voz.
+La salida final del *pipeline* se materializa en registros estructurados en formato **JSON**, donde se integra la transcripción del mensaje de audio, la clasificación del mensaje, las entidades normalizadas y los metadatos asociados al procesamiento.
 
-Ejemplo conceptual:
+Cada registro mantiene la trazabilidad entre el audio original, la transcripción utilizada y la información agrícola extraída, facilitando su posterior almacenamiento, consulta y explotación.
+
+Ejemplo simplificado de estructura de salida:
 
 ```json
 {
-  "audio_id": "AUDIO_001",
-  "user_id": "USER_001",
-  "tipo": "incidencia",
-  "fecha_recepcion": "2026-01-01",
-  "transcripcion": "Texto procesado del mensaje...",
+  "audio_id": "AUDIO_XXXXX",
+  "user_id": null,
+  "tipo": "evento_cultivo",
+  "timestamp_recepcion": "YYYY-MM-DDTHH:MM:SSZ",
+  "fecha_recepcion": "YYYY-MM-DD",
+  "transcripcion": "Transcripción del mensaje de audio...",
   "evento": {
+    "fecha_evento": null,
+    "fecha_evento_fin": null,
+    "granularidad_fecha_evento": null,
     "cultivo": "cafe",
-    "problema": "plaga",
-    "tratamiento": "control biologico"
+    "variedad": null,
+    "accion": null,
+    "categoria_accion": null,
+    "magnitudes": [
+      {
+        "tipo": "conteo",
+        "valor": 40.0,
+        "unidad": null,
+        "unidad_original": "unidad_original_detectada",
+        "estado": "unidad_no_mapeada"
+      }
+    ],
+    "problemas": ["plaga", "broca", "enfermedad"],
+    "tratamientos": ["cosecha", "fertilizacion", "control_maleza", "poda"],
+    "partes_planta": [],
+    "estado_cultivo": null,
+    "espacio_agricola": null,
+    "localidad": null,
+    "region": null,
+    "pais": null,
+    "factor_climatico": ["cambio_climatico", "sequia"],
+    "sistema_produccion": null,
+    "especie_sombra": []
   },
-  "estado_procesamiento": "procesado",
-  "normalization_version": "v1.1"
+  "estado_procesamiento": "ok",
+  "normalization_version": "1.1"
 }
 ```
 
-Esta estructura facilita su posterior integración en:
 
-- bases de datos;
-- cuadros de mando;
-- sistemas de búsqueda semántica;
-- herramientas de soporte a la decisión;
-- pipelines RAG;
-- sistemas de alertas o monitorización agrícola.
 
----
+Esta representación permite transformar comunicaciones orales de campo en registros homogéneos, trazables y preparados para su almacenamiento, consulta y explotación posterior en bases de datos, cuadros de mando, motores de búsqueda semántica, arquitecturas RAG u otros sistemas de análisis.
 
-## Modelos y configuración
 
-El repositorio separa explícitamente código, datos, configuración y modelos.
-
-| Carpeta | Contenido |
-|---|---|
-| `configs/domain/` | Recursos del dominio agrícola |
-| `configs/ner/` | Configuración y diccionarios utilizados por el módulo NER |
-| `configs/normalization/` | Mapas y reglas de normalización semántica |
-| `models/classification_model/` | Modelo entrenado para clasificación de mensajes |
-| `models/ner_model/` | Modelo entrenado para extracción de entidades |
-| `tmp/` | Salidas temporales de entrenamiento ignoradas por Git |
-
-Las salidas temporales de entrenamiento no forman parte del repositorio y deben mantenerse excluidas mediante `.gitignore`.
-
----
-
-## Reproducibilidad
-
-El proyecto ha sido desarrollado con una estructura modular y rutas relativas a la raíz del repositorio para facilitar la ejecución en distintos entornos.
-
-Se utilizan semillas fijas en los procesos de entrenamiento cuando corresponde. Aun así, algunos componentes de aprendizaje profundo pueden presentar pequeñas variaciones entre ejecuciones debido a diferencias de hardware, backend de aceleración o versiones de librerías.
-
-Para mejorar la reproducibilidad se recomienda:
-
-- ejecutar los notebooks en el orden indicado;
-- utilizar el entorno definido en `requirements.txt`;
-- mantener la estructura de carpetas del repositorio;
-- evitar modificar manualmente los artefactos intermedios;
-- conservar las versiones de configuración utilizadas en cada ejecución.
-
----
 
 ## Privacidad y datos
 
-Los audios originales, transcripciones completas y salidas asociadas pueden contener información sensible o identificable. Por este motivo, la versión pública del repositorio debe evitar incluir datos reales no anonimizados.
+El proyecto ha sido desarrollado con audios reales y transcripciones asociadas a contextos agrícolas de campo. Este tipo de información puede contener datos personales, referencias locales, nombres propios u otros elementos potencialmente identificables.
 
-La estructura del proyecto permite publicar únicamente:
+Por este motivo, la versión pública del repositorio está orientada a la revisión metodológica y no incluye datos reales no anonimizados. La publicación del proyecto prioriza la documentación del pipeline, la estructura del sistema, las configuraciones generales, los modelos entrenados cuando proceda y las versiones HTML de los notebooks.
 
-- muestras anonimizadas;
-- configuraciones generales;
-- modelos entrenados si no exponen información sensible;
-- notebooks exportados a HTML;
-- documentación metodológica.
+Antes de publicar nuevas versiones del repositorio, debe revisarse cuidadosamente el contenido de `data/`, `models/`, `notebooks_html/` y cualquier archivo generado automáticamente para evitar la exposición accidental de información sensible.
 
-> Antes de publicar el repositorio, revisar cuidadosamente el contenido de `data/`, `models/`, `notebooks_html/` y cualquier archivo generado automáticamente.
+> [!IMPORTANT]
+> Los datos reales del proyecto no deben publicarse sin un proceso previo de anonimización y validación.
 
----
 
-## Limitaciones
-
-El sistema debe interpretarse dentro de su ámbito de aplicación y evaluación.
-
-Principales limitaciones:
-
-- el dominio se restringe a café y cacao;
-- el rendimiento depende de la calidad de los audios de entrada;
-- los errores de ASR pueden propagarse a las etapas de NLP y normalización;
-- la normalización semántica depende de los mapas, reglas y diccionarios definidos;
-- el sistema no sustituye la validación experta en decisiones agronómicas críticas.
-
----
-
-## Trabajo futuro
-
-Líneas potenciales de evolución:
-
-- ampliación del dominio a otros cultivos;
-- integración con bases de datos relacionales o vectoriales;
-- explotación mediante dashboards;
-- búsqueda semántica sobre registros agrícolas;
-- integración con sistemas RAG;
-- generación de alertas para incidencias relevantes;
-- evaluación con un mayor volumen de audios y escenarios de campo;
-- despliegue como servicio en la nube.
-
----
-
-## Capturas e imágenes del proyecto
-
-Puedes añadir aquí imágenes, esquemas o capturas del sistema.
-
-### Logo del proyecto
-
-```html
-<img src="assets/logo/agrivoice-ai-logo.png" alt="AgriVoice AI logo" width="180"/>
-```
-
-### Esquema visual del pipeline
-
-```markdown
-![Pipeline AgriVoice AI](assets/images/pipeline-overview.png)
-```
-
-### Ejemplo de salida estructurada
-
-```markdown
-![Ejemplo JSON estructurado](assets/images/json-output-example.png)
-```
-
-Estructura recomendada para imágenes:
-
-```text
-assets/
-├── logo/
-│   └── agrivoice-ai-logo.png
-└── images/
-    ├── pipeline-overview.png
-    └── json-output-example.png
-```
-
----
 
 ## Licencia y propiedad intelectual
 
-Este repositorio contiene código, documentación, configuraciones y artefactos desarrollados por:
+Este repositorio contiene código, documentación, configuraciones y artefactos desarrollados por **José Manuel Pinillos Rubio** en el marco del proyecto **AgriVoice AI**, un trabajo académico y técnico de inteligencia artificial aplicada.
 
-**José Manuel Pinillos Rubio**
+Salvo que se indique expresamente lo contrario mediante una licencia específica, todos los derechos sobre el código, la documentación, la estructura del proyecto, los recursos de configuración y los artefactos incluidos en este repositorio pertenecen a **José Manuel Pinillos Rubio**.
 
-El contenido de este repositorio forma parte de un trabajo académico y técnico desarrollado en el marco de un proyecto de inteligencia artificial aplicada.
+El contenido se publica con fines de revisión, presentación académica y documentación técnica del proyecto. No se autoriza su copia, redistribución, reutilización comercial, publicación derivada ni incorporación total o parcial en otros proyectos sin autorización expresa del autor.
 
-Salvo que se indique expresamente lo contrario mediante una licencia específica, todos los derechos de autor y propiedad intelectual sobre el código, documentación y estructura del proyecto pertenecen a **José Manuel Pinillos Rubio**.
+> [!IMPORTANT]
+> La ausencia de un archivo `LICENSE` no implica que el contenido sea de dominio público. Cualquier uso distinto de la consulta o revisión del repositorio requiere autorización previa del autor.
 
-No se autoriza la copia, redistribución, reutilización comercial, publicación derivada o incorporación total o parcial de este trabajo en otros proyectos sin autorización expresa del autor.
 
-> Si deseas permitir determinados usos, añade una licencia formal en un archivo `LICENSE`. Si no añades licencia, por defecto el repositorio queda protegido por derechos de autor, pero otros usuarios no tendrán permisos explícitos de uso, copia o modificación.
-
----
 
 ## Autor
 
-**José Manuel Pinillos Rubio**  
-Ingeniero Informático · Máster en Inteligencia Artificial  
+**José Manuel Pinillos Rubio** 
+
+Ingeniero Informático · Máster en Inteligencia Artificial 
+
 Proyecto: **AgriVoice AI**
 
-<!-- TODO: Añadir enlaces profesionales si procede -->
-<!-- GitHub: https://github.com/USUARIO -->
+<!-- Enlaces profesionales opcionales -->
+<!-- GitHub: https://github.com/JMPinillos -->
 <!-- LinkedIn: https://www.linkedin.com/in/USUARIO -->
 <!-- Email: correo@ejemplo.com -->
-
----
-
-<p align="center">
-  <strong>AgriVoice AI</strong><br>
-  Transformando mensajes de voz agrícolas en datos estructurados mediante inteligencia artificial.
-</p>
