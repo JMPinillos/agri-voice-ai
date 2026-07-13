@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="./assets/logo/agrivoice-logo.png" alt="agrivoice-logo" />
+  <img src="./assets/logo/agrivoice-logo.png" alt="agrivoice-logo" width="50%" />
 </p>
+
 
 
 <h1 align="center">AgriVoice AI</h1>
