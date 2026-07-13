@@ -88,7 +88,7 @@ AgriVoice AI se estructura como un *pipeline* secuencial en el que cada módulo 
 
 
 
-El flujo principal del sistema comprende una entrada inicial de audio y cinco módulos de procesamiento:
+El flujo principal del sistema comprende las siguientes etapas:
 
 <table>
   <thead>
