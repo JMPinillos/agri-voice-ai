@@ -90,14 +90,14 @@ AgriVoice AI se estructura como un *pipeline* secuencial en el que cada módulo 
 
 El flujo principal del sistema comprende una entrada inicial de audio y cinco módulos de procesamiento:
 
-| Tipo         | Etapa                         | Descripción                                                  |
-| ------------ | ----------------------------- | ------------------------------------------------------------ |
-| **Entrada**  | **Audio**                     | Mensajes de voz generados en campo por productores o técnicos agrícolas. |
+|     Tipo     |             Etapa             | Descripción                                                  |
+| :----------: | :---------------------------: | ------------------------------------------------------------ |
+| **Entrada**  |           **Audio**           | Mensajes de voz generados en campo por productores o técnicos agrícolas. |
 | **Módulo 1** | **Preprocesamiento acústico** | Estandarización de los audios y aplicación selectiva de transformaciones para mejorar su adecuación al sistema ASR. |
-| **Módulo 2** | **ASR**                       | Conversión de los mensajes de voz en transcripciones automáticas mediante reconocimiento automático del habla. |
-| **Módulo 3** | **Clasificación**             | Identificación del tipo de mensaje agrícola procesado.       |
-| **Módulo 4** | **NER**                       | Extracción de entidades relevantes del dominio, como cultivos, plagas, enfermedades, tratamientos, cantidades, fechas, superficies o condiciones ambientales. |
-| **Módulo 5** | **Normalización**             | Homogeneización semántica de la información extraída y generación de registros estructurados, trazables y reutilizables. |
+| **Módulo 2** |            **ASR**            | Conversión de los mensajes de voz en transcripciones automáticas mediante reconocimiento automático del habla. |
+| **Módulo 3** |       **Clasificación**       | Identificación del tipo de mensaje agrícola procesado.       |
+| **Módulo 4** |            **NER**            | Extracción de entidades relevantes del dominio, como cultivos, plagas, enfermedades, tratamientos, cantidades, fechas, superficies o condiciones ambientales. |
+| **Módulo 5** |       **Normalización**       | Homogeneización semántica de la información extraída y generación de registros estructurados, trazables y reutilizables. |
 
 
 
