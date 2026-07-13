@@ -1,15 +1,5 @@
-### Logo del proyecto
-
-```html
-<img src="assets/logo/agrivoice-ai-logo.png" alt="AgriVoice AI logo" width="180"/>
-
-```
-
-
-
 <p align="center">
-  <!-- TODO: Sustituir por el logo definitivo del proyecto -->
-  <!-- Ejemplo: <img src="assets/logo/agrivoice-ai-logo.png" alt="AgriVoice AI logo" width="180"/> -->
+  <img src="assets/logo/agrivoice-ai-logo.png" alt="AgriVoice AI logo" width="140">
 </p>
 
 <h1 align="center">AgriVoice AI</h1>
@@ -19,21 +9,14 @@
 </p>
 
 <p align="center">
-  <a href="#descripción-general"><img src="https://img.shields.io/badge/Proyecto-Inteligencia%20Artificial-6f42c1?style=for-the-badge" alt="Proyecto IA"></a>
-  <a href="#pipeline-del-sistema"><img src="https://img.shields.io/badge/Pipeline-Audio%20%7C%20ASR%20%7C%20NLP%20%7C%20JSON-2ea44f?style=for-the-badge" alt="Pipeline"></a>
-  <a href="#ámbito-de-aplicación"><img src="https://img.shields.io/badge/Dominio-Café%20%26%20Cacao-brown?style=for-the-badge" alt="Café y cacao"></a>
-  <a href="#licencia-y-propiedad-intelectual"><img src="https://img.shields.io/badge/Propiedad%20intelectual-José%20Manuel%20Pinillos%20Rubio-blue?style=for-the-badge" alt="Propiedad intelectual"></a>
+  <img src="https://img.shields.io/badge/-Python-3670A0?style=flat&logo=python&logoColor=ffdd54" alt="Python" height="24">
+  <img src="https://img.shields.io/badge/-Faster--Whisper-111111?style=flat" alt="Faster Whisper" height="24">
+  <img src="https://img.shields.io/badge/-spaCy-09A3D5?style=flat" alt="spaCy" height="24">
+  <img src="https://img.shields.io/badge/-HuggingFace-3B4252?style=flat&logo=huggingface&logoColor=FFD21E" alt="Hugging Face" height="24">
+  <img src="https://img.shields.io/badge/JSON-000000?style=flat&logo=json&logoColor=white" alt="JSON" height="24">
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/ASR-Faster--Whisper-111111?style=flat-square" alt="Faster Whisper">
-  <img src="https://img.shields.io/badge/NLP-spaCy%20%7C%20Transformers-09A3D5?style=flat-square" alt="NLP">
-  <img src="https://img.shields.io/badge/Output-Structured%20JSON-ffb000?style=flat-square" alt="JSON">
-  <img src="https://img.shields.io/badge/Status-Academic%20TFM-important?style=flat-square" alt="Academic project">
-</p>
 
----
 
 ## Índice
 
@@ -428,10 +411,6 @@ Para más información, consultar el archivo [`LICENSE`](LICENSE).
 
 
 
-
-
-
-
 ## Autor
 
 <p align="center">
@@ -440,17 +419,9 @@ Para más información, consultar el archivo [`LICENSE`](LICENSE).
   Proyecto: <strong>AgriVoice AI</strong>
 </p>
 <p align="center">
-  <a href="https://github.com/JMPinillos">
-    <img src="https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub">
-  </a>
-  <a href="https://www.linkedin.com/in/jmpinillos/">
-    <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="https://www.jmpinillos.es/">
-    <img src="https://img.shields.io/badge/-Web-2EA043?style=flat&logo=googlechrome&logoColor=white" alt="Web personal">
-  </a>
-  <a href="mailto:contacto@jmpinillos.es">
-    <img src="https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email">
-  </a>
+  <a href="https://github.com/JMPinillos"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://www.linkedin.com/in/jmpinillos/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.jmpinillos.es/"><img src="https://img.shields.io/badge/Web-2EA043?style=flat&logo=googlechrome&logoColor=white" alt="Web personal"></a>
+  <a href="mailto:contacto@jmpinillos.es"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
