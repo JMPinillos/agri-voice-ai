@@ -158,46 +158,26 @@ agri-voice-ai/
 
 
 
-## Notebooks del pipeline
-
-
-
-> [!NOTE]
->
-> Los notebooks ejecutables originales no se incluyen en la versión pública del repositorio. Se publican versiones HTML para facilitar la revisión metodológica sin exponer innecesariamente código ejecutable, datos sensibles o artefactos de trabajo.
-
-
+## *Notebooks* del *pipeline*
 
 Las versiones HTML permiten revisar la metodología, el flujo de trabajo, el código utilizado y los resultados principales de cada etapa del sistema.
 
-| Orden | Notebook | Descripción | Enlace |
-|---:|---|---|---|
-| 1 | `01_audio_preprocessing.html` | Estandarización, limpieza y preprocesamiento acústico de los audios | [Ver notebook](TODO_ENLACE_HTMLPREVIEW_NOTEBOOK_01) |
-| 2 | `02_speech_to_text_asr.html` | Transcripción automática de los audios mediante ASR | [Ver notebook](TODO_ENLACE_HTMLPREVIEW_NOTEBOOK_02) |
-| 3 | `03_nlp_classification_ner.html` | Clasificación de mensajes y extracción de entidades agrícolas | [Ver notebook](TODO_ENLACE_HTMLPREVIEW_NOTEBOOK_03) |
-| 4 | `04_nlp_normalization.html` | Normalización semántica y generación de JSON estructurado | [Ver notebook](TODO_ENLACE_HTMLPREVIEW_NOTEBOOK_04) |
+> [!NOTE]
+>
+> Los *notebooks* ejecutables originales no se incluyen en la versión pública del repositorio. Se publican versiones HTML para facilitar la revisión metodológica sin exponer innecesariamente código ejecutable, datos sensibles o artefactos de trabajo.
 
 
 
-### Cómo enlazar los HTML desde GitHub
 
-GitHub no renderiza directamente archivos HTML al abrirlos desde el repositorio. Para visualizarlos correctamente puede utilizarse **HTMLPreview**.
 
-Formato recomendado:
+| Orden | Notebook                         | Descripción                                                  | Enlace                                                       |
+| ----: | -------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+|     1 | `01_audio_preprocessing.html`    | Estandarización, limpieza y preprocesamiento acústico de los audios. | [Consultar versión HTML](https://htmlpreview.github.io/?https://github.com/JMPinillos/agri-voice-ai/blob/main/notebooks_html/01_audio_preprocessing.html) |
+|     2 | `02_speech_to_text_asr.html`     | Transcripción de los audios mediante reconocimiento automático del habla. | [Consultar versión HTML](https://htmlpreview.github.io/?https://github.com/JMPinillos/agri-voice-ai/blob/main/notebooks_html/02_speech_to_text_asr.html) |
+|     3 | `03_nlp_classification_ner.html` | Clasificación de mensajes y extracción de entidades agrícolas. | [Consultar versión HTML](https://htmlpreview.github.io/?https://github.com/JMPinillos/agri-voice-ai/blob/main/notebooks_html/03_nlp_classification_ner.html) |
+|     4 | `04_nlp_normalization.html`      | Normalización semántica y generación de la salida estructurada. | [Consultar versión HTML](https://htmlpreview.github.io/?https://github.com/JMPinillos/agri-voice-ai/blob/main/notebooks_html/04_nlp_normalization.html) |
 
-```text
-https://htmlpreview.github.io/?https://github.com/USUARIO/agri-voice-ai/blob/main/notebooks_html/01_audio_preprocessing.html
-```
 
-Sustituye:
-
-```text
-USUARIO
-```
-
-por tu usuario de GitHub y ajusta el nombre del archivo si fuera necesario.
-
----
 
 ## Requisitos del sistema
 
