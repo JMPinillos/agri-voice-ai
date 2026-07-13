@@ -295,36 +295,16 @@ El sistema se ejecuta de forma secuencial, de modo que cada etapa consume la sal
 
 
 <p align="center">
-  <strong>01_audio_preprocessing</strong>
-  <br><span style="font-size: 1.4em;">⬇</span><br>
-  <strong>02_speech_to_text_asr</strong>
-  <br><span style="font-size: 1.4em;">⬇</span><br>
-  <strong>03_nlp_classification_ner</strong>
-  <br><span style="font-size: 1.4em;">⬇</span><br>
-  <strong>04_nlp_normalization</strong>
+  <img src="https://img.shields.io/badge/01-Audio%20Preprocessing-2EA043?style=for-the-badge" alt="01 Audio Preprocessing">
+  <br><strong>⬇</strong><br>
+  <img src="https://img.shields.io/badge/02-Speech%20to%20Text%20ASR-F97316?style=for-the-badge" alt="02 Speech to Text ASR">
+  <br><strong>⬇</strong><br>
+  <img src="https://img.shields.io/badge/03-NLP%20Classification%20%2B%20NER-8B5CF6?style=for-the-badge" alt="03 NLP Classification and NER">
+  <br><strong>⬇</strong><br>
+  <img src="https://img.shields.io/badge/04-NLP%20Normalization-14B8A6?style=for-the-badge" alt="04 NLP Normalization">
 </p>
 
 
-
-
-
-<p align="center">
-  <span style="display:inline-block; padding:8px 14px; border-radius:8px; background-color:#DFF6E3; color:#0B6B35;">
-    <strong>01_audio_preprocessing</strong>
-  </span>
-  <br><span style="font-size:1.4em;">⬇</span><br>
-  <span style="display:inline-block; padding:8px 14px; border-radius:8px; background-color:#FFE3B3; color:#8A3B00;">
-    <strong>02_speech_to_text_asr</strong>
-  </span>
-  <br><span style="font-size:1.4em;">⬇</span><br>
-  <span style="display:inline-block; padding:8px 14px; border-radius:8px; background-color:#F3D9FA; color:#6A1B9A;">
-    <strong>03_nlp_classification_ner</strong>
-  </span>
-  <br><span style="font-size:1.4em;">⬇</span><br>
-  <span style="display:inline-block; padding:8px 14px; border-radius:8px; background-color:#D8F3F0; color:#006D68;">
-    <strong>04_nlp_normalization</strong>
-  </span>
-</p>
 
 
 
