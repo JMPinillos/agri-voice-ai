@@ -24,7 +24,7 @@ sentence-transformers  # embeddings semánticos
 scikit-learn       # modelos y utilidades ML
 datasets           # gestión de datasets
 evaluate           # evaluación de modelos NLP
-unidecode          # normalización controlada (acentos, ruido)
+unidecode          # normalización controlada de texto (acentos, ruido)
 joblib             # persistencia de modelos sklearn
 accelerate         # backend necesario para Trainer de transformers
 
@@ -32,7 +32,6 @@ accelerate         # backend necesario para Trainer de transformers
 # NORMALIZACIÓN Y ESTRUCTURACIÓN (Notebook 4)
 # =========================
 dateparser         # normalización experimental de expresiones temporales en español
-unidecode          # normalización controlada de texto
 rapidfuzz          # matching difuso de variantes lingüísticas
 
 # =========================
