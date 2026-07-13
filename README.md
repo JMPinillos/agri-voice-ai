@@ -94,12 +94,10 @@ El flujo principal del sistema comprende una entrada inicial de audio y cinco m�
 | :----------: | :---------------------------: | ------------------------------------------------------------ |
 | **Entrada**  |           **Audio**           | Mensajes de voz generados en campo por productores o técnicos agrícolas. |
 | **Módulo 1** | **Preprocesamiento acústico** | Estandarización de los audios y aplicación selectiva de filtros y transformaciones acústicas para mejorar la calidad de la señal y favorecer el rendimiento del sistema ASR. |
-|  Módulo 2**  |            **ASR**            | Conversión de los mensajes de voz en transcripciones mediante reconocimiento automático del habla. |
+| **Módulo 2** |            **ASR**            | Conversión de los mensajes de voz en transcripciones mediante reconocimiento automático del habla. |
 | **Módulo 3** |       **Clasificación**       | Identificación de la categoría funcional del mensaje.        |
 | **Módulo 4** |            **NER**            | Extracción de entidades relevantes del dominio agrícola, incluyendo cultivos, incidencias, tratamientos, magnitudes, referencias temporales, condiciones ambientales y otros elementos de interés para la estructuración de la información. |
 | **Módulo 5** |       **Normalización**       | Homogeneización semántica de la información extraída y generación de registros estructurados, trazables y reutilizables. |
-
-
 
 
 
@@ -181,70 +179,183 @@ Las versiones HTML permiten revisar la metodología, el flujo de trabajo, el có
 
 ## Requisitos del sistema
 
-El proyecto requiere un entorno de ejecución con **Python 3.x** y dependencias tanto de Python como del sistema operativo.
+El proyecto requiere un entorno de ejecución con **Python 3.x**, las dependencias Python definidas en `requirements.txt` y determinadas dependencias de sistema para el procesamiento de audio.
 
-### Dependencias de sistema
 
-El procesamiento de archivos de audio comprimido, como `.m4a` o `.mp3`, requiere la herramienta externa **ffmpeg**. En ausencia de esta dependencia, el sistema puede limitar su funcionamiento a formatos compatibles con `libsndfile`, como `.wav`.
 
-#### Instalación en macOS
+### Dependencias del proyecto
 
-```bash
-brew install ffmpeg
-```
+Las dependencias Python del proyecto se definen en el archivo `requirements.txt` y se agrupan según las etapas principales del *pipeline*:
 
-#### Verificación de instalación
+- **Procesamiento de audio:** carga, conversión, limpieza, reducción de ruido y detección de actividad de voz.
+- **ASR:** transcripción automática del habla y evaluación mediante métricas WER y CER.
+- **NLP:** clasificación de mensajes, extracción de entidades, uso de modelos basados en Transformers y utilidades de aprendizaje automático.
+- **Normalización:** tratamiento de fechas, unidades, variantes lingüísticas y correspondencias semánticas.
+- **Visualización y entorno Jupyter:** generación de gráficos, seguimiento de ejecución y soporte para notebooks.
 
-```bash
-ffmpeg -version
-```
-
-### Consideraciones de compatibilidad
-
-Durante el desarrollo se observaron diferencias de comportamiento entre entornos macOS con arquitectura Intel y Apple Silicon, especialmente en dependencias relacionadas con procesamiento de audio, como `pydub`, `ffmpeg` o `setuptools`.
-
-Estas diferencias no afectan al diseño del pipeline, pero pueden influir en su ejecución local. Se recomienda:
-
-- utilizar entornos virtuales para aislar dependencias;
-- validar previamente la instalación de `ffmpeg`;
-- comprobar la correcta instalación de las librerías incluidas en `requirements.txt`.
-
----
-
-## Instalación
-
-### 1. Clonar el repositorio
-
-```bash
-git clone https://github.com/USUARIO/agri-voice-ai.git
-cd agri-voice-ai
-```
-
-### 2. Crear entorno virtual
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
-En Windows:
-
-```bash
-python -m venv venv
-venv\Scripts\activate
-```
-
-### 3. Instalar dependencias de Python
+Para instalar todas las dependencias del entorno Python:
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
 
-## Ejecución del pipeline
 
-El orden lógico de ejecución del sistema es el siguiente:
+### **Dependencias de sistema**
+
+El procesamiento de archivos de audio como `.m4a`, `.mp3` u otros formatos comprimidos requiere la herramienta externa **ffmpeg**. Esta dependencia permite que las librerías de audio puedan leer, convertir y manipular formatos que no siempre son soportados directamente por el entorno Python.
+
+Si `ffmpeg` no está disponible, el procesamiento puede quedar limitado a formatos compatibles de forma nativa, como `.wav`.
+
+
+
+### Instalación de ffmpeg
+
+A continuación se muestran opciones habituales de instalación de `ffmpeg` según el sistema operativo. Puede utilizarse cualquiera de los métodos indicados, siempre que el comando `ffmpeg` quede disponible desde la terminal.
+
+
+
+#### macOS
+
+```bash
+brew install ffmpeg
+```
+
+
+
+#### Windows
+
+Con Chocolatey:
+
+```bash
+choco install ffmpeg
+```
+
+Con Winget:
+
+```bash
+winget install Gyan.FFmpeg
+```
+
+También puede instalarse manualmente descargando una versión compilada de `ffmpeg` y añadiendo la carpeta `bin` al `PATH` del sistema.
+
+
+
+#### Linux
+
+En distribuciones basadas en Debian o Ubuntu:
+
+```bash
+sudo apt update
+sudo apt install ffmpeg
+```
+
+
+
+### Verificación de instalación
+
+Después de instalar `ffmpeg`, puede comprobarse su disponibilidad mediante:
+
+```bash
+ffmpeg -version
+```
+
+
+
+### Consideraciones de ejecución
+
+El proyecto fue desarrollado y validado principalmente en un entorno macOS con Apple Silicon. La ejecución de los notebooks se verificó correctamente en dicho entorno.
+
+Algunas librerías de aprendizaje profundo o procesamiento de audio pueden mostrar advertencias asociadas al backend de ejecución disponible, como CPU, CUDA o MPS en Apple Silicon. Estas advertencias no implican necesariamente un error en el pipeline y, en general, no afectan al diseño ni a la lógica funcional del sistema.
+
+Para una ejecución local más estable, se recomienda:
+
+- Utilizar un entorno virtual aislado.
+- Instalar las dependencias desde `requirements.txt`.
+- Verificar la disponibilidad de `ffmpeg`.
+- Ejecutar los notebooks en el orden indicado.
+- Revisar las versiones de librerías si se cambia de arquitectura o sistema operativo.
+
+
+
+## Uso del repositorio
+
+Este repositorio está orientado principalmente a la revisión metodológica del proyecto mediante documentación, estructura del pipeline, configuraciones, modelos y versiones HTML de los notebooks.
+
+Las versiones HTML incluidas en `notebooks_html/` no requieren instalación local para ser consultadas. Pueden visualizarse directamente desde los enlaces indicados en la sección [Notebooks del pipeline](#notebooks-del-pipeline).
+
+La instalación del entorno solo es necesaria si se desea reproducir el pipeline en local a partir de los notebooks ejecutables originales, los datos correspondientes y las dependencias del proyecto.
+
+
+
+## Flujo de ejecución del pipeline
+
+El sistema se ejecuta de forma secuencial, de modo que cada etapa consume la salida generada por la etapa anterior. Esta organización permite mantener la trazabilidad del procesamiento y analizar el comportamiento individual de cada módulo.
+
+
+
+<p align="center">
+  <strong>01_audio_preprocessing</strong>
+  <br><span style="font-size: 1.4em;">⬇</span><br>
+  <strong>02_speech_to_text_asr</strong>
+  <br><span style="font-size: 1.4em;">⬇</span><br>
+  <strong>03_nlp_classification_ner</strong>
+  <br><span style="font-size: 1.4em;">⬇</span><br>
+  <strong>04_nlp_normalization</strong>
+</p>
+
+
+
+
+
+<p align="center">
+  <span style="display:inline-block; padding:8px 14px; border-radius:8px; background-color:#DFF6E3; color:#0B6B35;">
+    <strong>01_audio_preprocessing</strong>
+  </span>
+  <br><span style="font-size:1.4em;">⬇</span><br>
+  <span style="display:inline-block; padding:8px 14px; border-radius:8px; background-color:#FFE3B3; color:#8A3B00;">
+    <strong>02_speech_to_text_asr</strong>
+  </span>
+  <br><span style="font-size:1.4em;">⬇</span><br>
+  <span style="display:inline-block; padding:8px 14px; border-radius:8px; background-color:#F3D9FA; color:#6A1B9A;">
+    <strong>03_nlp_classification_ner</strong>
+  </span>
+  <br><span style="font-size:1.4em;">⬇</span><br>
+  <span style="display:inline-block; padding:8px 14px; border-radius:8px; background-color:#D8F3F0; color:#006D68;">
+    <strong>04_nlp_normalization</strong>
+  </span>
+</p>
+
+
+
+
+
+Cada módulo genera artefactos intermedios o finales dentro de la estructura `data/`:
+
+| Etapa            | Entrada principal                  | Salida principal                          |
+| ---------------- | ---------------------------------- | ----------------------------------------- |
+| Preprocesamiento | `data/audio/raw/`                  | `data/audio/processed/`                   |
+| ASR              | `data/audio/processed/`            | `data/transcriptions/asr_output/`         |
+| NLP              | `data/transcriptions/asr_output/`  | `data/structured_data/nlp_output/`        |
+| Normalización    | `data/structured_data/nlp_output/` | `data/structured_data/normalized_output/` |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Flujo de ejecución del pipeline
+
+El sistema se ejecuta de forma secuencial, de modo que cada etapa consume la salida generada por la etapa anterior. Esta organización permite mantener la trazabilidad del procesamiento y analizar el comportamiento individual de cada módulo.
 
 ```text
 01_audio_preprocessing
@@ -255,6 +366,8 @@ El orden lógico de ejecución del sistema es el siguiente:
         ↓
 04_nlp_normalization
 ```
+
+
 
 Cada módulo consume la salida generada por la etapa anterior y produce artefactos intermedios o finales dentro de la estructura `data/`.
 
