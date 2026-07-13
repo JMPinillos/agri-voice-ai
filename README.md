@@ -180,11 +180,9 @@ Las versiones HTML permiten revisar la metodología, el flujo de trabajo, el có
 
 El proyecto requiere un entorno de ejecución con **Python 3.x**, las dependencias Python definidas en `requirements.txt` y determinadas dependencias de sistema para el procesamiento de audio.
 
-
-
 ### Dependencias del proyecto
 
-Las dependencias Python del proyecto se definen en el archivo `requirements.txt` y se agrupan según las etapas principales del *pipeline*:
+Las dependencias Python del proyecto se definen en `requirements.txt`. Para facilitar la reproducibilidad, el repositorio incluye también `requirements-lock.txt`, que registra las versiones exactas utilizadas durante el desarrollo.
 
 - **Procesamiento de audio:** carga, conversión, limpieza, reducción de ruido y detección de actividad de voz.
 - **ASR:** transcripción automática del habla y evaluación mediante métricas WER y CER.
@@ -192,10 +190,16 @@ Las dependencias Python del proyecto se definen en el archivo `requirements.txt`
 - **Normalización:** tratamiento de fechas, unidades, variantes lingüísticas y correspondencias semánticas.
 - **Visualización y entorno Jupyter:** generación de gráficos, seguimiento de ejecución y soporte para *notebooks*.
 
-Para instalar todas las dependencias del entorno Python:
+Para instalar las dependencias principales del proyecto:
 
 ```bash
 pip install -r requirements.txt
+```
+
+Para reproducir el entorno exacto utilizado durante el desarrollo:
+
+```bash
+pip install -r requirements-lock.txt
 ```
 
 
@@ -270,10 +274,10 @@ Algunas librerías de aprendizaje profundo o procesamiento de audio pueden mostr
 Para una ejecución local más estable, se recomienda:
 
 - Utilizar un entorno virtual aislado.
-- Instalar las dependencias desde `requirements.txt`.
+- Instalar las dependencias desde `requirements.txt` o `requirements-lock.txt`, según el nivel de reproducibilidad requerido.
 - Verificar la disponibilidad de `ffmpeg`.
 - Ejecutar los *notebooks* en el orden indicado.
-- Revisar las versiones de librerías si se cambia de arquitectura o sistema operativo.
+- Revisar las versiones de las librerías si se cambia de arquitectura o sistema operativo.
 
 
 
