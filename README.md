@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="assets/logo/agrivoice-ai-logo.png" alt="AgriVoice AI logo" width="140">
+  <img src="./assets/logo/agrivoice-logo.png" alt="agrivoice-logo" />
 </p>
+
 
 <h1 align="center">AgriVoice AI</h1>
 
@@ -17,26 +18,22 @@
 </p>
 
 
-
 ## Índice
 
 - [Descripción general](#descripción-general)
 - [Ámbito de aplicación](#ámbito-de-aplicación)
 - [Pipeline del sistema](#pipeline-del-sistema)
 - [Arquitectura del repositorio](#arquitectura-del-repositorio)
+  - [Recursos de configuración y modelos](#recursos-de-configuración-y-modelos)
 - [Notebooks del pipeline](#notebooks-del-pipeline)
 - [Requisitos del sistema](#requisitos-del-sistema)
-- [Instalación](#instalación)
-- [Ejecución del pipeline](#ejecución-del-pipeline)
+- [Uso del repositorio](#uso-del-repositorio)
+  - [Reproducibilidad](#reproducibilidad)
+- [Flujo de ejecución del pipeline](#flujo-de-ejecución-del-pipeline)
 - [Salida estructurada](#salida-estructurada)
-- [Modelos y configuración](#modelos-y-configuración)
-- [Reproducibilidad](#reproducibilidad)
 - [Privacidad y datos](#privacidad-y-datos)
-- [Limitaciones](#limitaciones)
-- [Trabajo futuro](#trabajo-futuro)
 - [Licencia y propiedad intelectual](#licencia-y-propiedad-intelectual)
-
----
+- [Autor](#autor)
 
 
 
@@ -202,7 +199,7 @@ pip install -r requirements.txt
 
 
 
-### **Dependencias de sistema**
+### Dependencias de sistema
 
 El procesamiento de archivos de audio como `.m4a`, `.mp3` u otros formatos comprimidos requiere la herramienta externa **ffmpeg**. Esta dependencia permite que las librerías de audio puedan leer, convertir y manipular formatos que no siempre son soportados directamente por el entorno Python.
 
@@ -416,7 +413,6 @@ Para más información, consultar el archivo [`LICENSE`](LICENSE).
 <p align="center">
   <strong>José Manuel Pinillos Rubio</strong><br>
   Ingeniero Informático · Máster en Inteligencia Artificial<br>
-  Proyecto: <strong>AgriVoice AI</strong>
 </p>
 <p align="center">
   <a href="https://github.com/JMPinillos"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"></a>
@@ -424,4 +420,3 @@ Para más información, consultar el archivo [`LICENSE`](LICENSE).
   <a href="https://www.jmpinillos.es/"><img src="https://img.shields.io/badge/Web-2EA043?style=flat&logo=googlechrome&logoColor=white" alt="Web personal"></a>
   <a href="mailto:contacto@jmpinillos.es"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
-
