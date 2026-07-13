@@ -88,49 +88,18 @@ AgriVoice AI se estructura como un *pipeline* secuencial en el que cada módulo 
 
 
 
-El flujo principal del sistema comprende las siguientes etapas:
+El flujo principal del sistema comprende una entrada inicial de audio y cinco módulos de procesamiento:
 
-<table>
-  <thead>
-    <tr>
-      <th align="center">Tipo</th>
-      <th align="center">Etapa</th>
-      <th align="left">Descripción</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center"><strong>Entrada</strong></td>
-      <td align="center"><strong>Audio</strong></td>
-      <td>Mensajes de voz generados en campo por productores o técnicos agrícolas.</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Módulo 1</strong></td>
-      <td align="center"><strong>Preprocesamiento acústico</strong></td>
-      <td>Estandarización de los audios y aplicación selectiva de transformaciones para mejorar su adecuación al sistema ASR.</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Módulo 2</strong></td>
-      <td align="center"><strong>ASR</strong></td>
-      <td>Conversión de los mensajes de voz en transcripciones automáticas mediante reconocimiento automático del habla.</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Módulo 3</strong></td>
-      <td align="center"><strong>Clasificación</strong></td>
-      <td>Identificación del tipo de mensaje agrícola procesado.</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Módulo 4</strong></td>
-      <td align="center"><strong>NER</strong></td>
-      <td>Extracción de entidades relevantes del dominio, como cultivos, plagas, enfermedades, tratamientos, cantidades, fechas, superficies o condiciones ambientales.</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Módulo 5</strong></td>
-      <td align="center"><strong>Normalización</strong></td>
-      <td>Homogeneización semántica de la información extraída y generación de registros estructurados, trazables y reutilizables.</td>
-    </tr>
-  </tbody>
-</table>
+| Tipo         | Etapa                         | Descripción                                                  |
+| ------------ | ----------------------------- | ------------------------------------------------------------ |
+| **Entrada**  | **Audio**                     | Mensajes de voz generados en campo por productores o técnicos agrícolas. |
+| **Módulo 1** | **Preprocesamiento acústico** | Estandarización de los audios y aplicación selectiva de transformaciones para mejorar su adecuación al sistema ASR. |
+| **Módulo 2** | **ASR**                       | Conversión de los mensajes de voz en transcripciones automáticas mediante reconocimiento automático del habla. |
+| **Módulo 3** | **Clasificación**             | Identificación del tipo de mensaje agrícola procesado.       |
+| **Módulo 4** | **NER**                       | Extracción de entidades relevantes del dominio, como cultivos, plagas, enfermedades, tratamientos, cantidades, fechas, superficies o condiciones ambientales. |
+| **Módulo 5** | **Normalización**             | Homogeneización semántica de la información extraída y generación de registros estructurados, trazables y reutilizables. |
+
+
 
 
 
