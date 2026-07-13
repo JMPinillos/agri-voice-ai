@@ -78,7 +78,7 @@ Esta delimitación permite adaptar el *pipeline* al vocabulario, las expresiones
 
 ## *Pipeline* del sistema
 
-AgriVoice AI se estructura como un pipeline secuencial en el que cada módulo transforma la salida de la etapa anterior y genera artefactos intermedios reutilizables. Esta arquitectura permite evaluar cada componente de forma independiente y analizar cómo los errores pueden propagarse a lo largo del sistema.
+AgriVoice AI se estructura como un *pipeline* secuencial en el que cada módulo transforma la salida de la etapa anterior y genera artefactos intermedios reutilizables. Esta arquitectura permite evaluar cada componente de forma independiente y analizar cómo los errores pueden propagarse a lo largo del sistema.
 
 
 
@@ -88,10 +88,10 @@ AgriVoice AI se estructura como un pipeline secuencial en el que cada módulo tr
 
 
 
-El flujo principal del sistema comprende las siguientes etapas:
+El flujo principal del sistema comprende una entrada inicial de audio y cinco módulos de procesamiento:
 
 <table>
-  <thead style="background-color: #0074d9; color: white;">
+  <thead>
     <tr>
       <th align="center">Tipo</th>
       <th align="center">Etapa</th>
