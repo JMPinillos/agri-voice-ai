@@ -93,10 +93,10 @@ El flujo principal del sistema comprende una entrada inicial de audio y cinco m�
 |     Tipo     |             Etapa             | Descripción                                                  |
 | :----------: | :---------------------------: | ------------------------------------------------------------ |
 | **Entrada**  |           **Audio**           | Mensajes de voz generados en campo por productores o técnicos agrícolas. |
-| **Módulo 1** | **Preprocesamiento acústico** | Estandarización de los audios y aplicación selectiva de transformaciones para mejorar su adecuación al sistema ASR. |
-| **Módulo 2** |            **ASR**            | Conversión de los mensajes de voz en transcripciones automáticas mediante reconocimiento automático del habla. |
-| **Módulo 3** |       **Clasificación**       | Identificación del tipo de mensaje agrícola procesado.       |
-| **Módulo 4** |            **NER**            | Extracción de entidades relevantes del dominio, como cultivos, plagas, enfermedades, tratamientos, cantidades, fechas, superficies o condiciones ambientales. |
+| **Módulo 1** | **Preprocesamiento acústico** | Estandarización de los audios y aplicación selectiva de filtros y transformaciones acústicas para mejorar la calidad de la señal y favorecer el rendimiento del sistema ASR. |
+|  Módulo 2**  |            **ASR**            | Conversión de los mensajes de voz en transcripciones mediante reconocimiento automático del habla. |
+| **Módulo 3** |       **Clasificación**       | Identificación de la categoría funcional del mensaje.        |
+| **Módulo 4** |            **NER**            | Extracción de entidades relevantes del dominio agrícola, incluyendo cultivos, incidencias, tratamientos, magnitudes, referencias temporales, condiciones ambientales y otros elementos de interés para la estructuración de la información. |
 | **Módulo 5** |       **Normalización**       | Homogeneización semántica de la información extraída y generación de registros estructurados, trazables y reutilizables. |
 
 
@@ -105,15 +105,17 @@ El flujo principal del sistema comprende una entrada inicial de audio y cinco m�
 
 ## Arquitectura del repositorio
 
+El repositorio se organiza separando configuración, datos, modelos, salidas intermedias y documentación metodológica. Esta estructura facilita la trazabilidad del pipeline, la revisión de cada etapa y la reutilización de los distintos artefactos generados por el sistema.
+
 ```text
 agri-voice-ai/
 │
-├── configs/
+├── configs/                         # Configuración del dominio, NER y normalización
 │   ├── domain/
 │   ├── ner/
 │   └── normalization/
 │
-├── data/
+├── data/                            # Datos de entrada, salidas intermedias y resultados estructurados
 │   ├── audio/
 │   │   ├── raw/
 │   │   ├── standardized/
@@ -136,26 +138,35 @@ agri-voice-ai/
 │   │
 │   └── samples/
 │
-├── models/
+├── models/                          # Modelos entrenados del sistema
 │   ├── classification_model/
 │   └── ner_model/
 │
-├── notebooks_html/
+├── notebooks_html/                  # Versiones HTML de los notebooks del pipeline
 │   ├── 01_audio_preprocessing.html
 │   ├── 02_speech_to_text_asr.html
 │   ├── 03_nlp_classification_ner.html
 │   └── 04_nlp_normalization.html
 │
-├── requirements.txt
+├── assets/                          # Imágenes y recursos visuales del repositorio
+│   └── images/
+│
+├── requirements.txt                 # Dependencias Python del proyecto
 ├── .gitignore
 └── README.md
 ```
 
-> Los notebooks ejecutables originales no se incluyen en la versión pública del repositorio. Se publican versiones HTML para facilitar la revisión metodológica sin exponer innecesariamente código ejecutable, datos sensibles o artefactos de trabajo.
 
----
 
 ## Notebooks del pipeline
+
+
+
+> [!NOTE]
+>
+> Los notebooks ejecutables originales no se incluyen en la versión pública del repositorio. Se publican versiones HTML para facilitar la revisión metodológica sin exponer innecesariamente código ejecutable, datos sensibles o artefactos de trabajo.
+
+
 
 Las versiones HTML permiten revisar la metodología, el flujo de trabajo, el código utilizado y los resultados principales de cada etapa del sistema.
 
@@ -165,6 +176,8 @@ Las versiones HTML permiten revisar la metodología, el flujo de trabajo, el có
 | 2 | `02_speech_to_text_asr.html` | Transcripción automática de los audios mediante ASR | [Ver notebook](TODO_ENLACE_HTMLPREVIEW_NOTEBOOK_02) |
 | 3 | `03_nlp_classification_ner.html` | Clasificación de mensajes y extracción de entidades agrícolas | [Ver notebook](TODO_ENLACE_HTMLPREVIEW_NOTEBOOK_03) |
 | 4 | `04_nlp_normalization.html` | Normalización semántica y generación de JSON estructurado | [Ver notebook](TODO_ENLACE_HTMLPREVIEW_NOTEBOOK_04) |
+
+
 
 ### Cómo enlazar los HTML desde GitHub
 
