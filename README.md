@@ -1,11 +1,3 @@
-<!--
-README profesional para AgriVoice AI
-Autor: José Manuel Pinillos Rubio
-Sustituye los marcadores TODO por tus enlaces, imágenes y datos finales antes de publicar.
--->
-
-
-
 ### Logo del proyecto
 
 ```html
@@ -194,7 +186,7 @@ Las versiones HTML permiten revisar la metodología, el flujo de trabajo, el có
 
 
 
-| Orden | Notebook                         | Descripción                                                  | Enlace                                                       |
+| Orden | *Notebook*                       | Descripción                                                  | Enlace                                                       |
 | :---: | :------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
 |   1   | `01_audio_preprocessing.html`    | Estandarización, limpieza y preprocesamiento acústico de los audios. | <a href="https://htmlpreview.github.io/?https://github.com/JMPinillos/agri-voice-ai/blob/main/notebooks_html/01_audio_preprocessing.html" target="_blank" rel="noopener noreferrer">  Consultar versión HTML</a> |
 |   2   | `02_speech_to_text_asr.html`     | Transcripción de los audios mediante reconocimiento automático del habla. | <a href="https://htmlpreview.github.io/?https://github.com/JMPinillos/agri-voice-ai/blob/main/notebooks_html/02_speech_to_text_asr.html" target="_blank" rel="noopener noreferrer">Consultar versión HTML</a> |
@@ -217,7 +209,7 @@ Las dependencias Python del proyecto se definen en el archivo `requirements.txt`
 - **ASR:** transcripción automática del habla y evaluación mediante métricas WER y CER.
 - **NLP:** clasificación de mensajes, extracción de entidades, uso de modelos basados en Transformers y utilidades de aprendizaje automático.
 - **Normalización:** tratamiento de fechas, unidades, variantes lingüísticas y correspondencias semánticas.
-- **Visualización y entorno Jupyter:** generación de gráficos, seguimiento de ejecución y soporte para notebooks.
+- **Visualización y entorno Jupyter:** generación de gráficos, seguimiento de ejecución y soporte para *notebooks*.
 
 Para instalar todas las dependencias del entorno Python:
 
@@ -290,27 +282,27 @@ ffmpeg -version
 
 ### Consideraciones de ejecución
 
-El proyecto fue desarrollado y validado principalmente en un entorno macOS con Apple Silicon. La ejecución de los notebooks se verificó correctamente en dicho entorno.
+El proyecto fue desarrollado y validado principalmente en un entorno macOS con Apple Silicon. La ejecución de los *notebooks* se verificó correctamente en dicho entorno.
 
-Algunas librerías de aprendizaje profundo o procesamiento de audio pueden mostrar advertencias asociadas al backend de ejecución disponible, como CPU, CUDA o MPS en Apple Silicon. Estas advertencias no implican necesariamente un error en el pipeline y, en general, no afectan al diseño ni a la lógica funcional del sistema.
+Algunas librerías de aprendizaje profundo o procesamiento de audio pueden mostrar advertencias asociadas al backend de ejecución disponible, como CPU, CUDA o MPS en Apple Silicon. Estas advertencias no implican necesariamente un error en el *pipeline* y, en general, no afectan al diseño ni a la lógica funcional del sistema.
 
 Para una ejecución local más estable, se recomienda:
 
 - Utilizar un entorno virtual aislado.
 - Instalar las dependencias desde `requirements.txt`.
 - Verificar la disponibilidad de `ffmpeg`.
-- Ejecutar los notebooks en el orden indicado.
+- Ejecutar los *notebooks* en el orden indicado.
 - Revisar las versiones de librerías si se cambia de arquitectura o sistema operativo.
 
 
 
 ## Uso del repositorio
 
-Este repositorio está orientado principalmente a la revisión metodológica del proyecto mediante documentación, estructura del pipeline, configuraciones, modelos y versiones HTML de los notebooks.
+Este repositorio está orientado principalmente a la revisión metodológica del proyecto mediante documentación, estructura del *pipeline*, configuraciones, modelos y versiones HTML de los *notebooks*.
 
-Las versiones HTML incluidas en `notebooks_html/` no requieren instalación local para ser consultadas. Pueden visualizarse directamente desde los enlaces indicados en la sección [Notebooks del pipeline](#notebooks-del-pipeline).
+Las versiones HTML incluidas en `notebooks_html/` no requieren instalación local para ser consultadas. Pueden visualizarse directamente desde los enlaces indicados en la sección [*Notebooks* del *pipeline*](#notebooks-del-pipeline).
 
-La instalación del entorno solo es necesaria si se desea reproducir el pipeline en local a partir de los notebooks ejecutables originales, los datos correspondientes y las dependencias del proyecto.
+La instalación del entorno solo es necesaria si se desea reproducir el *pipeline* en local a partir de los *notebooks* ejecutables originales, los datos correspondientes y las dependencias del proyecto.
 
 
 
@@ -320,7 +312,7 @@ El proyecto utiliza una estructura modular, rutas relativas a la raíz del repos
 
 Cuando corresponde, se emplean semillas fijas en los procesos de entrenamiento. No obstante, algunos componentes de aprendizaje profundo pueden presentar pequeñas variaciones entre ejecuciones debido al hardware, al backend de aceleración o a las versiones de las librerías utilizadas.
 
-Para reproducir el pipeline de forma consistente se recomienda mantener la estructura de carpetas del repositorio, instalar las dependencias desde `requirements.txt`, ejecutar las etapas en el orden indicado y conservar las versiones de configuración utilizadas en cada ejecución.
+Para reproducir el *pipeline* de forma consistente se recomienda mantener la estructura de carpetas del repositorio, instalar las dependencias desde `requirements.txt`, ejecutar las etapas en el orden indicado y conservar las versiones de configuración utilizadas en cada ejecución.
 
 
 
@@ -413,7 +405,7 @@ Esta representación permite transformar comunicaciones orales de campo en regis
 
 El proyecto ha sido desarrollado con audios reales y transcripciones asociadas a contextos agrícolas de campo. Este tipo de información puede contener datos personales, referencias locales, nombres propios u otros elementos potencialmente identificables.
 
-Por este motivo, la versión pública del repositorio está orientada a la revisión metodológica y no incluye datos reales no anonimizados. La publicación del proyecto prioriza la documentación del pipeline, la estructura del sistema, las configuraciones generales, los modelos entrenados cuando proceda y las versiones HTML de los notebooks.
+Por este motivo, la versión pública del repositorio está orientada a la revisión metodológica y no incluye datos reales no anonimizados. La publicación del proyecto prioriza la documentación del *pipeline*, la estructura del sistema, las configuraciones generales, los modelos entrenados cuando proceda y las versiones HTML de los *notebooks*.
 
 Antes de publicar nuevas versiones del repositorio, debe revisarse cuidadosamente el contenido de `data/`, `models/`, `notebooks_html/` y cualquier archivo generado automáticamente para evitar la exposición accidental de información sensible.
 
@@ -426,12 +418,13 @@ Antes de publicar nuevas versiones del repositorio, debe revisarse cuidadosament
 
 Este repositorio contiene código, documentación, configuraciones y artefactos desarrollados por **José Manuel Pinillos Rubio** en el marco del proyecto **AgriVoice AI**, un trabajo académico y técnico de inteligencia artificial aplicada.
 
-Salvo que se indique expresamente lo contrario mediante una licencia específica, todos los derechos sobre el código, la documentación, la estructura del proyecto, los recursos de configuración y los artefactos incluidos en este repositorio pertenecen a **José Manuel Pinillos Rubio**.
+El contenido se publica con fines de revisión, presentación académica y documentación técnica del proyecto.
 
-El contenido se publica con fines de revisión, presentación académica y documentación técnica del proyecto. No se autoriza su copia, redistribución, reutilización comercial, publicación derivada ni incorporación total o parcial en otros proyectos sin autorización expresa del autor.
+Todos los derechos sobre el código, la documentación, la estructura del proyecto, los recursos de configuración, los modelos y los artefactos incluidos pertenecen a **José Manuel Pinillos Rubio**.
 
-> [!IMPORTANT]
-> La ausencia de un archivo `LICENSE` no implica que el contenido sea de dominio público. Cualquier uso distinto de la consulta o revisión del repositorio requiere autorización previa del autor.
+Este repositorio no se distribuye bajo una licencia de código abierto. Su uso, copia, modificación, redistribución, reutilización comercial, publicación derivada o incorporación total o parcial en otros proyectos requiere autorización expresa del autor.
+
+Para más información, consultar el archivo [`LICENSE`](LICENSE).
 
 
 
