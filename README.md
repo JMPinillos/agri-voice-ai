@@ -30,7 +30,7 @@
 - [Requisitos del sistema](#requisitos-del-sistema)
 - [Uso del repositorio](#uso-del-repositorio)
   - [Reproducibilidad](#reproducibilidad)
-- [Flujo de ejecución del pipeline](#flujo-de-ejecución-del-pipeline)
+- [Flujo de ejecución del *pipeline*](#flujo-de-ejecución-del-pipeline)
 - [Salida estructurada](#salida-estructurada)
 - [Privacidad y datos](#privacidad-y-datos)
 - [Licencia y propiedad intelectual](#licencia-y-propiedad-intelectual)
@@ -40,7 +40,7 @@
 
 ## Descripción general
 
-**AgriVoice AI** es un sistema modular de inteligencia artificial diseñado para transformar mensajes de audio generados en contextos agrícolas en información estructurada, trazable y reutilizable.
+<strong style="color:#0098cd">AgriVoice AI</strong> es un sistema modular de inteligencia artificial diseñado para transformar mensajes de audio generados en contextos agrícolas en información estructurada, trazable y reutilizable.
 
 En entornos de campo, la información sobre cultivos, incidencias, tratamientos y condiciones ambientales se comunica con frecuencia de forma oral o mediante registros informales. Esta forma de captura reduce la fricción para el productor, pero dificulta su almacenamiento homogéneo, su consulta posterior y su integración con herramientas digitales de análisis y toma de decisiones.
 
@@ -52,7 +52,7 @@ El desarrollo se centra en los cultivos de café y cacao en Latinoamérica, con 
 
 ## Ámbito de aplicación
 
-AgriVoice AI está diseñado para procesar mensajes de audio generados en contextos agrícolas de campo, con un alcance centrado en los cultivos de **café y cacao en Latinoamérica**.
+<strong style="color:#0098cd">AgriVoice AI</strong> está diseñado para procesar mensajes de audio generados en contextos agrícolas de campo, con un alcance centrado en los cultivos de **café y cacao en Latinoamérica**.
 
 El sistema contempla comunicaciones orales relacionadas con observaciones sobre el estado del cultivo, incidencias fitosanitarias, tratamientos aplicados, condiciones ambientales, zonas de cultivo, cantidades, superficies, fechas y otros elementos relevantes para la gestión agrícola.
 
@@ -62,7 +62,7 @@ Esta delimitación permite adaptar el *pipeline* al vocabulario, las expresiones
 
 ## *Pipeline* del sistema
 
-AgriVoice AI se estructura como un *pipeline* secuencial en el que cada módulo transforma la salida de la etapa anterior y genera artefactos intermedios reutilizables. Esta arquitectura permite evaluar cada componente de forma independiente y analizar cómo los errores pueden propagarse a lo largo del sistema.
+<strong style="color:#0098cd">AgriVoice AI</strong> se estructura como un *pipeline* secuencial en el que cada módulo transforma la salida de la etapa anterior y genera artefactos intermedios reutilizables. Esta arquitectura permite evaluar cada componente de forma independiente y analizar cómo los errores pueden propagarse a lo largo del sistema.
 
 
 
@@ -174,7 +174,7 @@ Las versiones HTML permiten revisar la metodología, el flujo de trabajo, el có
 
 | Orden | *Notebook*                       | Descripción                                                  | Enlace                                                       |
 | :---: | :------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
-|   1   | `01_audio_preprocessing.html`    | Estandarización, limpieza y preprocesamiento acústico de los audios. | <a href="https://htmlpreview.github.io/?https://github.com/JMPinillos/agri-voice-ai/blob/main/notebooks_html/01_audio_preprocessing.html" target="_blank" rel="noopener noreferrer">  Consultar versión HTML</a> |
+|   1   | `01_audio_preprocessing.html`    | Estandarización, limpieza y preprocesamiento acústico de los audios. | <a href="https://htmlpreview.github.io/?https://github.com/JMPinillos/agri-voice-ai/blob/main/notebooks_html/01_audio_preprocessing.html" target="_blank" rel="noopener noreferrer">Consultar versión HTML</a> |
 |   2   | `02_speech_to_text_asr.html`     | Transcripción de los audios mediante reconocimiento automático del habla. | <a href="https://htmlpreview.github.io/?https://github.com/JMPinillos/agri-voice-ai/blob/main/notebooks_html/02_speech_to_text_asr.html" target="_blank" rel="noopener noreferrer">Consultar versión HTML</a> |
 |   3   | `03_nlp_classification_ner.html` | Clasificación de mensajes y extracción de entidades agrícolas. | <a href="https://htmlpreview.github.io/?https://github.com/JMPinillos/agri-voice-ai/blob/main/notebooks_html/03_nlp_classification_ner.html" target="_blank" rel="noopener noreferrer">Consultar versión HTML</a> |
 |   4   | `04_nlp_normalization.html`      | Normalización semántica y generación de la salida estructurada. | <a href="https://htmlpreview.github.io/?https://github.com/JMPinillos/agri-voice-ai/blob/main/notebooks_html/04_nlp_normalization.html" target="_blank" rel="noopener noreferrer">Consultar versión HTML</a> |
@@ -313,14 +313,15 @@ El sistema se ejecuta de forma secuencial, de modo que cada etapa consume la sal
 
 
 <p align="center">
-  <img src="https://img.shields.io/badge/1-Audio%20Preprocessing-2EA043?style=flat" alt="01 Audio Preprocessing" width="21%">
+  <img src="https://img.shields.io/badge/1-Audio%20Preprocessing-2EA043?style=flat" alt="1 Audio Preprocessing" width="21%">
   <br><strong>⬇</strong><br>
-  <img src="https://img.shields.io/badge/2-Speech%20to%20Text%20ASR-F97316?style=flat" alt="02 Speech to Text ASR" width="20%">
+  <img src="https://img.shields.io/badge/2-Speech%20to%20Text%20ASR-F97316?style=flat" alt="2 Speech to Text ASR" width="20%">
   <br><strong>⬇</strong><br>
-  <img src="https://img.shields.io/badge/3-NLP%20Classification%20%2B%20NER-8B5CF6?style=flat" alt="03 NLP Classification and NER" width="24%">
+  <img src="https://img.shields.io/badge/3-NLP%20Classification%20%2B%20NER-8B5CF6?style=flat" alt="3 NLP Classification and NER" width="24%">
   <br><strong>⬇</strong><br>
-  <img src="https://img.shields.io/badge/4-NLP%20Normalization-14B8A6?style=flat" alt="04 NLP Normalization" width="20%">
+  <img src="https://img.shields.io/badge/4-NLP%20Normalization-14B8A6?style=flat" alt="4 NLP Normalization" width="19%">
 </p>
+
 
 
 
@@ -406,7 +407,7 @@ Antes de publicar nuevas versiones del repositorio, debe revisarse cuidadosament
 
 ## Licencia y propiedad intelectual
 
-Este repositorio se distribuye bajo una licencia propietaria y contiene código, documentación, configuraciones, modelos y artefactos desarrollados por **José Manuel Pinillos Rubio** en el marco del proyecto **AgriVoice AI**.
+Este repositorio se distribuye bajo una licencia propietaria y contiene código, documentación, configuraciones, modelos y artefactos desarrollados por **José Manuel Pinillos Rubio** en el marco del proyecto <strong style="color:#0098cd">AgriVoice AI</strong>.
 
 El contenido se publica exclusivamente con fines de revisión, presentación académica y documentación técnica.
 
@@ -445,4 +446,3 @@ Para consultar las condiciones completas de uso, consulte el archivo [`LICENSE`]
   <a href="https://www.jmpinillos.es/"><img src="https://img.shields.io/badge/Web-2EA043?style=flat&logo=googlechrome&logoColor=white" alt="Web personal"></a>
   <a href="mailto:contacto@jmpinillos.es"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
-
