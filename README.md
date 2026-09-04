@@ -21,7 +21,6 @@
 
 ## Índice
 
-- [Índice](#índice)
 - [Descripción general](#descripción-general)
 - [Ámbito de aplicación](#ámbito-de-aplicación)
 - [*Pipeline* del sistema](#pipeline-del-sistema)
