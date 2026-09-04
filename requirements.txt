@@ -1,0 +1,54 @@
+# =========================
+# PROCESAMIENTO DE AUDIO (Notebook 1)
+# =========================
+librosa            # carga y procesamiento de audio
+pydub              # manipulación de formatos de audio
+soundfile          # lectura/escritura de archivos de audio
+scipy              # funciones de procesamiento de señal
+noisereduce        # reducción de ruido
+silero-vad         # modelo de VAD preentrenado
+
+# =========================
+# ASR (Notebook 2)
+# =========================
+faster-whisper     # modelo ASR optimizado (Whisper)
+jiwer              # métricas de evaluación (WER, CER)
+num2words          # conversión de números a palabras
+
+# =========================
+# NLP (Notebook 3)
+# =========================
+spacy              # procesamiento de lenguaje natural
+transformers       # modelos preentrenados (BERT, etc.)
+sentence-transformers  # embeddings semánticos
+scikit-learn       # modelos y utilidades ML
+datasets           # gestión de datasets
+evaluate           # evaluación de modelos NLP
+unidecode          # normalización controlada de texto (acentos, ruido)
+joblib             # persistencia de modelos sklearn
+accelerate         # backend necesario para Trainer de transformers
+
+# =========================
+# NORMALIZACIÓN Y ESTRUCTURACIÓN (Notebook 4)
+# =========================
+dateparser         # normalización experimental de expresiones temporales en español
+rapidfuzz          # matching difuso de variantes lingüísticas
+
+# =========================
+# DEPENDENCIAS CORE (ML / DL)
+# =========================
+torch              # backend para modelos de deep learning (ASR y NLP)
+numpy              # operaciones numéricas
+pandas             # manejo de datos tabulares
+
+# =========================
+# VISUALIZACIÓN
+# =========================
+matplotlib         # visualización base
+seaborn            # visualización avanzada
+
+# =========================
+# ENTORNO JUPYTER / UTILIDADES
+# =========================
+ipywidgets         # soporte de widgets interactivos en Jupyter (tqdm, controles)
+tqdm               # barra de progreso

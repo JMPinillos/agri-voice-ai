@@ -1,0 +1,18 @@
+{
+  "entities": [
+    "cantidad",
+    "cultivo",
+    "distancia",
+    "especie_sombra",
+    "factor_climatico",
+    "fecha_evento",
+    "localidad",
+    "pais",
+    "problema",
+    "region",
+    "sistema_produccion",
+    "superficie",
+    "tratamiento",
+    "variedad"
+  ]
+}

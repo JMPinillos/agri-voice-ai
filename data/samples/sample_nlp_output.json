@@ -1,0 +1,9 @@
+{
+  "tipo": "evento_cultivo",
+  "entidades": {
+    "cultivo": ["café"],
+    "problema": ["broca"],
+    "tratamiento": ["poda"],
+    "pais": ["Colombia"]
+  }
+}
