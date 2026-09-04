@@ -21,13 +21,22 @@
 
 ## Índice
 
+- [Índice](#índice)
 - [Descripción general](#descripción-general)
 - [Ámbito de aplicación](#ámbito-de-aplicación)
-- [Pipeline del sistema](#pipeline-del-sistema)
+- [*Pipeline* del sistema](#pipeline-del-sistema)
 - [Arquitectura del repositorio](#arquitectura-del-repositorio)
   - [Recursos de configuración y modelos](#recursos-de-configuración-y-modelos)
-- [Notebooks del pipeline](#notebooks-del-pipeline)
+- [*Notebooks* del *pipeline*](#notebooks-del-pipeline)
 - [Requisitos del sistema](#requisitos-del-sistema)
+  - [Dependencias del proyecto](#dependencias-del-proyecto)
+  - [Dependencias de sistema](#dependencias-de-sistema)
+  - [Instalación de ffmpeg](#instalación-de-ffmpeg)
+    - [macOS](#macos)
+    - [Windows](#windows)
+    - [Linux](#linux)
+  - [Verificación de instalación](#verificación-de-instalación)
+  - [Consideraciones de ejecución](#consideraciones-de-ejecución)
 - [Uso del repositorio](#uso-del-repositorio)
   - [Reproducibilidad](#reproducibilidad)
 - [Flujo de ejecución del *pipeline*](#flujo-de-ejecución-del-pipeline)
@@ -124,7 +133,7 @@ agri-voice-ai/
 │   ├── metadata/
 │   │   └── audio_metadata/          # Metadatos asociados a los audios
 │   │
-│   └── samples/                     # Muestras anonimizadas para documentación
+│   └── samples/                     # Ejemplos sintéticos para documentación
 │
 ├── models/                          # Modelos entrenados utilizados por el sistema
 │   ├── classification_model/
@@ -281,28 +290,30 @@ Para una ejecución local más estable, se recomienda:
 - Utilizar un entorno virtual aislado.
 - Instalar las dependencias desde `requirements.txt` o `requirements-lock.txt`, según el nivel de reproducibilidad requerido.
 - Verificar la disponibilidad de `ffmpeg`.
-- Ejecutar los *notebooks* en el orden indicado.
+- En caso de disponer de los *notebooks* ejecutables originales, ejecutarlos en el orden indicado.
 - Revisar las versiones de las librerías si se cambia de arquitectura o sistema operativo.
 
 
 
 ## Uso del repositorio
 
-Este repositorio está orientado principalmente a la revisión metodológica del proyecto mediante documentación, estructura del *pipeline*, configuraciones, modelos y versiones HTML de los *notebooks*.
+Este repositorio está orientado principalmente a la revisión metodológica y técnica del proyecto, no a la ejecución completa del sistema a partir de los datos originales.
+
+La versión pública incluye documentación, estructura del *pipeline*, configuraciones, modelos y versiones HTML de los *notebooks*.
 
 Las versiones HTML incluidas en `notebooks_html/` no requieren instalación local para ser consultadas. Pueden visualizarse directamente desde los enlaces indicados en la sección [*Notebooks* del *pipeline*](#notebooks-del-pipeline).
 
-La instalación del entorno solo es necesaria si se desea reproducir el *pipeline* en local a partir de los *notebooks* ejecutables originales, los datos correspondientes y las dependencias del proyecto.
+Los archivos `requirements.txt` y `requirements-lock.txt` documentan las dependencias necesarias para reconstruir el entorno de desarrollo. La ejecución completa del *pipeline* requiere además los *notebooks* ejecutables originales y los datos correspondientes, que no forman parte de la distribución pública del repositorio.
 
 
 
 ### Reproducibilidad
 
-El proyecto utiliza una estructura modular, rutas relativas a la raíz del repositorio y recursos de configuración versionados para facilitar la reproducción del flujo de trabajo en distintos entornos.
+El proyecto utiliza una estructura modular, rutas relativas a la raíz del repositorio y recursos de configuración versionados para facilitar la trazabilidad y reproducción del entorno de desarrollo.
 
-Cuando corresponde, se emplean semillas fijas en los procesos de entrenamiento. No obstante, algunos componentes de aprendizaje profundo pueden presentar pequeñas variaciones entre ejecuciones debido al hardware, al backend de aceleración o a las versiones de las librerías utilizadas.
+Las versiones exactas de las dependencias utilizadas se conservan en `requirements-lock.txt`, mientras que `requirements.txt` recoge las dependencias principales del proyecto. Cuando corresponde, se emplean semillas fijas en los procesos de entrenamiento, aunque algunos componentes de aprendizaje profundo pueden presentar pequeñas variaciones entre ejecuciones debido al hardware, al backend de aceleración o a las versiones de las librerías.
 
-Para reproducir el *pipeline* de forma consistente, se recomienda mantener la estructura de carpetas del repositorio, instalar las dependencias desde `requirements.txt` o reproducir el entorno exacto mediante `requirements-lock.txt`, ejecutar las etapas en el orden indicado y conservar las versiones de configuración utilizadas en cada ejecución.
+La versión pública permite revisar la metodología, las configuraciones, los modelos, la arquitectura y los resultados del sistema. La reproducción experimental completa queda condicionada al acceso al conjunto de datos y a los *notebooks* ejecutables originales, que no forman parte de la distribución pública.
 
 
 
@@ -394,14 +405,22 @@ Esta representación permite transformar comunicaciones orales de campo en regis
 
 ## Privacidad y datos
 
-El proyecto ha sido desarrollado con audios reales y transcripciones asociadas a contextos agrícolas de campo. Este tipo de información puede contener datos personales, referencias locales, nombres propios u otros elementos potencialmente identificables.
+El proyecto ha sido desarrollado y evaluado utilizando un conjunto de 200 audios reales y sus correspondientes transcripciones y artefactos derivados. Este material puede contener datos personales, nombres propios, referencias geográficas u otros elementos potencialmente identificables.
 
-Por este motivo, la versión pública del repositorio está orientada a la revisión metodológica y no incluye datos reales no anonimizados. La publicación del proyecto prioriza la documentación del *pipeline*, la estructura del sistema, las configuraciones generales, los modelos entrenados cuando proceda y las versiones HTML de los *notebooks*.
+Por este motivo, los datos reales utilizados durante el desarrollo no se distribuyen en la versión pública del repositorio. Se conserva únicamente la estructura de directorios correspondiente a audios, transcripciones, conjuntos de datos anotados y salidas estructuradas, con el fin de documentar la arquitectura original del proyecto y preservar las rutas utilizadas por el *pipeline*.
 
-Antes de publicar nuevas versiones del repositorio, debe revisarse cuidadosamente el contenido de `data/`, `models/`, `notebooks_html/` y cualquier archivo generado automáticamente para evitar la exposición accidental de información sensible.
+Para facilitar la comprensión del flujo de información sin exponer los datos originales, `data/samples/` incluye ejemplos sintéticos representativos de los principales artefactos generados por el sistema:
+
+- `sample_transcription.txt`: ejemplo de una transcripción de entrada al módulo NLP.
+- `sample_nlp_output.json`: ejemplo de la salida obtenida tras la clasificación y extracción de entidades.
+- `sample_normalized_output.json`: ejemplo del registro estructurado tras la normalización semántica.
+
+Estos archivos tienen finalidad exclusivamente demostrativa y no corresponden a mensajes reales del conjunto de datos utilizado para desarrollar y evaluar el sistema.
+
+La versión pública conserva, por tanto, la arquitectura, configuraciones, modelos, documentación metodológica y resultados necesarios para comprender el funcionamiento de <strong style="color:#0098cd">AgriVoice AI</strong>, sin distribuir el conjunto de datos original.
 
 > [!IMPORTANT]
-> Los datos reales del proyecto no deben publicarse sin un proceso previo de anonimización y validación.
+> Los datos reales del proyecto no forman parte de la distribución pública y no deben incorporarse al repositorio sin un proceso previo de anonimización y validación.
 
 
 
